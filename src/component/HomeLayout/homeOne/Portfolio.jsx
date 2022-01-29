@@ -61,33 +61,13 @@ class Portfolio extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title">
-                                    <h4>Illawarra Multicultural Services Migrant Marketplace App (Migram)</h4>
-                                    <p>Illawara Multicultural Service (IMS) have been supporting culturally and linguistically diverse communities in the Illawarra since 1980, providing assistance to migrants, humanitarian visa entrants, and refugees. Code.Sydney is building a niche marketplace app to help low-skilled migrants get some livelihood through community engagement.</p>
-                                    <p>Project Team: Praveen Sequeria, Sam Sinadinovic, Lillian Luzinsky, Hadi Khalili, Paolo Garde, Hussam Hattar</p>
-                                    <br/>
-                                </div>
-                                <div className="col-lg-12">
-                                    <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
-                                    <p style={{color:"#F0F0F0"}}>
-                                        <a href="https://www.migram.com.au/" target="_blank">Link to project</a>
-                                    </p>                                    
-                                </div>
-                                <br/>
-                                <br/>
-                                <br/>
-                            </div>
-                        </div>
-
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title">
                                     <h4>Prisoners Aid (ACT) Website Revamp</h4>
                                     <p>Prisoners Aid has been operating as a community organisation in Canberra since 1963. Over the years they have assisted thousands of clients - including prisoners, released prisoners, families of prisoners, and those involved in the court system. The project is to modernise and make Prisoners Aid ACT's website more engaging for potential clients, partners and the general public.</p>
-                                    <p>Project Team: Engramar Bollas, Brooke Semmler</p>
+                                    <p>Project Team: Engramar Bollas, Brooke Semmler, Jacin Yan</p>
                                     <br/>
                                 </div>
                                 <div className="col-lg-12">
-                                    <img src="/assets/images/portfolio/portfolio-big-03.jpg" alt="Portfolio Images"/>
+                                    <img src="/assets/images/portfolio/paact.png" alt="Portfolio Images"/>
                                     <p style={{color:"#F0F0F0"}}>
                                         <a href="https://www.paact.org.au/" target="_blank">Link to project</a>
                                     </p>
@@ -107,9 +87,50 @@ class Portfolio extends Component{
                                     <br/>
                                 </div>
                                 <div className="col-lg-12">
-                                    <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
+                                    <img src="/assets/images/portfolio/eisteddfod.png" alt="Portfolio Images"/>
                                     <p style={{color:"#F0F0F0"}}>
                                         <a href="https://eisteddfod.vercel.app/" target="_blank">Link to project</a>
+                                    </p>                                    
+                                </div>
+                                <br/>
+                                <br/>
+                                <br/>
+                            </div>
+                        </div>
+
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="section-title">
+                                    <h4>Illawarra Multicultural Services Migrant Marketplace App (Migram)</h4>
+                                    <p>Illawara Multicultural Service (IMS) have been supporting culturally and linguistically diverse communities in the Illawarra since 1980, providing assistance to migrants, humanitarian visa entrants, and refugees. Code.Sydney is building a niche marketplace app to help low-skilled migrants get some livelihood through community engagement.</p>
+                                    <p>Project Team: Praveen Sequeria, Sam Sinadinovic, Lillian Luzinsky, Hadi Khalili, Paolo Garde, Hussam Hattar</p>
+                                    <br/>
+                                </div>
+                                <div className="col-lg-12">
+                                    <img src="/assets/images/portfolio/migram.png" alt="Portfolio Images"/>
+                                    <p style={{color:"#F0F0F0"}}>
+                                        <a href="https://www.migram.com.au/" target="_blank">Link to project</a>
+                                    </p>                                    
+                                </div>
+                                <br/>
+                                <br/>
+                                <br/>
+                            </div>
+                        </div>
+
+
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="section-title">
+                                    <h4>Talking Time With Lukas and Alicia Podcast Website</h4>
+                                    <p>Talking Time is a place where uncomfortable conversations about incarceration and everything to do with it take place. It is where the voice of those who have lived it, have loved ones that have or are living it, work in it or have an interest in it, come together in a safe and supportive place.</p>
+                                    <p>Project Team: Engramar Bollas</p>
+                                    <br/>
+                                </div>
+                                <div className="col-lg-12">
+                                    <img src="/assets/images/portfolio/talkingtime.png" alt="Portfolio Images"/>
+                                    <p style={{color:"#F0F0F0"}}>
+                                        <a href="https://talkingtimepodcast.com.au/" target="_blank">Link to project</a>
                                     </p>                                    
                                 </div>
                                 <br/>
@@ -127,29 +148,9 @@ class Portfolio extends Component{
                                     <br/>
                                 </div>
                                 <div className="col-lg-12">
-                                    <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
+                                    <img src="/assets/images/portfolio/propertyextractor.png" alt="Portfolio Images"/>
                                     <p style={{color:"#F0F0F0"}}>
                                         <a href="https://www.propertyextractor.com.au/" target="_blank">Link to project</a>
-                                    </p>                                    
-                                </div>
-                                <br/>
-                                <br/>
-                                <br/>
-                            </div>
-                        </div>
-
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title">
-                                    <h4>Talking Time With Lukas and Alicia Podcast Website</h4>
-                                    <p>Talking Time is a place where uncomfortable conversations about incarceration and everything to do with it take place. It is where the voice of those who have lived it, have loved ones that have or are living it, work in it or have an interest in it, come together in a safe and supportive place.</p>
-                                    <p>Project Team: Engramar Bollas</p>
-                                    <br/>
-                                </div>
-                                <div className="col-lg-12">
-                                    <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
-                                    <p style={{color:"#F0F0F0"}}>
-                                        <a href="https://talkingtimepodcast.com.au/" target="_blank">Link to project</a>
                                     </p>                                    
                                 </div>
                                 <br/>
@@ -167,7 +168,7 @@ class Portfolio extends Component{
                                     <br/>
                                 </div>
                                 <div className="col-lg-12">
-                                    <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
+                                    <img src="/assets/images/portfolio/woc.png" alt="Portfolio Images"/>
                                     <p style={{color:"#F0F0F0"}}>
                                         <a href="https://woc-au.herokuapp.com/" target="_blank">Link to project</a>
                                     </p>                                    
@@ -178,7 +179,6 @@ class Portfolio extends Component{
                             </div>
                         </div>
 
-
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title">
@@ -188,7 +188,7 @@ class Portfolio extends Component{
                                     <br/>
                                 </div>
                                 <div className="col-lg-12">
-                                    <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
+                                    <img src="/assets/images/portfolio/lukascarey.png" alt="Portfolio Images"/>
                                     <p style={{color:"#F0F0F0"}}>
                                         <a href="https://www.lukascarey.com.au/" target="_blank">Link to project</a>
                                     </p>                                    
@@ -208,7 +208,7 @@ class Portfolio extends Component{
                                     <br/>
                                 </div>
                                 <div className="col-lg-12">
-                                    <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
+                                    <img src="/assets/images/portfolio/taskstech.png" alt="Portfolio Images"/>
                                     <p style={{color:"#F0F0F0"}}>
                                         <a href="https://www.taskstech.com/" target="_blank">Link to project</a>
                                     </p>                                    
@@ -228,7 +228,7 @@ class Portfolio extends Component{
                                     <br/>
                                 </div>
                                 <div className="col-lg-12">
-                                    <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
+                                    <img src="/assets/images/portfolio/dc.png" alt="Portfolio Images"/>
                                 </div>                                
                             </div>
                         </div>

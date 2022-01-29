@@ -10,7 +10,7 @@ const SocialShare = [
     {Social: <FaTwitter /> , link: 'https://twitter.com/code_sydney'},
     {Social: <FaYoutube /> , link: 'https://www.youtube.com/channel/UCnOp_l8-EX3c-q2Tlj-2Iyw'},
     {Social: <FaGithub /> , link: 'https://github.com/codesydney'},
-    {Social: <FaFreeCodeCamp /> , link: 'http://www.freecodecampsydney.org/'},
+    {/* {Social: <FaFreeCodeCamp /> , link: 'http://www.freecodecampsydney.org/'}, */}
 ]
 
 class Footer extends Component{
