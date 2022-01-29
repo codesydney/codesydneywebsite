@@ -63,17 +63,14 @@ class Header extends Component{
                     </div>
                     <div className="header-right">
                         <nav className="mainmenunav d-lg-block">
-                            {/*
-                            <ul className="mainmenu">
-                                <li><Link to="/contact" >Home</Link></li>
+                            <ul className="mainmenu" style={{color:"#F0F0F0"}}>
+                                <li>
+                                    <a className="rn-btn" href="https://codesydney.pythonanywhere.com/" target="_blank">
+                                        <span>Legacy Website</span>
+                                    </a>
+                                </li>
                             </ul>
-                            */}
                         </nav>
-                        <div className="header-btn">
-                            <a className="rn-btn" href="https://codesydney.pythonanywhere.com/" target="_blank">
-                                <span>Legacy Website</span>
-                            </a>
-                        </div>
                         {/* Start Humberger Menu  */}
                         <div className="humberger-menu d-block d-lg-none pl--20">
                             <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>
