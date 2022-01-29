@@ -5,12 +5,12 @@ const ServiceList = [
     {
         icon: <FaTrophy />,
         title: '1st Place Winner, Hack4FI (Financial Inclusion)',
-        description: 'Bunji (which means mate as borrowed from Warlpiri dialect) is our app entry which provides seamless access to Indigenous experiences for both international and domestic tourists. It also aims to provide opportunities to Indigenous-owned businesses and employment opportunities for Indigenous youth.'
+        description: ''
     },
     {
         icon: <FaMedal />,
         title: '3rd Place Winner, Hack4Homelessness',
-        description: 'Vibewire\'s Hack4Homelessness was a 3-day hackathon to help solve the social, technical, cultural and behavioural challenges of homelessness. Our 5-person team from Code.Sydney pitched a solution called blend.co which can help struggling Australians have a fair go in getting into rental property tenancy.'
+        description: ''
     }
 ]
 
