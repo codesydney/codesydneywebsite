@@ -1,0 +1,222 @@
+/*----------------------
+BLog Details Styles 
+------------------------*/
+
+.blog-single-page-title {
+    position: relative;
+    h2 {
+        font-weight: 700;
+        line-height: 90px;
+        font-size: 72px;
+        @media #{$sm-layout} {
+            line-height: 62px;
+            font-size: 40px;
+        }
+    }
+    ul {
+        &.blog-meta {
+            @extend %liststyle;
+            margin: 0 -15px;
+            flex-wrap: wrap;
+            position: absolute;
+            width: 100%;
+            bottom: -135px;
+            li {
+                font-size: 16px;
+                color: #c6c9d8;
+                margin: 0 15px;
+                margin-bottom: 13px;
+                @media #{$sm-layout} {
+                    font-size: 14px;
+                }
+                svg {
+                    margin-right: 13px;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+.rn-blog-details {
+    .inner-wrapper {
+        .inner {
+            padding: 0 110px;
+            @media #{$lg-layout} {
+                padding: 0 40px;
+            }
+            @media #{$md-layout} {
+                padding: 0 40px;
+            }
+            @media #{$sm-layout} {
+                padding: 0 10px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 30px;
+                color: rgba(29, 29, 36, 0.75);
+                margin-bottom: 40px;
+                @media #{$sm-layout} {
+                    margin-bottom: 20px;
+                }
+            }
+            .thumbnail {
+                margin: 0 -110px;
+                @media #{$sm-layout} {
+                    margin: 0;
+                }
+                @media #{$md-layout} {
+                    margin: 0;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+            .rn-blog-quote {
+                font-size: 24px;
+                line-height: 40px;
+                color: $heading-color;
+                font-weight: 400;
+                text-align: center;
+                padding: 0 9%;
+                margin-top: 67px;
+                margin-bottom: 67px;
+                position: relative;
+                z-index: 2;
+
+                @media #{$lg-layout} {
+                    padding: 0 4%;
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                }
+                @media #{$md-layout} {
+                    padding: 0 4%;
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                }
+
+                @media #{$sm-layout} {
+                    padding: 0 4%;
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                    font-size: 20px;
+                    line-height: 33px;
+                }
+                @media #{$large-mobile} {
+                    padding: 0;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    font-size: 16px;
+                    line-height: 29px;
+                }
+
+                &::before {
+                    position: absolute;
+                    width: 234px;
+                    height: 121%;
+                    left: 50%;
+                    top: 2px;
+                    background-image: url(/assets/images/client/image-1.png);
+                    content: "";
+                    opacity: 1;
+                    background-repeat: no-repeat;
+                    z-index: -1;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+        .blog-single-list-wrapper {
+            margin-right: -110px;
+            
+            @media #{$sm-layout} {
+                margin-right: 0;
+            }
+
+            @media #{$md-layout} {
+                margin-right: 0;
+            }
+            .thumbnail {
+                width: 55%;
+                padding-right: 30px;
+                margin-right: 0;
+                @media #{$sm-layout} {
+                    width: 100%;
+                    padding-right: 0;
+                }
+                @media #{$md-layout} {
+                    width: 100%;
+                    padding-right: 0;
+                }
+                img {
+                    width: 100%;
+                }
+                span {
+                    color: rgba(29, 29, 36, 0.75);
+                    font-size: 14px;
+                    display: block;
+                    text-align: left;
+                    padding-top: 10px;
+                    padding-left: 110px;
+                    @media #{$sm-layout} {
+                        font-size: 13px;
+                        padding-left: 0;
+                        margin-bottom: 23px;
+                    }
+                }
+            }
+            h4{
+                &.title{
+                    font-size: 24px;
+                    font-weight: 500;
+                    margin-bottom: 30px;
+                    @media #{$sm-layout} {
+                        margin-bottom: 16px;
+                    }
+                }
+            }
+            .content {
+                width: 45%;
+
+                @media #{$sm-layout} {
+                    width: 100%;
+                }
+                @media #{$md-layout} {
+                    width: 100%;
+                }
+                ul {
+                   &.list-style {
+                       margin-bottom: 50px;
+                        @media #{$sm-layout} {
+                            margin-bottom: 25px;
+                        }
+                   } 
+                }
+            }
+        }
+    }
+}
+
+
+/*------------------------
+    BLog Contact Form  
+--------------------------*/
+.blog-comment-form {
+    .inner {
+        .rnform-group {
+            margin-bottom: 20px;
+            input {
+                border: 2px solid #e9e9e9;
+                border-radius: 4px;
+                height: 50px;
+                font-size: 16px;
+            }
+            textarea {
+                min-height: 193px;
+                border: 2px solid #e9e9e9;
+                border-radius: 4px;
+                resize: none;
+                padding: 15px;
+                font-size: 16px;
+            }
+        }
+    }
+}
