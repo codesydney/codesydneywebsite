@@ -219,7 +219,6 @@ class Portfolio extends Component{
                             </div>
                         </div>
 
-
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title">
