@@ -83,7 +83,7 @@ class Portfolio extends Component{
                                 <div className="section-title">
                                     <h4>The City of Parramatta Eisteddfod Society Website Revamp</h4>
                                     <p>Established in 1951, the City of Parramatta Eisteddfod Society Inc. is a not-for-profit organisation and an association of volunteers whose principal aim is to provide a safe and encouraging performance arts event where the young people of Greater Western Sydney and beyond can showcase their talents. Code.Sydney is chosen to revamp their existing website.</p>
-                                    <p>Project Team: Stephen Corral, Hadi Khalili, Ella Ferreira, Kevin</p>
+                                    <p>Project Team: Stephen Corral, Hadi Khalili, Ella Ferreira, Kevin Pan</p>
                                     <br/>
                                 </div>
                                 <div className="col-lg-12">
