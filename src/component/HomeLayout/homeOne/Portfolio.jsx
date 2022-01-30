@@ -81,16 +81,16 @@ class Portfolio extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title">
-                                    <h4>The City of Parramatta Eisteddfod Society Website Revamp</h4>
-                                    <p>Established in 1951, the City of Parramatta Eisteddfod Society Inc. is a not-for-profit organisation and an association of volunteers whose principal aim is to provide a safe and encouraging performance arts event where the young people of Greater Western Sydney and beyond can showcase their talents. Code.Sydney is chosen to revamp their existing website.</p>
-                                    <p>Project Team: Stephen Corral, Hadi Khalili, Ella Ferreira, Kevin Pan</p>
+                                    <h4>Prisoners Aid (ACT) CRM</h4>
+                                    <p>As part of the Prisoners Aid (ACT) engagement, a niche bespoke CRM was built to manage support records of prisoners and their families who are actively being supported by PAACT.</p>
+                                    <p>Project Team: Jacin Yan, Engramar Bollas, Luci Temple, Godsgift Akari, Jay Kim</p>
                                     <br/>
                                 </div>
                                 <div className="col-lg-12">
-                                    <img src="/assets/images/portfolio/eisteddfod.png" alt="Portfolio Images"/>
+                                    <img src="/assets/images/portfolio/paact-crm.png" alt="Portfolio Images"/>
                                     <p style={{color:"#F0F0F0"}}>
-                                        <a href="https://eisteddfod.vercel.app/" target="_blank">Link to project</a>
-                                    </p>                                    
+                                        <a href="https://www.paact.org.au/" target="_blank">Link to project</a>
+                                    </p>
                                 </div>
                                 <br/>
                                 <br/>
@@ -118,6 +118,25 @@ class Portfolio extends Component{
                             </div>
                         </div>
 
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="section-title">
+                                    <h4>The City of Parramatta Eisteddfod Society Website Revamp</h4>
+                                    <p>Established in 1951, the City of Parramatta Eisteddfod Society Inc. is a not-for-profit organisation and an association of volunteers whose principal aim is to provide a safe and encouraging performance arts event where the young people of Greater Western Sydney and beyond can showcase their talents. Code.Sydney is chosen to revamp their existing website.</p>
+                                    <p>Project Team: Stephen Corral, Hadi Khalili, Ella Ferreira, Kevin Pan</p>
+                                    <br/>
+                                </div>
+                                <div className="col-lg-12">
+                                    <img src="/assets/images/portfolio/eisteddfod.png" alt="Portfolio Images"/>
+                                    <p style={{color:"#F0F0F0"}}>
+                                        <a href="https://eisteddfod.vercel.app/" target="_blank">Link to project</a>
+                                    </p>                                    
+                                </div>
+                                <br/>
+                                <br/>
+                                <br/>
+                            </div>
+                        </div>
 
                         <div className="row">
                             <div className="col-lg-12">
@@ -204,7 +223,7 @@ class Portfolio extends Component{
                                 <div className="section-title">
                                     <h4>TasksTech App</h4>
                                     <p>An app which helps electricians manage their customers, inventories and work diaries. TasksTech is a bespoke app for a niche group of electricians.</p>
-                                    <p>Project Team: Kevin Foong, Fumihito Takanami, Stephen Corral, Gift Akari, Max Du, Chintan Patel, Gabriel Djan, Promie Yutasane, Prashanga Dhakal</p>
+                                    <p>Project Team: Kevin Foong, Fumihito Takanami, Stephen Corral, Godsgift Akari, Max Du, Chintan Patel, Gabriel Djan, Promie Yutasane, Prashanga Dhakal</p>
                                     <br/>
                                 </div>
                                 <div className="col-lg-12">
