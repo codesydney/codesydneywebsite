@@ -103,7 +103,7 @@ class Portfolio extends Component{
                                 <div className="section-title">
                                     <h4>Illawarra Multicultural Services Migrant Marketplace App (Migram)</h4>
                                     <p>Illawara Multicultural Service (IMS) have been supporting culturally and linguistically diverse communities in the Illawarra since 1980, providing assistance to migrants, humanitarian visa entrants, and refugees. Code.Sydney is building a niche marketplace app to help low-skilled migrants get some livelihood through community engagement.</p>
-                                    <p>Project Team: Praveen Sequeria, Sam Sinadinovic, Lillian Luzinsky, Hadi Khalili, Paolo Garde, Hussam Hattar</p>
+                                    <p>Project Team: Praveen Sequeira, Sam Sinadinovic, Lillian Luzinsky, Hadi Khalili, Paolo Garde, Hussam Hattar</p>
                                     <br/>
                                 </div>
                                 <div className="col-lg-12">
