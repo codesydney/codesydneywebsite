@@ -203,7 +203,7 @@ class Portfolio extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title">
                                     <h4>TasksTech App</h4>
-                                    <p>An app which helps electricians manage their customers, inventories and work diary.</p>
+                                    <p>An app which helps electricians manage their customers, inventories and work diaries. TasksTech is a bespoke app for a niche group of electricians.</p>
                                     <p>Project Team: Kevin Foong, Fumihito Takanami, Stephen Corral, Gift Akari, Max Du, Chintan Patel, Gabriel Djan, Promie Yutasane, Prashanga Dhakal</p>
                                     <br/>
                                 </div>
