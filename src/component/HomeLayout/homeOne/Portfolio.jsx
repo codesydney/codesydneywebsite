@@ -129,7 +129,7 @@ class Portfolio extends Component{
                                 <div className="col-lg-12">
                                     <img src="/assets/images/portfolio/eisteddfod.png" alt="Portfolio Images"/>
                                     <p style={{color:"#F0F0F0"}}>
-                                        <a href="https://eisteddfod.vercel.app/" target="_blank">Link to project</a>
+                                        <a href="https://www.eisteddfodparramatta.org.au/" target="_blank">Link to project</a>
                                     </p>                                    
                                 </div>
                                 <br/>
