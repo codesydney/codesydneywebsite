@@ -37,6 +37,7 @@ import Columns from "./blocks/Columns";
 import PricingTable from "./blocks/PricingTable";
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
+import Volunteers from './elements/Volunteers';
 
 class Root extends Component{
     render(){
@@ -44,7 +45,8 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
-                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkMainDemo}/>                    
+                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkMainDemo}/> 
+                        <Route path={`${process.env.PUBLIC_URL}/volunteers`} component={Volunteers}/>                   
                         <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
                         <Route component={error404}/>
                     </Switch>
