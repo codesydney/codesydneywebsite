@@ -68,6 +68,11 @@ class Header extends Component {
                   </a>
                 </li>
                 <li>
+                  <Link to="/">
+                    <span>Home</span>
+                  </Link>
+                </li>
+                <li>
                   <Link to="/volunteers">
                     <span>Volunteers</span>
                   </Link>
