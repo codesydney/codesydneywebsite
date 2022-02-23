@@ -2,7 +2,7 @@
     Header Area 
 =======================*/
 
-.header-area{
+.header-area {
     &.header--transparent {
         position: absolute;
         top: 0;
@@ -43,7 +43,7 @@
                 margin-right: 27px;
             }
         }
-        a{
+        a {
             &.rn-btn {
                 &.theme-color {
                     border-color: $theme-color;
@@ -71,9 +71,9 @@
                     line-height: 29px;
                 }
                 &::before {
-                   display: none;
+                    display: none;
                 }
-                &:hover{
+                &:hover {
                     border-color: transparent;
                     transform: translateY(-3px);
                     color: #ffffff;
@@ -97,8 +97,8 @@
             }
         }
     }
-    &.color-white{
-        a{
+    &.color-white {
+        a {
             &.rn-btn {
                 border: 2px solid #ffffff;
                 color: #ffffff;
@@ -107,7 +107,7 @@
     }
 
     &.color-black {
-        a{
+        a {
             &.rn-btn {
                 border: 2px solid rgba(29, 29, 36, 0.5);
                 color: #1d1d24;
@@ -115,14 +115,14 @@
         }
     }
 
-    // Static Header 
+    // Static Header
     &.header--static {
         padding: 0 50px;
         .header-wrapper {
             padding: 7px 0;
             .logo {
-                a{
-                    img{
+                a {
+                    img {
                         @media #{$sm-layout} {
                             width: auto;
                         }
@@ -132,7 +132,7 @@
         }
     }
 
-    // Header Fixed 
+    // Header Fixed
     &.header--fixed {
         position: absolute;
         top: 0;
@@ -142,7 +142,7 @@
         width: 100%;
         background: transparent;
         transition: 0.3s;
-        
+
         @media #{$lg-layout} {
             padding-left: 30px;
             padding-right: 30px;
@@ -162,11 +162,11 @@
             padding-bottom: 10px;
         }
 
-        .header-wrapper{
+        .header-wrapper {
             padding: 20px 0;
             transition: 0.3s;
             .logo {
-                a{
+                a {
                     img {
                         transition: 0.5s;
                         &.logo-1 {
@@ -179,8 +179,8 @@
                 }
             }
             .mainmenunav {
-                ul{
-                    &.mainmenu{
+                ul {
+                    &.mainmenu {
                         > li {
                             > a {
                                 position: relative;
@@ -196,7 +196,7 @@
                                 }
                             }
                             &.is-current {
-                                a{
+                                a {
                                     color: $theme-color;
                                     &::after {
                                         width: 100%;
@@ -209,17 +209,17 @@
             }
         }
 
-        &.default-color{
+        &.default-color {
             &.sticky {
                 .mainmenunav {
-                    ul{
-                        &.mainmenu{
+                    ul {
+                        &.mainmenu {
                             > li {
                                 > a {
                                     color: $heading-color;
                                 }
                                 &.is-current {
-                                    a{
+                                    a {
                                         color: $theme-color;
                                         &::after {
                                             width: 100%;
@@ -236,7 +236,7 @@
         &.sticky {
             position: fixed;
             background: #ffffff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             .header-wrapper {
                 padding: 0px;
                 a {
@@ -272,7 +272,7 @@
             }
         }
     }
-    
+
     &.color-black {
         .humberger-menu {
             span {
@@ -283,7 +283,7 @@
         }
     }
 
-    &.logoresize  {
+    &.logoresize {
         .logo {
             a {
                 img {
@@ -296,11 +296,7 @@
             }
         }
     }
-
 }
-
-
-
 
 .header-right {
     display: flex;
@@ -313,8 +309,6 @@
         }
     }
 }
-
-
 
 /*-----------------------------
     MObile Menu Style Css 
@@ -361,8 +355,8 @@
                         display: block;
                         overflow-y: auto;
                     }
-                    
-                    li { 
+
+                    li {
                         @media #{$md-layout} {
                             margin: 0;
                             padding: 10px 0;
@@ -371,17 +365,17 @@
                             margin: 0;
                             padding: 10px 0;
                         }
-                        &.has-droupdown{
+                        &.has-droupdown {
                             @media #{$md-layout} {
-                                position: relative;   
+                                position: relative;
                             }
                             @media #{$sm-layout} {
-                                position: relative;   
+                                position: relative;
                             }
                             > a {
                                 @media #{$sm-layout} {
                                     position: relative;
-                                    &::after{
+                                    &::after {
                                         width: 0;
                                         height: 0;
                                         border-style: solid;
@@ -396,18 +390,18 @@
                                     }
                                     &.open {
                                         color: $theme-color;
-                                        &::after{
+                                        &::after {
                                             width: 0;
                                             height: 0;
                                             border-style: solid;
                                             border-width: 0 7px 7px 7px;
                                             border-color: transparent transparent $theme-color transparent;
                                         }
-                                    }  
+                                    }
                                 }
                                 @media #{$md-layout} {
                                     position: relative;
-                                    &::after{
+                                    &::after {
                                         width: 0;
                                         height: 0;
                                         border-style: solid;
@@ -422,18 +416,18 @@
                                     }
                                     &.open {
                                         color: $theme-color;
-                                        &::after{
+                                        &::after {
                                             width: 0;
                                             height: 0;
                                             border-style: solid;
                                             border-width: 0 7px 7px 7px;
                                             border-color: transparent transparent $theme-color transparent;
                                         }
-                                    }  
+                                    }
                                 }
                             }
                         }
-                        a{
+                        a {
                             @media #{$md-layout} {
                                 padding: 0;
                                 display: block;
@@ -443,8 +437,8 @@
                                 display: block;
                             }
                         }
-                        ul{
-                            &.submenu{
+                        ul {
+                            &.submenu {
                                 @media #{$md-layout} {
                                     position: relative;
                                     height: 0;
@@ -454,7 +448,6 @@
                                     visibility: hidden;
                                     background: transparent;
                                     box-shadow: inherit;
-                                    
                                 }
                                 @media #{$sm-layout} {
                                     position: relative;
@@ -482,19 +475,19 @@
                                         }
                                     }
                                 }
-                                &.active{
+                                &.active {
                                     @media #{$md-layout} {
                                         height: 100%;
                                         padding: 12px 0;
                                         opacity: 1;
                                         visibility: visible;
-                                    } 
+                                    }
                                     @media #{$sm-layout} {
                                         height: 100%;
                                         padding: 12px 0;
                                         opacity: 1;
                                         visibility: visible;
-                                    } 
+                                    }
                                 }
                             }
                         }
@@ -557,7 +550,7 @@
                 padding: 15px 0;
             }
             .logo {
-                a{
+                a {
                     img {
                         @media #{$md-layout} {
                             width: auto;
@@ -568,12 +561,11 @@
                     }
                 }
             }
-            .mainmenunav{
+            .mainmenunav {
                 ul {
                     &.mainmenu {
                         li {
                             a {
-
                             }
                         }
                     }
@@ -582,19 +574,18 @@
 
             ul {
                 &.social-share {
-                    li{
+                    li {
                         @media #{$sm-layout} {
                             margin: 0;
                         }
                     }
                 }
             }
-
         }
     }
 }
 
-.header-style-two{
+.header-style-two {
     .header-right {
         .header-btn {
             @media #{$lg-layout} {
@@ -617,7 +608,6 @@
         }
     }
 }
-.header-wrapper.menu-open .humberger-menu span{
+.header-wrapper.menu-open .humberger-menu span {
     opacity: 0;
 }
-

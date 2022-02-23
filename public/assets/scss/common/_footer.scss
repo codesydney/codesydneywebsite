@@ -7,7 +7,7 @@ Footer Styles
 }
 
 .footer-left {
-    background: linear-gradient(145deg, #0F4972 0%, #0F6395 100%);
+    background: linear-gradient(145deg, #0f4972 0%, #0f6395 100%);
     padding: 120px 120px;
     position: relative;
     z-index: 2;
@@ -25,7 +25,6 @@ Footer Styles
         padding: 60px 30px;
     }
 
-    
     &::before {
         position: absolute;
         width: 100%;
@@ -41,7 +40,7 @@ Footer Styles
     .inner {
         z-index: 5;
         position: relative;
-        &::after{
+        &::after {
             //content: "tryDO";
             //content: url(/assets/images/logo/big-logo.png);
             position: absolute;
@@ -55,7 +54,7 @@ Footer Styles
             width: 295px;
             height: 301px;
         }
-        >span {
+        > span {
             color: #fff;
             font-size: 15px;
             text-transform: uppercase;
@@ -72,9 +71,9 @@ Footer Styles
             color: #ffffff;
             font-size: 75px;
             font-weight: 900;
-            font-family: 'Montserrat', sans-serif;
+            font-family: "Montserrat", sans-serif;
             line-height: 90px;
-            
+
             @media #{$lg-layout} {
                 font-size: 50px;
                 line-height: 61px;
@@ -166,7 +165,6 @@ Footer Styles
     }
 }
 
-
 /* Footer Style Two  */
 .footer-style-2 {
     p {
@@ -175,10 +173,6 @@ Footer Styles
         opacity: 0.75;
     }
 }
-
-
-
-
 
 .copyright-text {
     position: absolute;

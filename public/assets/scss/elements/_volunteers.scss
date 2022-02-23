@@ -1,0 +1,63 @@
+.volunteers-page {
+    position: relative;
+    display: block;
+    h2 {
+        margin-left: 5px;
+    }
+
+    .filter {
+        border: 2px solid $theme-color-3;
+        input {
+            background-color: white;
+            width: 80%;
+        }
+        select {
+            background-color: white;
+            width: 20%;
+        }
+    }
+    .volunteer-card-sm {
+        color: aliceblue;
+        background-color: $theme-color-3;
+        padding: 3em;
+        .volunteer-info-sm {
+            font-family: "Montserrat", sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2em;
+            .avatar {
+                width: 7em;
+            }
+            .volunteer-title-name-sm {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                span:first-child {
+                    font-size: 1.5em;
+                    letter-spacing: 0.3em;
+                    font-weight: 700;
+                    margin-bottom: 0.5em;
+                }
+                span:nth-child(2) {
+                    font-size: 1.2em;
+                }
+            }
+            a {
+                font-size: 1.5em;
+                cursor: pointer;
+            }
+        }
+        .volunteer-description-sm {
+            display: none;
+        }
+        &:hover {
+            background-color: $heading-color;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 2em;
+            div:last-child {
+                display: block;
+            }
+        }
+    }
+}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
+import HeaderFour from "../component/header/HeaderFour";
 import Footer from "../component/footer/Footer";
 
 import SliderOne from "../component/slider/SliderOne";
@@ -19,18 +19,18 @@ class MainDemo extends Component {
   render() {
     const PostList = BlogContent.slice(0, 3);
     return (
-      <div className="active-dark">
-        <Helmet pageTitle="Code.Sydney" />
-        <Header
-          headertransparent="header--transparent"
-          colorblack="color--black"
-          logoname="logo.png"
-        />
+      <>
+        {/* <Helmet pageTitle="Code.Sydney" /> */}
+        {/* <HeaderFour
+          headerPosition="header--transparent"
+          color="color-white"
+          logo="logo-light"
+        /> */}
 
         {/* Start Slider Area   */}
-        <div className="slider-wrapper">
+        {/* <div className="slider-wrapper">
           <SliderOne />
-        </div>
+        </div> */}
         {/* End Slider Area   */}
 
         {/* Start CounterUp Area */}
@@ -72,8 +72,8 @@ class MainDemo extends Component {
         </div>
         {/* End Back To Top */}
 
-        <Footer />
-      </div>
+        {/* <Footer /> */}
+      </>
     );
   }
 }

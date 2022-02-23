@@ -64,80 +64,71 @@
 
 ***************************************************************/
 
-
 /**************************************
     Default Styles
 ***************************************/
-@import 'default/variables';
-@import 'default/mixins';
-@import 'default/reset';
-@import 'default/typography';
-@import 'default/extend';
-@import 'default/animations';
-@import 'default/shortcode';
-@import 'default/spacing';
-
-
+@import "default/variables";
+@import "default/mixins";
+@import "default/reset";
+@import "default/typography";
+@import "default/extend";
+@import "default/animations";
+@import "default/shortcode";
+@import "default/spacing";
 
 /**************************************
     Header Styles
 ***************************************/
 
-@import 'header/header';
-@import 'header/mainmenu';
-
+@import "header/header";
+@import "header/mainmenu";
 
 /**************************************
     Inner Styles
 ***************************************/
 
-@import 'common/breadcrump';
-@import 'common/section-title';
-@import 'common/button';
-@import 'common/pagination';
-@import 'common/socialicon';
-@import 'common/footer';
-
-
+@import "common/breadcrump";
+@import "common/section-title";
+@import "common/button";
+@import "common/pagination";
+@import "common/socialicon";
+@import "common/footer";
 
 /**************************************
     Elements Styles
 ***************************************/
 
-@import 'elements/portfolio';
-@import 'elements/service';
-@import 'elements/slider';
-@import 'elements/counterup';
-@import 'elements/testimonial';
-@import 'elements/brand';
-@import 'elements/team';
-@import 'elements/callto-action';
-@import 'elements/tab';
-@import 'elements/accordion';
-@import 'elements/list';
-@import 'elements/contact';
-@import 'elements/progress';
-@import 'elements/column';
-@import 'elements/404';
-@import 'elements/pricing';
-
-
+@import "elements/portfolio";
+@import "elements/service";
+@import "elements/slider";
+@import "elements/counterup";
+@import "elements/testimonial";
+@import "elements/brand";
+@import "elements/team";
+@import "elements/callto-action";
+@import "elements/tab";
+@import "elements/accordion";
+@import "elements/list";
+@import "elements/contact";
+@import "elements/progress";
+@import "elements/column";
+@import "elements/404";
+@import "elements/pricing";
+@import "elements/volunteers";
 
 /**************************************
     Blog Styles
 ***************************************/
 
-@import 'blog/blog';
-@import 'blog/blog-details';
-
-
+@import "blog/blog";
+@import "blog/blog-details";
 
 /**************************************
     Template Styles
 ***************************************/
 
-@import 'template/about';
-@import 'template/portfolio-details';
-@import 'template/service-details';
-@import 'template/dark-version';
-@import 'template/preview';
+@import "template/about";
+@import "template/portfolio-details";
+@import "template/service-details";
+@import "template/dark-version";
+@import "template/preview";
