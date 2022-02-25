@@ -28,7 +28,7 @@ const Volunteers = () => {
       title: "Mentor",
       description:
         "Promie is currently working as a Software Engineer at Hireup, a tech company with an online platform that connects people with disability with support workers. He has a very strong focus on full stack development and currently using NodeJS, Express, TypeScript, MongoDB, and React. He is a part-time student at UNSW studying Masters of IT focusing on Software Engineering and E-Commerce Systems. Promie spends his spare time mentoring new programmers at Code.Sydney. As one of the pioneer mentors, Promie has introduced standardised processes around GitHub code submission among developers.",
-      linkdinLink: "https://www.linkedin.com/404/",
+      linkdinLink: "https://www.linkedin.com/in/%F0%9F%A7%91%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB-promie-yutasane-635a741b8/",
       avatar:
         "https://codesydney.pythonanywhere.com/static/img/Mentor_Promie.png",
     },
