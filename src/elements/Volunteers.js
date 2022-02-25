@@ -203,7 +203,7 @@ const Volunteers = () => {
                   </div>
                   <a
                     href={volunteer.linkdinLink}
-                    className="social-share social-style--2"
+                    // className="social-share social-style--2"
                   >
                     <FaLinkedin />
                   </a>
