@@ -3,9 +3,10 @@
     display: block;
     h2 {
         margin-left: 1.5em;
+        font-family: "Montserrat", sans-serif;
         @media #{$sm-layout} {
             margin-left: 5px;
-            font-size: 3em;
+            font-size: 2.3em;
         }
     }
 
@@ -16,11 +17,11 @@
         margin-top: 3em;
         input {
             background-color: aliceblue;
-            width: 70%;
+            width: 65%;
         }
         select {
             background-color: aliceblue;
-            width: 30%;
+            width: 35%;
         }
         @media #{$sm-layout} {
             width: 100%;
@@ -99,6 +100,7 @@
         color: aliceblue;
         background-color: $theme-color-3;
         padding: 1em;
+        margin-top: 0.5px;
         .volunteer-info-sm {
             font-family: "Montserrat", sans-serif;
             display: flex;
