@@ -59,15 +59,6 @@ class Header extends Component {
             <nav className="mainmenunav d-lg-block">
               <ul className="mainmenu" style={{ color: "#F0F0F0" }}>
                 <li>
-                  <a
-                    className="rn-btn"
-                    href="https://codesydney.pythonanywhere.com/"
-                    target="_blank"
-                  >
-                    <span>Legacy Website</span>
-                  </a>
-                </li>
-                <li>
                   <Link to="/">
                     <span>Home</span>
                   </Link>
@@ -76,6 +67,15 @@ class Header extends Component {
                   <Link to="/volunteers">
                     <span>Volunteers</span>
                   </Link>
+                </li>
+                <li id="legacy-website-link">
+                  <a
+                    className="rn-btn"
+                    href="https://codesydney.pythonanywhere.com/"
+                    target="_blank"
+                  >
+                    <span>Legacy Website</span>
+                  </a>
                 </li>
               </ul>
             </nav>

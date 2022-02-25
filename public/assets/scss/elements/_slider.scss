@@ -2,7 +2,6 @@
     Slider Area 
 ======================*/
 
-
 @media #{$sm-layout} {
     .bg_image--31 {
         background-position: 67% center !important;
@@ -15,7 +14,7 @@
 .slider-fixed--height {
     min-height: 1080px;
     width: 100%;
-    
+
     @media #{$laptop-device} {
         min-height: 900px;
     }
@@ -29,7 +28,6 @@
         padding-bottom: 60px;
     }
 }
-
 
 /*----------------------
 Slider Default Style 
@@ -48,7 +46,7 @@ Slider Default Style
                 font-size: 125px;
                 font-weight: 900;
                 text-transform: uppercase;
-                font-family: 'Montserrat', sans-serif;
+                font-family: "Montserrat", sans-serif;
                 font-weight: 900;
                 line-height: 130px;
                 @media #{$laptop-device} {
@@ -68,6 +66,7 @@ Slider Default Style
                     font-size: 50px;
                     line-height: 70px;
                     margin-bottom: 0;
+                    margin-left: -1em;
                 }
                 @media #{$large-mobile} {
                     font-size: 40px;
@@ -75,6 +74,12 @@ Slider Default Style
                     margin-bottom: 20px;
                 }
             }
+        }
+    }
+    h3 {
+        @media #{$sm-layout} {
+            font-size: 1.2em;
+            margin-left: -2.6em;
         }
     }
     &.slide-style-1 {
@@ -109,7 +114,6 @@ Slider Default Style
             padding-top: 150px;
             padding-bottom: 150px;
         }
-        
 
         &.fullscreen {
             min-height: 950px;
@@ -190,7 +194,7 @@ Slider Default Style
                     color: #ffffff;
                     font-size: 100px;
                     font-weight: 900;
-                    
+
                     @media #{$lg-layout} {
                         font-size: 72px;
                     }
@@ -252,7 +256,7 @@ Slider Default Style
             }
         }
 
-        &.without-overlay{
+        &.without-overlay {
             .inner {
                 p {
                     &.description {
@@ -263,7 +267,7 @@ Slider Default Style
             }
         }
 
-        &.slider-paralax{
+        &.slider-paralax {
             @media #{$laptop-device} {
                 height: auto;
                 padding-top: 150px;
@@ -291,7 +295,7 @@ Slider Default Style
                     color: #1f1f25;
                     font-size: 75px;
                     font-weight: 900;
-                    font-family: 'Montserrat', sans-serif;
+                    font-family: "Montserrat", sans-serif;
                     line-height: 90px;
                     text-transform: inherit;
                     width: 70%;
@@ -312,7 +316,7 @@ Slider Default Style
                         width: 100%;
                     }
 
-                    span{
+                    span {
                         color: $theme-color;
                     }
                 }
@@ -321,22 +325,21 @@ Slider Default Style
     }
 }
 .slider-wrapper {
-    &.color-white{
-        .inner{
-            p{
-                &.description{
+    &.color-white {
+        .inner {
+            p {
+                &.description {
                     color: #ffffff;
                 }
             }
         }
     }
-    .service-wrapper{
+    .service-wrapper {
         @media #{$sm-layout} {
             margin-bottom: -20px;
         }
     }
 }
-
 
 .react-parallax {
     img {
@@ -379,10 +382,9 @@ Personal Portfolio
             opacity: 0.7;
         }
     }
-
 }
 .slide {
-    &.personal-portfolio-slider ,
+    &.personal-portfolio-slider,
     &.designer-portfolio {
         &.slider-style-3 {
             @media #{$sm-layout} {
@@ -396,15 +398,15 @@ Personal Portfolio
                 min-width: auto;
                 height: auto;
             }
-            .inner{
+            .inner {
                 @media #{$sm-layout} {
                     padding-top: 56px;
                 }
                 @media #{$md-layout} {
                     padding-top: 76px;
                 }
-                h1{
-                    &.title{
+                h1 {
+                    &.title {
                         @media #{$sm-layout} {
                             font-size: 32px;
                             line-height: 49px;
@@ -444,7 +446,7 @@ Personal Portfolio
             }
         }
     }
-    &.designer-portfolio{
+    &.designer-portfolio {
         height: 700px;
 
         @media #{$md-layout} {
@@ -479,7 +481,7 @@ Personal Portfolio
                     border: 14px solid #fff;
                     width: 394px;
                     height: 394px;
-                    box-shadow: 0 20px 40px rgba(0,0,0,0.1), 0 20px 40px rgba(255,255,255,0.15);
+                    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 20px 40px rgba(255, 255, 255, 0.15);
                     @media #{$large-mobile} {
                         width: auto;
                         height: auto;
@@ -494,8 +496,6 @@ Personal Portfolio
     }
 }
 
-
-
 /*--------------------------
     Slider Digital Agency  
 ----------------------------*/
@@ -506,7 +506,6 @@ Personal Portfolio
         border-color: #fff;
     }
 }
-
 
 /* ----------------------
     Slider Videi Bg 
@@ -523,12 +522,12 @@ Personal Portfolio
         height: 100%;
         z-index: -1;
     }
-    .inner{
+    .inner {
         position: relative;
         z-index: 2;
     }
-    &[data-black-overlay]{
-        &::before{
+    &[data-black-overlay] {
+        &::before {
             z-index: 1;
         }
     }
@@ -554,9 +553,9 @@ Personal Portfolio
     }
 }
 .slide {
-    &.slide-style-2{
-        &.slider-video-bg{
-            .inner{
+    &.slide-style-2 {
+        &.slider-video-bg {
+            .inner {
                 .title {
                     font-size: 60px;
                     line-height: 80px;
@@ -620,7 +619,7 @@ For Slider Service
         @media #{$lg-layout} {
             margin-top: 20px;
         }
-        
+
         @media #{$laptop-device} {
             margin-top: 0px;
         }
@@ -717,7 +716,7 @@ Slider Default Button And Dot STyle
             opacity: 1;
             width: 68px;
             height: 68px;
-            border: 2px solid rgba(255,255,255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.2);
             border-radius: 100%;
 
             @media #{$md-layout} {
@@ -730,7 +729,7 @@ Slider Default Button And Dot STyle
             @media #{$sm-layout} {
                 display: none !important;
             }
-            &:hover{
+            &:hover {
                 background: $theme-color;
                 border-color: $theme-color;
             }
@@ -748,15 +747,15 @@ Slider Default Button And Dot STyle
                     left: 10px;
                 }
 
-                &::before{
+                &::before {
                     content: url(/assets/images/icons/slick-arrow-left-small.png);
                 }
-                &:hover{
+                &:hover {
                     left: 30px;
                     @media #{$sm-layout} {
                         left: 20px;
                     }
-                    &::before{
+                    &::before {
                         opacity: 1;
                     }
                 }
@@ -767,7 +766,7 @@ Slider Default Button And Dot STyle
                 @media #{$sm-layout} {
                     right: 10px;
                 }
-                &::before{
+                &::before {
                     content: url(/assets/images/icons/slick-arrow-right-small.png);
                 }
                 &:hover {
@@ -775,7 +774,7 @@ Slider Default Button And Dot STyle
                     @media #{$sm-layout} {
                         right: 20px;
                     }
-                    &::before{
+                    &::before {
                         opacity: 1;
                     }
                 }
@@ -821,7 +820,6 @@ Custom Animation
     animation-name: customOne;
 }
 
-
 .theme-gradient {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -830,7 +828,7 @@ Custom Animation
 
 .thumbnail img {
     border-radius: 5px;
-    box-shadow: 0 25px 65px rgba(0,0,0,.10);
+    box-shadow: 0 25px 65px rgba(0, 0, 0, 0.1);
 }
 
 /*---------------------

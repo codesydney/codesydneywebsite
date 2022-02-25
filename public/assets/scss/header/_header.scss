@@ -611,3 +611,16 @@
 .header-wrapper.menu-open .humberger-menu span {
     opacity: 0;
 }
+#legacy-website-link {
+    margin-left: 5em;
+    @media #{$md-layout} {
+        margin-left: 0;
+        margin-top: 5em;
+        text-align: center;
+    }
+    @media #{$sm-layout} {
+        margin-left: 0;
+        margin-top: 5em;
+        text-align: center;
+    }
+}
