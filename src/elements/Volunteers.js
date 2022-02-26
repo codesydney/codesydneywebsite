@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { FaLinkedin } from "react-icons/fa";
+import SubPageTitle from "./common/SubPageTitle";
 
 const Volunteers = () => {
   // dummy data
@@ -131,7 +132,7 @@ const Volunteers = () => {
   return (
     <>
       <div className="volunteers-page">
-        <h2>Our volunteers</h2>
+        <SubPageTitle title="Our volunteers" />
 
         <div className="filter input-group my-group">
           <input
