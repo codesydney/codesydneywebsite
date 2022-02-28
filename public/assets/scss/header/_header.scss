@@ -16,7 +16,13 @@
             padding-left: 30px;
             padding-right: 30px;
         }
+        @media #{$md-layout} {
+            position: fixed;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
         @media #{$sm-layout} {
+            position: fixed;
             padding-left: 30px;
             padding-right: 30px;
         }
