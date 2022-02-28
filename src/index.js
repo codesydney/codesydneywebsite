@@ -19,6 +19,8 @@ import PortfolioDetails from "./elements/PortfolioDetails";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
+import Volunteers from "./elements/Volunteers";
+import Gallery from "./elements/Gallery";
 
 // Blocks Layout
 
@@ -27,7 +29,6 @@ import Counters from "./blocks/Counters";
 import Testimonial from "./blocks/Testimonial";
 import Portfolio from "./blocks/Portfolio";
 import VideoPopup from "./blocks/VideoPopup";
-import Gallery from "./blocks/Gallery";
 import Brand from "./blocks/Brand";
 import ProgressBar from "./blocks/ProgressBar";
 import ContactForm from "./blocks/ContactForm";
@@ -36,7 +37,6 @@ import Columns from "./blocks/Columns";
 import PricingTable from "./blocks/PricingTable";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
-import Volunteers from "./elements/Volunteers";
 import Header from "./component/header/Header";
 import Footer from "./component/footer/Footer";
 import SliderOne from "./component/slider/SliderOne";
@@ -66,6 +66,10 @@ class Root extends Component {
               <Route
                 path={`${process.env.PUBLIC_URL}/volunteers`}
                 component={Volunteers}
+              />
+              <Route
+                path={`${process.env.PUBLIC_URL}/gallery`}
+                component={Gallery}
               />
               <Route
                 path={`${process.env.PUBLIC_URL}/404`}

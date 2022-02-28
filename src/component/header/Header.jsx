@@ -68,6 +68,11 @@ class Header extends Component {
                     <span>Volunteers</span>
                   </Link>
                 </li>
+                <li>
+                  <Link to="/gallery">
+                    <span>Gallery</span>
+                  </Link>
+                </li>
                 <li id="legacy-website-link">
                   <a
                     className="rn-btn"

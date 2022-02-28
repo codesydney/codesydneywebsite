@@ -1,0 +1,39 @@
+.gallery-page {
+    .image-gallery {
+        width: 60%;
+        height: 80vh;
+        position: relative;
+        left: 20%;
+        margin-top: 4em;
+        margin-bottom: 4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media #{$md-layout} {
+            width: 80%;
+            height: 70vh;
+            left: 10%;
+        }
+
+        @media #{$sm-layout} {
+            width: 90%;
+            height: auto;
+            left: 5%;
+        }
+
+        .image-gallery-slide {
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                overflow: hidden;
+            }
+        }
+
+        .image-gallery-svg {
+            height: 40px;
+            width: 20px;
+        }
+    }
+}
