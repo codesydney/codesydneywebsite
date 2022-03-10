@@ -48,6 +48,68 @@ const Volunteers = () => {
       avatar: "Mentor_Surya.png",
     },
     {
+      name: "Qj Stout-Spykers",
+      title: "Mentor",
+      description:
+        "Qj is a computer science graduate and achieved high distinctions in microprocessor systems, systems and database design, discrete mathematics and programming principles. His primary software development experience is in embedded systems, deep-learning and back-end engineering. Currently, he is constraining his focus to mastering full-stack web development, after which, he has his eye on studying project management. As a Code.Sydney volunteer, Qj has acted as a technical team lead and principal back-end engineer on the CodeSydney website rework and internal 'Strataly’ project respectively. Qj can usually be found deep in some obscure documentation or sharing his knowledge on the Code.Sydney Slack. In his past life, Qj was a professional musician and guitar tutor.",
+      linkdinLink:
+        "https://www.linkedin.com/in/qj-stout-spykers-704b221a1/?originalSubdomain=au",
+      avatar: "Mentor_Qj.png",
+    },
+    {
+      name: "Stephen Corral",
+      title: "Mentor",
+      description:
+        "Stephen is a graduate of computer science in 2013 and currently taking a graduate certificate course at UTS on a part time basis. He completed the Free Code Camp web design certification and has exposure to React, Redux and Context API in volunteer projects and proof of concept initiatives in Code.Sydney. He is also familiar with C#/SQL Server and is interested in Linux. Stephen was the technical team lead of a successfully completed project for Dr. Lukas Carey's personal advocacy around convict criminology.",
+      linkdinLink:
+        "https://www.linkedin.com/in/stephen-melben-corral-73468b6b/?originalSubdomain=au",
+      avatar: "Mentor_Stephen.png",
+    },
+    {
+      name: "Lillian Luzinsky",
+      title: "Mentor",
+      description:
+        "Lillian is a versatile Designer and Creative Technologist, with a keen eye for clean and elegant design throughout all her projects. She possesses a wide range of skills, including UX/UI Design, Motion Graphics and Software Engineering. Lillian absolutely loves CSS and making things look great and user-friendly. Before transitioning into Front End Development, Lillian spent time as a Graphic Designer for property marketing and later shifted into freelancing, where she has been building her own business for 13 years providing high quality design services. Due to her diverse abilities, she is highly proficient in collaborating and communicating with cross-functional teams, and loves learning and refining her programming skills.",
+      linkdinLink:
+        "https://www.linkedin.com/in/lillian-luzinsky/?originalSubdomain=au",
+      avatar: "Mentor_Lillian.png",
+    },
+    {
+      name: "Praveen Sequeira",
+      title: "Mentor",
+      description:
+        "Seasoned, forward-looking Software Engineer with 15+ years' background in creating and executing innovative software solutions to enhance business productivity. Highly experienced in designing, developing, testing, and implementing REST APIs between Openedge based systems and external applications.",
+      linkdinLink:
+        "https://www.linkedin.com/in/praveenat/?originalSubdomain=au",
+      avatar: "Mentor_Praveen.png",
+    },
+    {
+      name: "Paolo Garde",
+      title: "Mentor",
+      description:
+        "Paolo is a long-time startup veteran, having started at Uber in 2014, then moving on to Operations leadership roles at Australian startups FoodByUs and :Different. He recently decided to make a career change to the world of software engineering, ultimately transitioning into a software engineer role in December 2021. After joining Code.Sydney as a volunteer front-end developer for Project Migram, Paolo is currently leading a project to standardise and document our best practices on our very own Code.Sydney Playbook.",
+      linkdinLink:
+        "https://www.linkedin.com/in/paologarde/?originalSubdomain=au",
+      avatar: "Mentor_Paolo.png",
+    },
+    {
+      name: "Gabriel Djan",
+      title: "Mentor",
+      description:
+        "Gabriel started her design career in a fire safety company as Information Designer, in charge of emergency evacuation diagram design and production for clients like Only About Children, AMF Bowling Group, MECCA to name a few. She then left the Information Designer role for UX UI designer role to work for a company specialising in applications software design, programming, system configuration, engineering, installation, commissioning of Building Automation, Management Systems & Access Control Systems. She designed user interfaces, user experience, and data analytics for real live data IoT and SaaS applications for clients like Citigroup, Bennelong, Crown Group, WeWork, Sans Clinic, and Dematic. Her unique combination of experiences complementing the UX UI Designer role includes a Computer Science (Bachelor Degree - Distinction) degree, digital design, and digital photography. She is a Tridium Niagara 4 Technical Certification Program (TCP) trained. In her free time, she likes exploring investment vehicles/products.",
+      linkdinLink: "https://www.linkedin.com/in/gabrieltwd/",
+      avatar: "Mentor_Gabriel.png",
+    },
+    {
+      name: "Jacin Yan",
+      title: "Mentor",
+      description:
+        "Jacin is an enthusiastic web developer who is seeking a new challenging career after many years of being in Civil/Structural Engineering. He found his greater passion in coding and programming on an occasion when he brushed on up his programming skills utilizing the APIs of Finite Element software and therefore he gained an IT diploma following this. Soon after the most recent graduation, he joined the CRM and website projects of PAACT, being the technical team lead with an emphasis on frontend development. His tech stack includes React.js, Redux, React-Query, react testing library, where he fully embraces the idea of functional programming that aligns with his analytical skills. On top of that, what makes him unique is he can also be found passionate about UI/UX design with his keen eye on aesthetics because of years of immersion in structural design and dealings with architects.",
+      linkdinLink:
+        "https://www.linkedin.com/in/jacin-ji-yan/?originalSubdomain=au",
+      avatar: "Mentor_Jacin.png",
+    },
+    {
       name: "Bin Liu",
       title: "Mentor",
       description:
@@ -63,68 +125,6 @@ const Volunteers = () => {
       linkdinLink:
         "https://www.linkedin.com/in/june-kongyang/?originalSubdomain=au",
       avatar: "Mentor_June.png",
-    },
-    {
-      name: "Qj Stout-Spykers",
-      title: "Mentor",
-      description:
-        "Qj is a computer science graduate and achieved high distinctions in microprocessor systems, systems and database design, discrete mathematics and programming principles. His primary software development experience is in embedded systems, deep-learning and back-end engineering. Currently, he is constraining his focus to mastering full-stack web development, after which, he has his eye on studying project management. As a Code.Sydney volunteer, Qj has acted as a technical team lead and principal back-end engineer on the CodeSydney website rework and internal 'Strataly’ project respectively. Qj can usually be found deep in some obscure documentation or sharing his knowledge on the Code.Sydney Slack. In his past life, Qj was a professional musician and guitar tutor.",
-      linkdinLink:
-        "https://www.linkedin.com/in/qj-stout-spykers-704b221a1/?originalSubdomain=au",
-      avatar: "Mentor_Qj.png",
-    },
-    {
-      name: "Gabriel Djan",
-      title: "Mentor",
-      description:
-        "Gabriel started her design career in a fire safety company as Information Designer, in charge of emergency evacuation diagram design and production for clients like Only About Children, AMF Bowling Group, MECCA to name a few. She then left the Information Designer role for UX UI designer role to work for a company specialising in applications software design, programming, system configuration, engineering, installation, commissioning of Building Automation, Management Systems & Access Control Systems. She designed user interfaces, user experience, and data analytics for real live data IoT and SaaS applications for clients like Citigroup, Bennelong, Crown Group, WeWork, Sans Clinic, and Dematic. Her unique combination of experiences complementing the UX UI Designer role includes a Computer Science (Bachelor Degree - Distinction) degree, digital design, and digital photography. She is a Tridium Niagara 4 Technical Certification Program (TCP) trained. In her free time, she likes exploring investment vehicles/products.",
-      linkdinLink: "https://www.linkedin.com/in/gabrieltwd/",
-      avatar: "Mentor_Gabriel.png",
-    },
-    {
-      name: "Lillian Luzinsky",
-      title: "Mentor",
-      description:
-        "Lillian is a versatile Designer and Creative Technologist, with a keen eye for clean and elegant design throughout all her projects. She possesses a wide range of skills, including UX/UI Design, Motion Graphics and Software Engineering. Lillian absolutely loves CSS and making things look great and user-friendly. Before transitioning into Front End Development, Lillian spent time as a Graphic Designer for property marketing and later shifted into freelancing, where she has been building her own business for 13 years providing high quality design services. Due to her diverse abilities, she is highly proficient in collaborating and communicating with cross-functional teams, and loves learning and refining her programming skills.",
-      linkdinLink:
-        "https://www.linkedin.com/in/lillian-luzinsky/?originalSubdomain=au",
-      avatar: "Mentor_Lillian.png",
-    },
-    {
-      name: "Stephen Corral",
-      title: "Mentor",
-      description:
-        "Stephen is a graduate of computer science in 2013 and currently taking a graduate certificate course at UTS on a part time basis. He completed the Free Code Camp web design certification and has exposure to React, Redux and Context API in volunteer projects and proof of concept initiatives in Code.Sydney. He is also familiar with C#/SQL Server and is interested in Linux. Stephen was the technical team lead of a successfully completed project for Dr. Lukas Carey's personal advocacy around convict criminology.",
-      linkdinLink:
-        "https://www.linkedin.com/in/stephen-melben-corral-73468b6b/?originalSubdomain=au",
-      avatar: "Mentor_Stephen.png",
-    },
-    {
-      name: "Jacin Yan",
-      title: "Mentor",
-      description:
-        "Jacin is an enthusiastic web developer who is seeking a new challenging career after many years of being in Civil/Structural Engineering. He found his greater passion in coding and programming on an occasion when he brushed on up his programming skills utilizing the APIs of Finite Element software and therefore he gained an IT diploma following this. Soon after the most recent graduation, he joined the CRM and website projects of PAACT, being the technical team lead with an emphasis on frontend development. His tech stack includes React.js, Redux, React-Query, react testing library, where he fully embraces the idea of functional programming that aligns with his analytical skills. On top of that, what makes him unique is he can also be found passionate about UI/UX design with his keen eye on aesthetics because of years of immersion in structural design and dealings with architects.",
-      linkdinLink:
-        "https://www.linkedin.com/in/jacin-ji-yan/?originalSubdomain=au",
-      avatar: "Mentor_Jacin.png",
-    },
-    {
-      name: "Paolo Garde",
-      title: "Mentor",
-      description:
-        "Paolo is a long-time startup veteran, having started at Uber in 2014, then moving on to Operations leadership roles at Australian startups FoodByUs and :Different. He recently decided to make a career change to the world of software engineering, ultimately transitioning into a software engineer role in December 2021. After joining Code.Sydney as a volunteer front-end developer for Project Migram, Paolo is currently leading a project to standardise and document our best practices on our very own Code.Sydney Playbook.",
-      linkdinLink:
-        "https://www.linkedin.com/in/paologarde/?originalSubdomain=au",
-      avatar: "Mentor_Paolo.png",
-    },
-    {
-      name: "Praveen Sequeira",
-      title: "Mentor",
-      description:
-        "Seasoned, forward-looking Software Engineer with 15+ years' background in creating and executing innovative software solutions to enhance business productivity. Highly experienced in designing, developing, testing, and implementing REST APIs between Openedge based systems and external applications.",
-      linkdinLink:
-        "https://www.linkedin.com/in/praveenat/?originalSubdomain=au",
-      avatar: "Mentor_Praveen.png",
     },
     {
       name: "Henry He",
@@ -143,6 +143,15 @@ const Volunteers = () => {
       linkdinLink:
         "https://www.linkedin.com/in/luke-zhao-398886214/?originalSubdomain=au",
       avatar: "WD_Luke.png",
+    },
+    {
+      name: "Ella Ferreira",
+      title: "Web Developer",
+      description:
+        "Ella has graduated with a degree in Chemical Engineering. After migrating to Australia, she decided to switch career and enter web development. She currently works as a junior full stack developer at a digital advisory agency in Brisbane, where she has lived for almost five years. She discovered her passion for coding after taking a long-term course in the area. Ella has always been curious in exploring new technologies and is very passionate in delivering solutions that meet user expectations.",
+      linkdinLink:
+        "https://www.linkedin.com/in/ella-ferreira-3959aa82/?originalSubdomain=au",
+      avatar: "WD_Ella.png",
     },
   ];
 
