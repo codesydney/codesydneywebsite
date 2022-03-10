@@ -108,6 +108,42 @@ const Volunteers = () => {
         "https://www.linkedin.com/in/jacin-ji-yan/?originalSubdomain=au",
       avatar: "Mentor_Jacin.png",
     },
+    {
+      name: "Paolo Garde",
+      title: "Mentor",
+      description:
+        "Paolo is a long-time startup veteran, having started at Uber in 2014, then moving on to Operations leadership roles at Australian startups FoodByUs and :Different. He recently decided to make a career change to the world of software engineering, ultimately transitioning into a software engineer role in December 2021. After joining Code.Sydney as a volunteer front-end developer for Project Migram, Paolo is currently leading a project to standardise and document our best practices on our very own Code.Sydney Playbook.",
+      linkdinLink:
+        "https://www.linkedin.com/in/paologarde/?originalSubdomain=au",
+      avatar: "Mentor_Paolo.png",
+    },
+    {
+      name: "Praveen Sequeira",
+      title: "Mentor",
+      description:
+        "Seasoned, forward-looking Software Engineer with 15+ years' background in creating and executing innovative software solutions to enhance business productivity. Highly experienced in designing, developing, testing, and implementing REST APIs between Openedge based systems and external applications.",
+      linkdinLink:
+        "https://www.linkedin.com/in/praveenat/?originalSubdomain=au",
+      avatar: "Mentor_Praveen.png",
+    },
+    {
+      name: "Henry He",
+      title: "Web Developer",
+      description:
+        "Henry is front-end developer with background in electrical and electronics engineering. To become more creative and to explore the ability to turn people's wonderful ideas into reality, Henry decided to move into software engineering which he believes is an industry with a lifetime of exciting challenges. After few years working in the IT industry, Henry is proud to say that he is able to adapt to rapidly changing environment and tech stacks, and more importantly, he is always passionate about picking up new skills and exploring deeper on what he has learnt. Henry's current main tech stacks includes Vue, CSS (SCSS) - Vanilla CSS lover but comfortable with element UI, tailwind, and bootstrap, JavaScript/TypeScript, Cypress/Jest, and other skills like Ruby on Rails, Express, Node, React, Figma, etc.",
+      linkdinLink:
+        "https://www.linkedin.com/in/chenhe-henry/?originalSubdomain=au",
+      avatar: "WD_Henry.png",
+    },
+    {
+      name: "Luke Zhao",
+      title: "Web Developer",
+      description:
+        "Luke has always been fascinated with computers since childhood. Despite having a degree in Commerce, Luke has explored the world of computing on his free time. He has been a superb self-directed learner with excellent computer and web development skills. He is highly poised and dedicated with strong education and training in design principles and programming languages. Luke is also adept at all aspects of modern web development techniques from front-end to back-end including HTML, CSS/Sass, JavaScript, React/Redux, Vue/Vuex, Tailwindcss, MongoDB, Node/Express, GraphQL, Firebase and AWS.",
+      linkdinLink:
+        "https://www.linkedin.com/in/luke-zhao-398886214/?originalSubdomain=au",
+      avatar: "WD_Luke.png",
+    },
   ];
 
   const [volunteers, setVolunteers] = useState([]);
@@ -174,6 +210,8 @@ const Volunteers = () => {
                   <a
                     href={volunteer.linkdinLink}
                     className="social-share social-style--2"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <FaLinkedin />
                   </a>
