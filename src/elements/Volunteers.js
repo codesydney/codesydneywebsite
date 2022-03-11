@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import SubPageTitle from "./common/SubPageTitle";
 
@@ -159,10 +158,15 @@ const Volunteers = () => {
   const [sortedVolunteers, setSortedVolunteers] = useState([]);
   const [filterType, setFilterType] = useState("name");
 
+  const filterRef = useRef(null);
+
   useEffect(() => {
     // get api data here later
     setVolunteers(data);
     setSortedVolunteers(data);
+
+    // filter input focus after page initial render
+    filterRef.current.focus();
   }, []);
 
   const handleFilter = (text) => {
@@ -186,6 +190,7 @@ const Volunteers = () => {
             name="snpid"
             placeholder="Find out volunteers..."
             onChange={(e) => handleFilter(e.target.value)}
+            ref={filterRef}
           />
           <select
             className="filter-select"
