@@ -21,6 +21,7 @@ import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
 import Volunteers from "./elements/Volunteers";
 import Gallery from "./elements/Gallery";
+import Merch from "./elements/Merch";
 
 // Blocks Layout
 
@@ -41,6 +42,7 @@ import Header from "./component/header/Header";
 import Footer from "./component/footer/Footer";
 import SliderOne from "./component/slider/SliderOne";
 import { Helmet } from "react-helmet";
+
 
 class Root extends Component {
   render() {
@@ -70,6 +72,10 @@ class Root extends Component {
               <Route
                 path={`${process.env.PUBLIC_URL}/gallery`}
                 component={Gallery}
+              />
+              <Route
+                path={`${process.env.PUBLIC_URL}/merch`}
+                component={Merch}
               />
               <Route
                 path={`${process.env.PUBLIC_URL}/404`}

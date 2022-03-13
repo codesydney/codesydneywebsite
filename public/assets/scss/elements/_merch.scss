@@ -1,0 +1,182 @@
+.merch-page {
+    margin-bottom: 10em;
+    .merch-distribution {
+        color: aliceblue;
+        margin: 2vw;
+    }
+    .merch-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        @media #{$sm-layout} {
+            grid-template-columns: 1fr;
+        }
+        .merch-card {
+            background-color: $theme-color-3;
+            display: grid;
+            grid-template-columns: 3fr 5fr;
+            max-height: calc(46.5vw * 3 / 8);
+            border-radius: 5px;
+            overflow: hidden;
+            @media #{$sm-layout} {
+                min-height: calc(96vw * 3 / 8);
+            }
+            img {
+                min-width: calc(46.5vw * 3 / 8);
+                @media #{$sm-layout} {
+                    min-width: calc(96vw * 3 / 8);
+                }
+            }
+            .merch-card-right {
+                margin: 10px auto;
+                max-width: calc(46.5vw * 5 / 8);
+                @media #{$sm-layout} {
+                    min-width: calc(90vw * 5 / 8);
+                }
+                .merch-card-title {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-right: 2em;
+                    margin-top: 1em;
+                    h5 {
+                        font-size: 2vw !important;
+                    }
+                }
+                .merch-card-description {
+                    font-size: 0.5vw !important;
+                    height: calc(46.5vw * 1.6 / 9);
+                    overflow-y: auto;
+                    line-height: normal !important;
+                    color: white;
+                    @media #{$sm-layout} {
+                        height: calc(96vw * 1.7 / 9);
+                    }
+                }
+                .icon-pay {
+                    color: aliceblue;
+                    cursor: pointer;
+                    display: block;
+                    width: auto;
+                    height: auto;
+                }
+            }
+            &:hover {
+                background-color: $heading-color;
+                ::-webkit-scrollbar-thumb {
+                    background: $theme-color-3;
+                    border-radius: 10px;
+                }
+                .icon-pay {
+                    color: $theme-color-3;
+                }
+                cursor: all-scroll;
+            }
+        }
+    }
+    #merch-modal {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba($color: $body-color, $alpha: 0.8);
+        padding: 12vw;
+        z-index: 999;
+        @media #{$sm-layout} {
+            padding: 0;
+        }
+        .merch-modal-card {
+            background-color: $heading-color;
+            position: sticky;
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            z-index: 999;
+            max-height: 76vh;
+            border-radius: 4px;
+            @media #{$sm-layout} {
+                grid-template-columns: 1fr;
+                height: 100vh;
+                max-height: 100vh;
+                overflow-y: scroll;
+            }
+            .merch-modal-card-left {
+                text-align: center;
+                & > img {
+                    width: 100%;
+                    @media screen and (max-width: 400px) {
+                        min-width: 100%;
+                    }
+                    @media #{$sm-layout} {
+                        width: 50%;
+                    }
+                }
+                a {
+                    display: block;
+                    div {
+                        color: #14a99f;
+                        display: inline-block;
+                        font-weight: 600;
+                    }
+                    img {
+                        max-width: 60%;
+                        display: inline-block;
+                    }
+                }
+            }
+            .merch-modal-card-right {
+                margin: 2em;
+                overflow-y: scroll;
+                height: 85%;
+                color: aliceblue;
+                h5 {
+                    font-size: x-large;
+                }
+                @media #{$md-layout} {
+                    height: 65%;
+                }
+                @media #{$sm-layout} {
+                    padding: 1em;
+                }
+            }
+            .icon-close {
+                position: absolute;
+                right: 20px;
+                top: 4px;
+                color: $theme-color-3;
+                font-size: 18px;
+                display: none;
+                &:hover {
+                    color: $color-3;
+                    cursor: pointer;
+                }
+                @media #{$sm-layout} {
+                    display: block;
+                }
+            }
+        }
+    }
+    .merch-modal-hide {
+        display: none;
+    }
+    .merch-modal-show {
+        display: block;
+    }
+    ::-webkit-scrollbar {
+        width: 0.3vw;
+    }
+
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: $heading-color;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(54, 56, 58);
+    }
+}
