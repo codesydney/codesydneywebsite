@@ -3,6 +3,16 @@
     .merch-distribution {
         color: aliceblue;
         margin: 2vw;
+        h4 {
+            @media #{$sm-layout} {
+                font-size: 4.3vw;
+            }
+        }
+        li {
+            @media #{$sm-layout} {
+                font-size: 3.2vw;
+            }
+        }
     }
     .merch-section {
         display: grid;
@@ -40,12 +50,19 @@
                     justify-content: space-between;
                     padding-right: 2em;
                     margin-top: 1em;
+                    @media #{$small-mobile} {
+                        padding-right: 0;
+                    }
                     h5 {
-                        font-size: 2vw !important;
+                        font-size: 1.5vw !important;
+                        @media #{$sm-layout} {
+                            font-size: 3vw !important;
+                        }
                     }
                 }
                 .merch-card-description {
-                    font-size: 0.5vw !important;
+                    font-size: 0.9vw !important;
+                    font-family: $body-font !important;
                     height: calc(46.5vw * 1.6 / 9);
                     overflow-y: auto;
                     line-height: normal !important;
@@ -104,7 +121,7 @@
                 text-align: center;
                 & > img {
                     width: 100%;
-                    @media screen and (max-width: 400px) {
+                    @media #{$small-mobile} {
                         min-width: 100%;
                     }
                     @media #{$sm-layout} {
@@ -129,6 +146,7 @@
                 overflow-y: scroll;
                 height: 85%;
                 color: aliceblue;
+                font-family: $body-font;
                 h5 {
                     font-size: x-large;
                 }
