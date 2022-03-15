@@ -115,7 +115,7 @@
                 grid-template-columns: 1fr;
                 height: 100vh;
                 max-height: 100vh;
-                overflow-y: scroll;
+                // overflow-y: scroll;
             }
             .merch-modal-card-left {
                 text-align: center;
@@ -143,7 +143,7 @@
             }
             .merch-modal-card-right {
                 margin: 2em;
-                overflow-y: scroll;
+                overflow-y: auto;
                 height: 85%;
                 color: aliceblue;
                 font-family: $body-font;
