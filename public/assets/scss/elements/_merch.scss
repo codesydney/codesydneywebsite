@@ -61,7 +61,7 @@
                     }
                 }
                 .merch-card-description {
-                    font-size: 0.9vw !important;
+                    font-size: 0.9vw;
                     font-family: $body-font !important;
                     height: calc(46.5vw * 1.6 / 9);
                     overflow-y: auto;
@@ -69,6 +69,10 @@
                     color: white;
                     @media #{$sm-layout} {
                         height: calc(96vw * 1.7 / 9);
+                        font-size: 1.8px;
+                    }
+                    @media #{$large-mobile} {
+                        font-size: 2.5vw !important;
                     }
                 }
                 .icon-pay {
