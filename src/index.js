@@ -1,5 +1,5 @@
 // React Required
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 
 // Create Import File
@@ -42,54 +42,58 @@ import Header from "./component/header/Header";
 import Footer from "./component/footer/Footer";
 import SliderOne from "./component/slider/SliderOne";
 import { Helmet } from "react-helmet";
+import axios from "axios";
 
+const Root = () => {
+  const [data, setData] = useState({});
 
-class Root extends Component {
-  render() {
-    return (
-      <BrowserRouter basename={"/"}>
-        <div className="active-dark">
-          <Helmet pageTitle="Code.Sydney" />
-          <Header
-            headertransparent="header--transparent"
-            colorblack="color--black"
-            logoname="logo.png"
-          />
-          <div className="slider-wrapper">
-            <SliderOne />
-          </div>
-          <PageScrollTop>
-            <Switch>
-              <Route
-                exact
-                path={`${process.env.PUBLIC_URL}/`}
-                component={DarkMainDemo}
-              />
-              <Route
-                path={`${process.env.PUBLIC_URL}/volunteers`}
-                component={Volunteers}
-              />
-              <Route
-                path={`${process.env.PUBLIC_URL}/gallery`}
-                component={Gallery}
-              />
-              <Route
-                path={`${process.env.PUBLIC_URL}/merch`}
-                component={Merch}
-              />
-              <Route
-                path={`${process.env.PUBLIC_URL}/404`}
-                component={error404}
-              />
-              <Route component={error404} />
-            </Switch>
-          </PageScrollTop>
-          <Footer />
+  useEffect(() => {
+    axios.get("./database.json").then((res) => setData(res.data));
+  }, []);
+
+  return (
+    <BrowserRouter basename={"/"}>
+      <div className="active-dark">
+        <Helmet pageTitle="Code.Sydney" />
+        <Header
+          headertransparent="header--transparent"
+          colorblack="color--black"
+          logoname="logo.png"
+        />
+        <div className="slider-wrapper">
+          <SliderOne />
         </div>
-      </BrowserRouter>
-    );
-  }
-}
+        <PageScrollTop>
+          <Switch>
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/`}
+              component={DarkMainDemo}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/volunteers`}
+              component={Volunteers}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/gallery`}
+              component={Gallery}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/merch`}
+              render={() => <Merch merch={data.merch} />}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/404`}
+              component={error404}
+            />
+            <Route component={error404} />
+          </Switch>
+        </PageScrollTop>
+        <Footer />
+      </div>
+    </BrowserRouter>
+  );
+};
 
 ReactDOM.render(<Root />, document.getElementById("root"));
 serviceWorker.register();
