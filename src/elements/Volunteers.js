@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState, useRef } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import SubPageTitle from "./common/SubPageTitle";

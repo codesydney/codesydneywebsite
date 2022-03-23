@@ -73,6 +73,11 @@ class Header extends Component {
                     <span>Gallery</span>
                   </Link>
                 </li>
+                <li>
+                  <Link to="/merch">
+                    <span>Merch</span>
+                  </Link>
+                </li>
                 <li id="legacy-website-link">
                   <a
                     className="rn-btn"

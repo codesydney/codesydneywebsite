@@ -1,5 +1,5 @@
 // React Required
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 
 // Create Import File
@@ -21,6 +21,7 @@ import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
 import Volunteers from "./elements/Volunteers";
 import Gallery from "./elements/Gallery";
+import Merch from "./elements/Merch";
 
 // Blocks Layout
 
@@ -41,49 +42,58 @@ import Header from "./component/header/Header";
 import Footer from "./component/footer/Footer";
 import SliderOne from "./component/slider/SliderOne";
 import { Helmet } from "react-helmet";
+import axios from "axios";
 
-class Root extends Component {
-  render() {
-    return (
-      <BrowserRouter basename={"/"}>
-        <div className="active-dark">
-          <Helmet pageTitle="Code.Sydney" />
-          <Header
-            headertransparent="header--transparent"
-            colorblack="color--black"
-            logoname="logo.png"
-          />
-          <div className="slider-wrapper">
-            <SliderOne />
-          </div>
-          <PageScrollTop>
-            <Switch>
-              <Route
-                exact
-                path={`${process.env.PUBLIC_URL}/`}
-                component={DarkMainDemo}
-              />
-              <Route
-                path={`${process.env.PUBLIC_URL}/volunteers`}
-                component={Volunteers}
-              />
-              <Route
-                path={`${process.env.PUBLIC_URL}/gallery`}
-                component={Gallery}
-              />
-              <Route
-                path={`${process.env.PUBLIC_URL}/404`}
-                component={error404}
-              />
-              <Route component={error404} />
-            </Switch>
-          </PageScrollTop>
-          <Footer />
+const Root = () => {
+  const [data, setData] = useState({});
+
+  useEffect(() => {
+    axios.get("./database.json").then((res) => setData(res.data));
+  }, []);
+
+  return (
+    <BrowserRouter basename={"/"}>
+      <div className="active-dark">
+        <Helmet pageTitle="Code.Sydney" />
+        <Header
+          headertransparent="header--transparent"
+          colorblack="color--black"
+          logoname="logo.png"
+        />
+        <div className="slider-wrapper">
+          <SliderOne />
         </div>
-      </BrowserRouter>
-    );
-  }
-}
+        <PageScrollTop>
+          <Switch>
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/`}
+              component={DarkMainDemo}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/volunteers`}
+              component={Volunteers}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/gallery`}
+              component={Gallery}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/merch`}
+              render={() => <Merch merch={data.merch} />}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/404`}
+              component={error404}
+            />
+            <Route component={error404} />
+          </Switch>
+        </PageScrollTop>
+        <Footer />
+      </div>
+    </BrowserRouter>
+  );
+};
 
 ReactDOM.render(<Root />, document.getElementById("root"));
 serviceWorker.register();

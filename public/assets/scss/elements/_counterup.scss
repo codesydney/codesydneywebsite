@@ -6,8 +6,8 @@
 .counterup_style--1 {
     text-align: center;
     margin-top: 40px;
-    h5{
-        &.counter{
+    h5 {
+        &.counter {
             font-size: 72px;
             line-height: 80px;
             display: inline-block;
@@ -22,7 +22,7 @@
                 margin-bottom: 5px;
                 margin-left: -11px;
             }
-            &::after{
+            &::after {
                 right: -26px;
                 position: absolute;
                 top: -17px;
@@ -30,11 +30,10 @@
                 content: "+";
             }
             span {
-                
             }
         }
     }
-    p{
+    p {
         &.description {
             font-size: 18px;
             line-height: 30px;
@@ -54,16 +53,15 @@
     }
 }
 
-
-.rn-paralax-counterup{
-    .counterup_style--1{
+.rn-paralax-counterup {
+    .counterup_style--1 {
         text-align: center;
-        h5{
-            &.counter{
+        h5 {
+            &.counter {
                 color: $theme-color;
             }
         }
-        p{
+        p {
             &.description {
                 color: #ffffff;
             }
@@ -73,8 +71,8 @@
 // Counter Style Two
 .counterup_style--2 {
     text-align: center;
-    h5{
-        &.counter{
+    h5 {
+        &.counter {
             font-size: 50px;
             line-height: 60px;
             color: $theme-color;
@@ -93,35 +91,17 @@
 }
 
 // Counter White Cersion
-.theme-text-white{
+.theme-text-white {
     .counterup_style--1 {
-        h5{
-            &.counter{
+        h5 {
+            &.counter {
                 color: #ffffff;
             }
         }
-        p{
+        p {
             &.description {
                 color: #ffffff;
             }
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
