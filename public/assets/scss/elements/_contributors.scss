@@ -40,7 +40,7 @@
       align-items: center;
     }
 
-    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    @media only screen and (min-width: 768px) {
       margin: 0 20em 30em 3em;
       height: 250px;
     }
@@ -50,6 +50,7 @@
     }
 
     @media only screen and (min-width: 1440px) {
+      height: 450px;
       margin: 0 12em 30em 10em;
     }
 
@@ -238,7 +239,7 @@
 
       @media #{$sm-layout} {
         top: 90%;
-        left: 45%;
+        left: 43%;
       }
 
       @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -256,6 +257,11 @@
         background-color: #fff;
         margin-left: 21px;
         border-radius: 50%;
+
+        @media #{$sm-layout} {
+          width: 10px;
+          height: 10px;
+        }
 
         @media only screen and (min-width: 768px) and (max-width: 1023px) {
           width: 10px;
