@@ -54,6 +54,11 @@
       margin: 0 12em 30em 10em;
     }
 
+    @media only screen and (min-width: 1441px) and (max-width: 2560px) {
+      width: 90%;
+      align-items: center;
+    }
+
     .carousel {
       display: flex;
       animation: slidein;
