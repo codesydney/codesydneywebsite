@@ -22,7 +22,7 @@ import error404 from "./elements/error404";
 import Volunteers from "./elements/Volunteers";
 import Gallery from "./elements/Gallery";
 import Merch from "./elements/Merch";
-
+import Contributors from "./elements/Contributors/Contributors";
 // Blocks Layout
 
 import Team from "./blocks/Team";
@@ -81,6 +81,10 @@ const Root = () => {
             <Route
               path={`${process.env.PUBLIC_URL}/merch`}
               render={() => <Merch merch={data.merch} />}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/contributors`}
+              component={Contributors}
             />
             <Route
               path={`${process.env.PUBLIC_URL}/404`}

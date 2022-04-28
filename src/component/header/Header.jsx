@@ -78,11 +78,17 @@ class Header extends Component {
                     <span>Merch</span>
                   </Link>
                 </li>
+                <li>
+                  <Link to="/contributors">
+                    <span>Contributors</span>
+                  </Link>
+                </li>
                 <li id="legacy-website-link">
                   <a
                     className="rn-btn"
                     href="https://codesydney.pythonanywhere.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span>Legacy Website</span>
                   </a>
