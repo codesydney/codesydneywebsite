@@ -618,7 +618,7 @@
     opacity: 0;
 }
 #legacy-website-link {
-    margin-left: 5em;
+    margin: auto 0 auto 5em;
     @media #{$md-layout} {
         margin-left: 0;
         margin-top: 5em;
