@@ -8,7 +8,7 @@ const Contributor = ({ name, nickname, quote, image, role, linkedIn }) => {
           <img src={image} alt={`${name} ${role}`} />
         </div>
         <div className="details">
-          <div className="quotes"> "{quote}"</div>
+          {quote ? <div className="quotes">"{quote}"</div> : null}
           <div className="author">
             <span></span>
             <div>
