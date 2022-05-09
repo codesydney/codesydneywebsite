@@ -8,8 +8,6 @@ const Contributors = () => {
       id: 1,
       name: "Engramar Bollas",
       nickname: "engramar",
-      quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: "/assets/images/volunteers/Mentor_Engramar.png",
       role: "Director of Code.Sydney",
       linkedIn: "https://www.linkedin.com/in/engramarbollas/",
@@ -18,8 +16,6 @@ const Contributors = () => {
       id: 2,
       name: "Qj Stout-Spykers",
       nickname: "QJ",
-      quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: "/assets/images/volunteers/Mentor_Qj.png",
       role: "Team Lead / Manager",
       linkedIn:
@@ -29,8 +25,6 @@ const Contributors = () => {
       id: 3,
       name: "Luke Zhao",
       nickname: "Luukeeeee",
-      quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: "/assets/images/volunteers/WD_Luke.png",
       role: "Web Developer",
       linkedIn:
@@ -40,8 +34,6 @@ const Contributors = () => {
       id: 4,
       name: "Paolo Garde",
       nickname: "rpgarde",
-      quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: "/assets/images/volunteers/Mentor_Paolo.png",
       role: "Web Developer",
       linkedIn: "https://www.linkedin.com/in/paologarde/?originalSubdomain=au",
@@ -50,8 +42,6 @@ const Contributors = () => {
       id: 5,
       name: "Corey",
       nickname: "jabu-web",
-      quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: "/assets/images/logo/big-logo.png",
       role: "Web Developer",
       linkedIn: "https://github.com/jabu-web",
