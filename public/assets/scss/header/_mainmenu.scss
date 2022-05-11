@@ -83,7 +83,7 @@ Mainmenu Area
     }
 }
 
-.humberger-menu{
+.hamburger-menu{
     span{
         &.text-white{
             color: #c6c9d8 !important;
@@ -140,19 +140,19 @@ Mainmenu Area
 
 
 @media #{$lg-layout}{
-    .header-style-two .humberger-menu span.text-white {
+    .header-style-two .hamburger-menu span.text-white {
         color: #1d1d24 !important;
     }
 }
 
 @media #{$md-layout}{
-    .header-style-two .humberger-menu span.text-white{
+    .header-style-two .hamburger-menu span.text-white{
         color: #1d1d24 !important;
     }
 }
 
 @media #{$sm-layout}{
-    .header-style-two .humberger-menu span.text-white{
+    .header-style-two .hamburger-menu span.text-white{
         color: #1d1d24 !important;
     }
 }
