@@ -95,8 +95,8 @@ class Header extends Component {
                 </li>
               </ul>
             </nav>
-            {/* Start Humberger Menu  */}
-            <div className="humberger-menu d-block pl--20 d-lg-none">
+            {/* Start Hamburger Menu  */}
+            <div className="hamburger-menu d-block pl--20 d-lg-none">
               <span
                 onClick={this.menuTrigger}
                 className="menutrigger text-white"
@@ -104,7 +104,7 @@ class Header extends Component {
                 <FiMenu />
               </span>
             </div>
-            {/* End Humberger Menu  */}
+            {/* End Hamburger Menu  */}
             <div className="close-menu d-block d-lg-none">
               <span onClick={this.CLoseMenuTrigger} className="closeTrigger">
                 <FiX />

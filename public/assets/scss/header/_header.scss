@@ -269,10 +269,11 @@
                     }
                 }
             }
-            .humberger-menu {
+            .hamburger-menu {
                 span {
                     &.text-white {
                         color: $heading-color !important;
+                        color: red !important;
                     }
                 }
             }
@@ -280,7 +281,7 @@
     }
 
     &.color-black {
-        .humberger-menu {
+        .hamburger-menu {
             span {
                 &.text-white {
                     color: $heading-color !important;
@@ -601,9 +602,9 @@
     }
 }
 /*------------------------
-    Hamberger Menu  
+    Hamburger Menu  
 ---------------------------*/
-.humberger-menu {
+.hamburger-menu {
     span {
         cursor: pointer;
         @media #{$sm-layout} {
@@ -614,7 +615,7 @@
         }
     }
 }
-.header-wrapper.menu-open .humberger-menu span {
+.header-wrapper.menu-open .hamburger-menu span {
     opacity: 0;
 }
 #legacy-website-link {
