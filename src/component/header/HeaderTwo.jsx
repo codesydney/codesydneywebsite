@@ -246,7 +246,7 @@ class Header extends Component {
               </a>
             </div>
             {/* Start Humberger Menu  */}
-            <div className="humberger-menu d-block d-lg-none pl--20">
+            <div className="hamburger-menu d-block d-lg-none pl--20">
               <span
                 onClick={this.menuTrigger}
                 className="menutrigger text-white"
