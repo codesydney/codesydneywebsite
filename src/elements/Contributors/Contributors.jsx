@@ -56,6 +56,17 @@ const Contributors = () => {
       role: "Web Developer",
       linkedIn: "https://www.linkedin.com/in/janv/",
     },
+    {
+      id: 7,
+      name: "Ella Ferreira",
+      nickname: "Ella",
+      quote:
+        " It's been a great way of putting my skills in practice and learning with the Mentors as well.",
+      image: "/assets/images/volunteers/WD_Ella.png",
+      role: "Web Developer",
+      linkedIn:
+        "https://www.linkedin.com/in/ella-ferreira-3959aa82/?originalSubdomain=au",
+    },
   ];
   const [index, setIndex] = useState(0);
   const { id, name, nickname, quote, image, role, linkedIn } =
