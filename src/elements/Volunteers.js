@@ -93,6 +93,14 @@ const Volunteers = () => {
       avatar: "Mentor_Paolo.png",
     },
     {
+      name: "Bao Hoang",
+      title: "Mentor",
+      description:
+        "Bao has recently graduated with a Bachelor of Science in IT and just started his career in software development. He prides himself on being a self-taught developer, dabbling in all things tech including web development, embedded systems, database design, and IoT. Bao initially joined Code.Sydney to meet other technically-minded people to talk to, but now as a volunteer, he particularly loves to also share his knowledge and be a part of the group's learning journey. Besides programming, Bao currently loves engaging in customising mechanical keyboards and building Gundam models in an unhealthy manner.",
+      linkdinLink: "https://www.linkedin.com/in/debubz/",
+      avatar: "Mentor_Bao.png",
+    },
+    {
       name: "Gabriel Djan",
       title: "Mentor",
       description:
