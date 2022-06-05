@@ -87,6 +87,11 @@ const Root = () => {
               component={Contributors}
             />
             <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/contact-us`}
+              component={Contact}
+            />
+            <Route
               path={`${process.env.PUBLIC_URL}/404`}
               component={error404}
             />

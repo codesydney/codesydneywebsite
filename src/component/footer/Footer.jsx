@@ -51,11 +51,11 @@ class Footer extends Component {
                     <h2>
                       Pay As <br /> You Feel
                     </h2>
-                    {/*
-                                        <a className="rn-button-style--2" href="/contact">
+                    
+                                        <a className="rn-button-style--2" href="/contact-us">
                                             <span>Contact Us</span>
                                         </a>
-                                        */}
+                                       
                   </div>
                 </div>
               </div>
