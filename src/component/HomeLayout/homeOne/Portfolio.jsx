@@ -75,10 +75,12 @@ class Portfolio extends Component {
                   <br />
                 </div>
                 <div className="col-lg-12">
+                  <a href="https://www.paact.org.au/">
                   <img
                     src="/assets/images/portfolio/paact.png"
                     alt="Portfolio Images"
                   />
+                  </a>
                   <p style={{ color: "#F0F0F0" }}>
                     <a href="https://www.paact.org.au/" target="_blank">
                       Link to project
@@ -108,10 +110,12 @@ class Portfolio extends Component {
                   <br />
                 </div>
                 <div className="col-lg-12">
-                  <img
+                  <a href="https://app.paact.org.au/">
+                    <img
                     src="/assets/images/portfolio/paact-crm.png"
                     alt="Portfolio Images"
                   />
+                  </a>
                   <p style={{ color: "#F0F0F0" }}>
                     <a href="https://app.paact.org.au/" target="_blank">
                       Link to project
@@ -146,10 +150,12 @@ class Portfolio extends Component {
                   <br />
                 </div>
                 <div className="col-lg-12">
+                  <a href="https://www.migram.com.au/">
                   <img
                     src="/assets/images/portfolio/migram.png"
                     alt="Portfolio Images"
                   />
+                  </a>
                   <p style={{ color: "#F0F0F0" }}>
                     <a href="https://www.migram.com.au/" target="_blank">
                       Link to project
@@ -184,10 +190,12 @@ class Portfolio extends Component {
                   <br />
                 </div>
                 <div className="col-lg-12">
+                  <a href="https://www.eisteddfodparramatta.org.au/">
                   <img
                     src="/assets/images/portfolio/eisteddfod.png"
                     alt="Portfolio Images"
                   />
+                  </a>
                   <p style={{ color: "#F0F0F0" }}>
                     <a
                       href="https://www.eisteddfodparramatta.org.au/"
@@ -219,10 +227,12 @@ class Portfolio extends Component {
                   <br />
                 </div>
                 <div className="col-lg-12">
+                  <a href="https://talkingtimepodcast.com.au/">
                   <img
                     src="/assets/images/portfolio/talkingtime.png"
                     alt="Portfolio Images"
                   />
+                  </a>
                   <p style={{ color: "#F0F0F0" }}>
                     <a
                       href="https://talkingtimepodcast.com.au/"
@@ -255,10 +265,12 @@ class Portfolio extends Component {
                   <br />
                 </div>
                 <div className="col-lg-12">
+                  <a href="https://www.propertyextractor.com.au">
                   <img
                     src="/assets/images/portfolio/propertyextractor.png"
                     alt="Portfolio Images"
                   />
+                  </a>
                   <p style={{ color: "#F0F0F0" }}>
                     <a
                       href="https://www.propertyextractor.com.au/"
@@ -294,10 +306,12 @@ class Portfolio extends Component {
                   <br />
                 </div>
                 <div className="col-lg-12">
+                  <a href="https://woc-au.herokuapp.com">
                   <img
                     src="/assets/images/portfolio/woc.png"
                     alt="Portfolio Images"
                   />
+                  </a>
                   <p style={{ color: "#F0F0F0" }}>
                     <a href="https://woc-au.herokuapp.com/" target="_blank">
                       Link to project
@@ -327,10 +341,12 @@ class Portfolio extends Component {
                   <br />
                 </div>
                 <div className="col-lg-12">
+                  <a href="https://www.lukascarey.com.au/">
                   <img
                     src="/assets/images/portfolio/lukascarey.png"
                     alt="Portfolio Images"
                   />
+                  </a>
                   <p style={{ color: "#F0F0F0" }}>
                     <a href="https://www.lukascarey.com.au/" target="_blank">
                       Link to project
@@ -360,10 +376,12 @@ class Portfolio extends Component {
                   <br />
                 </div>
                 <div className="col-lg-12">
+                  <a href="https://www.taskstech.com/">
                   <img
                     src="/assets/images/portfolio/taskstech.png"
                     alt="Portfolio Images"
                   />
+                  </a>
                   <p style={{ color: "#F0F0F0" }}>
                     <a href="https://www.taskstech.com/" target="_blank">
                       Link to project
