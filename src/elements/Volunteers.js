@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect, useState, useRef } from "react";
-import { FaLinkedin } from "react-icons/fa";
-import SubPageTitle from "./common/SubPageTitle";
+import React, { useEffect, useState, useRef } from "react"
+import { FaLinkedin } from "react-icons/fa"
+import SubPageTitle from "./common/SubPageTitle"
 
 const Volunteers = () => {
   // dummy data
@@ -161,31 +161,31 @@ const Volunteers = () => {
         "https://www.linkedin.com/in/ella-ferreira-3959aa82/?originalSubdomain=au",
       avatar: "WD_Ella.png",
     },
-  ];
+  ]
 
-  const [volunteers, setVolunteers] = useState([]);
-  const [sortedVolunteers, setSortedVolunteers] = useState([]);
-  const [filterType, setFilterType] = useState("name");
+  const [volunteers, setVolunteers] = useState([])
+  const [sortedVolunteers, setSortedVolunteers] = useState([])
+  const [filterType, setFilterType] = useState("name")
 
-  const filterRef = useRef(null);
+  const filterRef = useRef(null)
 
   useEffect(() => {
     // get api data here later
-    setVolunteers(data);
-    setSortedVolunteers(data);
+    setVolunteers(data)
+    setSortedVolunteers(data)
 
     // filter input focus after page initial render
-    filterRef.current.focus();
-  }, []);
+    filterRef.current.focus()
+  }, [])
 
   const handleFilter = (text) => {
     let newSortedValunteers = volunteers.filter((volunteer) => {
       return volunteer[`${filterType}`]
         .toLowerCase()
-        .includes(text.toLowerCase());
-    });
-    setSortedVolunteers(newSortedValunteers);
-  };
+        .includes(text.toLowerCase())
+    })
+    setSortedVolunteers(newSortedValunteers)
+  }
 
   return (
     <>
@@ -239,7 +239,7 @@ const Volunteers = () => {
                     <FaLinkedin />
                   </a>
                 </div>
-              );
+              )
             })}
           </div>
         </div>
@@ -265,12 +265,12 @@ const Volunteers = () => {
                   <p>{volunteer.description}</p>
                 </div>
               </div>
-            );
+            )
           })}
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Volunteers;
+export default Volunteers

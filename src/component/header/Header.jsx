@@ -1,50 +1,50 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { FiX, FiMenu } from "react-icons/fi";
+import React, { Component } from "react"
+import { Link } from "react-router-dom"
+import { FiX, FiMenu } from "react-icons/fi"
 
 class Header extends Component {
   constructor(props) {
-    super(props);
-    this.menuTrigger = this.menuTrigger.bind(this);
-    this.CLoseMenuTrigger = this.CLoseMenuTrigger.bind(this);
+    super(props)
+    this.menuTrigger = this.menuTrigger.bind(this)
+    this.CLoseMenuTrigger = this.CLoseMenuTrigger.bind(this)
     // this.subMetuTrigger = this.subMetuTrigger.bind(this);
     window.addEventListener("load", function () {
-      console.log("All assets are loaded");
-    });
+      console.log("All assets are loaded")
+    })
   }
 
   menuTrigger() {
-    document.querySelector(".header-wrapper").classList.toggle("menu-open");
+    document.querySelector(".header-wrapper").classList.toggle("menu-open")
   }
 
   CLoseMenuTrigger() {
-    document.querySelector(".header-wrapper").classList.remove("menu-open");
+    document.querySelector(".header-wrapper").classList.remove("menu-open")
   }
 
   render() {
-    var elements = document.querySelectorAll(".has-droupdown > a");
+    var elements = document.querySelectorAll(".has-droupdown > a")
     for (var i in elements) {
-      if (elements.hasOwnProperty(i)) {
+      if (Object.prototype.hasOwnProperty.call(elements, i)) {
         elements[i].onclick = function () {
           this.parentElement
             .querySelector(".submenu")
-            .classList.toggle("active");
-          this.classList.toggle("open");
-        };
+            .classList.toggle("active")
+          this.classList.toggle("open")
+        }
       }
     }
-    const { logo, color = "default-color" } = this.props;
-    let logoUrl;
+    const { logo, color = "default-color" } = this.props
+    let logoUrl
     if (logo === "light") {
-      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />
     } else if (logo === "dark") {
-      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />
     } else if (logo === "symbol-dark") {
-      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />
     } else if (logo === "symbol-light") {
-      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />
     } else {
-      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />
     }
 
     return (
@@ -113,7 +113,7 @@ class Header extends Component {
           </div>
         </div>
       </header>
-    );
+    )
   }
 }
-export default Header;
+export default Header

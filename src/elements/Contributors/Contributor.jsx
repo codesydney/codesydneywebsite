@@ -1,5 +1,5 @@
-import React from "react";
-import { FaLinkedin } from "react-icons/fa";
+import React from "react"
+import { FaLinkedin } from "react-icons/fa"
 const Contributor = ({ name, nickname, quote, image, role, linkedIn }) => {
   return (
     <>
@@ -31,6 +31,6 @@ const Contributor = ({ name, nickname, quote, image, role, linkedIn }) => {
         </div>
       </div>
     </>
-  );
-};
-export default Contributor;
+  )
+}
+export default Contributor

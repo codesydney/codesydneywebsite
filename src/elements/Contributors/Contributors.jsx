@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import Contributor from "./Contributor";
-import CarouselButton from "../../component/carouselButton/CarouselButton";
+import React, { useState, useEffect } from "react"
+import Contributor from "./Contributor"
+import CarouselButton from "../../component/carouselButton/CarouselButton"
 
 const Contributors = () => {
   const contributors = [
@@ -67,29 +67,29 @@ const Contributors = () => {
       linkedIn:
         "https://www.linkedin.com/in/ella-ferreira-3959aa82/?originalSubdomain=au",
     },
-  ];
-  const [index, setIndex] = useState(0);
+  ]
+  const [index, setIndex] = useState(0)
   const { id, name, nickname, quote, image, role, linkedIn } =
-    contributors[index];
+    contributors[index]
 
   const onClickSetIndex = (number) => {
-    setIndex(number);
-  };
+    setIndex(number)
+  }
 
   useEffect(() => {
     let interval = setInterval(() => {
       if (index === 5) {
-        setIndex(0);
+        setIndex(0)
       } else {
-        setIndex(index + 1);
+        setIndex(index + 1)
       }
-    }, 15000);
+    }, 15000)
 
-    return () => clearInterval(interval);
-  }, [index]);
+    return () => clearInterval(interval)
+  }, [index])
 
   let buttons = () => {
-    let buttons = [];
+    let buttons = []
     for (let i = 0; i < contributors.length; i++) {
       buttons.push(
         <CarouselButton
@@ -97,10 +97,10 @@ const Contributors = () => {
           index={i}
           onClickSetIndex={onClickSetIndex}
         />
-      );
+      )
     }
-    return buttons;
-  };
+    return buttons
+  }
 
   return (
     <div className="contributors">
@@ -118,7 +118,7 @@ const Contributors = () => {
         <div className="carousel-nav">{buttons()}</div>
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default Contributors;
+export default Contributors

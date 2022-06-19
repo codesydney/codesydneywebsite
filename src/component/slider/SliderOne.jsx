@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import ServiceOne from "../../elements/service/ServiceOne";
+import React, { Component } from "react"
+import ServiceOne from "../../elements/service/ServiceOne"
 
 class SliderOne extends Component {
   render() {
@@ -40,7 +40,7 @@ class SliderOne extends Component {
         </div>
         {/* End Single Slide */}
       </div>
-    );
+    )
   }
 }
-export default SliderOne;
+export default SliderOne

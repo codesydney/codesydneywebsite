@@ -1,7 +1,7 @@
-import React from "react";
+import React from "react"
 
 const SubPageTitle = ({ title }) => {
-  return <h2 className="subpage-title">{ title }</h2>;
-};
+  return <h2 className="subpage-title">{title}</h2>
+}
 
-export default SubPageTitle;
+export default SubPageTitle

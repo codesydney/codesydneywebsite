@@ -1,6 +1,6 @@
-import React from "react";
-import SubPageTitle from "./common/SubPageTitle";
-import ImageGallery from "react-image-gallery";
+import React from "react"
+import SubPageTitle from "./common/SubPageTitle"
+import ImageGallery from "react-image-gallery"
 
 const Gallery = () => {
   const gallery = [
@@ -54,7 +54,7 @@ const Gallery = () => {
       thumbnail: "/assets/images/gallery/xmas2018.jpg",
       description: "End of year mentors lunch 2018",
     },
-  ];
+  ]
   return (
     <div className="gallery-page">
       <SubPageTitle title="Gallery" />
@@ -65,7 +65,7 @@ const Gallery = () => {
         slideInterval={5000}
       />
     </div>
-  );
-};
+  )
+}
 
-export default Gallery;
+export default Gallery
