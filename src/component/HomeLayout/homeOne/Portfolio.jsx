@@ -1,46 +1,10 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
-import { portfolioSlick2 } from "../../../page-demo/script";
-import { Link } from "react-router-dom";
-
-const PortfolioList = [
-  {
-    image: "image-1",
-    category: "Development",
-    title: " Getting tickets to the big show",
-  },
-  {
-    image: "image-2",
-    category: "Development",
-    title: " Getting tickets to the big show",
-  },
-  {
-    image: "image-3",
-    category: "Development",
-    title: " Getting tickets to the big show",
-  },
-  {
-    image: "image-4",
-    category: "Development",
-    title: " Getting tickets to the big show",
-  },
-  {
-    image: "image-3",
-    category: "Development",
-    title: " Getting tickets to the big show",
-  },
-  {
-    image: "image-4",
-    category: "Development",
-    title: " Getting tickets to the big show",
-  },
-];
+import React, { Component } from "react"
 
 class Portfolio extends Component {
   render() {
     let title = "Projects",
       description =
-        "Code.Sydney is a volunteering organisation that supports beginner developers transition to gain paid employment while helping non-profit and charity organisations with their app needs. Below are some of our projects.";
+        "Code.Sydney is a volunteering organisation that supports beginner developers transition to gain paid employment while helping non-profit and charity organisations with their app needs. Below are some of our projects."
     return (
       <React.Fragment>
         <div className="portfolio-wrapper">
@@ -80,7 +44,11 @@ class Portfolio extends Component {
                     alt="Portfolio Images"
                   />
                   <p style={{ color: "#F0F0F0" }}>
-                    <a href="https://www.paact.org.au/" target="_blank">
+                    <a
+                      href="https://www.paact.org.au/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Link to project
                     </a>
                   </p>
@@ -113,7 +81,11 @@ class Portfolio extends Component {
                     alt="Portfolio Images"
                   />
                   <p style={{ color: "#F0F0F0" }}>
-                    <a href="https://app.paact.org.au/" target="_blank">
+                    <a
+                      href="https://app.paact.org.au/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Link to project
                     </a>
                   </p>
@@ -151,7 +123,11 @@ class Portfolio extends Component {
                     alt="Portfolio Images"
                   />
                   <p style={{ color: "#F0F0F0" }}>
-                    <a href="https://www.migram.com.au/" target="_blank">
+                    <a
+                      href="https://www.migram.com.au/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Link to project
                     </a>
                   </p>
@@ -192,6 +168,7 @@ class Portfolio extends Component {
                     <a
                       href="https://www.eisteddfodparramatta.org.au/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Link to project
                     </a>
@@ -227,6 +204,7 @@ class Portfolio extends Component {
                     <a
                       href="https://talkingtimepodcast.com.au/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Link to project
                     </a>
@@ -263,6 +241,7 @@ class Portfolio extends Component {
                     <a
                       href="https://www.propertyextractor.com.au/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Link to project
                     </a>
@@ -299,7 +278,11 @@ class Portfolio extends Component {
                     alt="Portfolio Images"
                   />
                   <p style={{ color: "#F0F0F0" }}>
-                    <a href="https://woc-au.herokuapp.com/" target="_blank">
+                    <a
+                      href="https://woc-au.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Link to project
                     </a>
                   </p>
@@ -332,7 +315,11 @@ class Portfolio extends Component {
                     alt="Portfolio Images"
                   />
                   <p style={{ color: "#F0F0F0" }}>
-                    <a href="https://www.lukascarey.com.au/" target="_blank">
+                    <a
+                      href="https://www.lukascarey.com.au/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Link to project
                     </a>
                   </p>
@@ -365,7 +352,11 @@ class Portfolio extends Component {
                     alt="Portfolio Images"
                   />
                   <p style={{ color: "#F0F0F0" }}>
-                    <a href="https://www.taskstech.com/" target="_blank">
+                    <a
+                      href="https://www.taskstech.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Link to project
                     </a>
                   </p>
@@ -405,7 +396,7 @@ class Portfolio extends Component {
           </div>
         </div>
       </React.Fragment>
-    );
+    )
   }
 }
-export default Portfolio;
+export default Portfolio

@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import SubPageTitle from "./common/SubPageTitle";
-import { FaRegTimesCircle, FaRegCreditCard } from "react-icons/fa";
+import React, { useState } from "react"
+import SubPageTitle from "./common/SubPageTitle"
+import { FaRegTimesCircle, FaRegCreditCard } from "react-icons/fa"
 
 const PurchaseBtn = ({ link }) => {
   return (
@@ -12,32 +12,31 @@ const PurchaseBtn = ({ link }) => {
     >
       <FaRegCreditCard />
     </a>
-  );
-};
+  )
+}
 
 const Merch = ({ merch }) => {
-
-  const [modalInfo, setModalInfo] = useState({});
+  const [modalInfo, setModalInfo] = useState({})
 
   const showModal = (e, value) => {
     if (!e.target.classList.contains("icon-pay")) {
       document
         .getElementById("merch-modal")
-        .classList.replace("merch-modal-hide", "merch-modal-show");
-      setModalInfo(value);
-      console.log("get modal info");
+        .classList.replace("merch-modal-hide", "merch-modal-show")
+      setModalInfo(value)
+      console.log("get modal info")
     }
-  };
+  }
 
   const hideModal = (e) => {
     if (e.target.classList.contains("hide-modal")) {
       document
         .getElementById("merch-modal")
-        .classList.replace("merch-modal-show", "merch-modal-hide");
-      setModalInfo({});
-      console.log("hide modal");
+        .classList.replace("merch-modal-show", "merch-modal-hide")
+      setModalInfo({})
+      console.log("hide modal")
     }
-  };
+  }
 
   return (
     <div className="merch-page">
@@ -52,27 +51,28 @@ const Merch = ({ merch }) => {
           </ul>
         </div>
         <div className="merch-section">
-          {merch && merch.map((item, i) => {
-            return (
-              <div
-                key={i}
-                className="merch-card"
-                onClick={(e) => showModal(e, item)}
-              >
-                <img
-                  src={`/assets/images/merch/${item.img}`}
-                  alt={item.title}
-                />
-                <div className="container merch-card-right">
-                  <div className="merch-card-title">
-                    <h5>{item.title}</h5>
-                    <PurchaseBtn link={item.link} />
+          {merch &&
+            merch.map((item, i) => {
+              return (
+                <div
+                  key={i}
+                  className="merch-card"
+                  onClick={(e) => showModal(e, item)}
+                >
+                  <img
+                    src={`/assets/images/merch/${item.img}`}
+                    alt={item.title}
+                  />
+                  <div className="container merch-card-right">
+                    <div className="merch-card-title">
+                      <h5>{item.title}</h5>
+                      <PurchaseBtn link={item.link} />
+                    </div>
+                    <p className="merch-card-description">{item.description}</p>
                   </div>
-                  <p className="merch-card-description">{item.description}</p>
                 </div>
-              </div>
-            );
-          })}
+              )
+            })}
         </div>
       </div>
       <div
@@ -89,7 +89,7 @@ const Merch = ({ merch }) => {
             <a href={modalInfo.link} target="_blank" rel="noopener noreferrer">
               <div>Shop with:</div>
               <img
-                src={`/assets/images/merch/sprd-logo_horizontal.svg`}
+                src={"/assets/images/merch/sprd-logo_horizontal.svg"}
                 alt={modalInfo.title}
               />
             </a>
@@ -100,7 +100,7 @@ const Merch = ({ merch }) => {
             {modalInfo.specific && (
               <ul>
                 {modalInfo.specific.map((item, i) => {
-                  return <li key={i}>{item}</li>;
+                  return <li key={i}>{item}</li>
                 })}
               </ul>
             )}
@@ -112,7 +112,7 @@ const Merch = ({ merch }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Merch;
+export default Merch

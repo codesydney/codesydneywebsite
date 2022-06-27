@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 import {
   FaTwitter,
   FaInstagram,
@@ -8,8 +8,7 @@ import {
   FaYoutube,
   FaGithub,
   FaSlack,
-  FaFreeCodeCamp,
-} from "react-icons/fa";
+} from "react-icons/fa"
 
 const SocialShare = [
   {
@@ -35,7 +34,7 @@ const SocialShare = [
   {
     /* {Social: <FaFreeCodeCamp /> , link: 'http://www.freecodecampsydney.org/'}, */
   },
-];
+]
 
 class Footer extends Component {
   render() {
@@ -51,11 +50,10 @@ class Footer extends Component {
                     <h2>
                       Pay As <br /> You Feel
                     </h2>
-                    
-                                        <a className="rn-button-style--2" href="/contact-us">
-                                            <span>Contact Us</span>
-                                        </a>
-                                       
+
+                    <a className="rn-button-style--2" href="/contact-us">
+                      <span>Contact Us</span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -71,6 +69,7 @@ class Footer extends Component {
                             <a
                               href="https://codesydney.pythonanywhere.com/"
                               target="_blank"
+                              rel="noreferrer"
                             >
                               Legacy Website
                             </a>
@@ -129,7 +128,7 @@ class Footer extends Component {
           </div>
         </footer>
       </React.Fragment>
-    );
+    )
   }
 }
-export default Footer;
+export default Footer

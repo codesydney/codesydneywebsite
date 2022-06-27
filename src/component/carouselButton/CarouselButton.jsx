@@ -1,10 +1,10 @@
-import React from "react";
+import React from "react"
 
 const CarouselButton = ({ index, onClickSetIndex }) => {
   let onClickHandler = (event) => {
-    const { value } = event.target;
-    onClickSetIndex(parseInt(value));
-  };
+    const { value } = event.target
+    onClickSetIndex(parseInt(value))
+  }
   return (
     <>
       <label className="custom-radio-button" id="carousel-button">
@@ -18,7 +18,7 @@ const CarouselButton = ({ index, onClickSetIndex }) => {
         />
       </label>
     </>
-  );
-};
+  )
+}
 
-export default CarouselButton;
+export default CarouselButton

@@ -1,14 +1,13 @@
-import React, { Component } from "react";
-import PageHelmet from "../component/common/Helmet";
-import { FiHeadphones, FiMail, FiMapPin } from "react-icons/fi";
-import GoogleMapReact from "google-map-react";
-import ContactTwo from "./contact/ContactTwo";
+import React, { Component } from "react"
+import PageHelmet from "../component/common/Helmet"
+import { FiMail, FiMapPin, FiChevronUp } from "react-icons/fi"
+import GoogleMapReact from "google-map-react"
+import ContactTwo from "./contact/ContactTwo"
 // import BrandTwo from "./BrandTwo";
-import ScrollToTop from "react-scroll-up";
-import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
+import ScrollToTop from "react-scroll-up"
+import Header from "../component/header/Header"
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const AnyReactComponent = ({ text }) => <div>{text}</div>
 
 class Contact extends Component {
   static defaultProps = {
@@ -17,7 +16,7 @@ class Contact extends Component {
       lng: 150.644,
     },
     zoom: 8,
-  };
+  }
 
   render() {
     return (
@@ -146,7 +145,7 @@ class Contact extends Component {
         </div>
         {/* End Back To Top */}
       </React.Fragment>
-    );
+    )
   }
 }
-export default Contact;
+export default Contact

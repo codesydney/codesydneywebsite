@@ -1,8 +1,6 @@
-import React, { Component } from "react";
-import Header from "../component/header/HeaderFour";
-import ScrollToTop from "react-scroll-up";
-import { FiChevronUp } from "react-icons/fi";
-import Footer from "../component/footer/FooterTwo";
+import React, { Component } from "react"
+import ScrollToTop from "react-scroll-up"
+import { FiChevronUp } from "react-icons/fi"
 
 class error404 extends Component {
   render() {
@@ -45,7 +43,7 @@ class error404 extends Component {
 
         {/* <Footer /> */}
       </>
-    );
+    )
   }
 }
-export default error404;
+export default error404

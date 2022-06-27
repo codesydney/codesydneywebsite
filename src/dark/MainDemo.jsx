@@ -1,23 +1,14 @@
-import React, { Component } from "react";
-import ScrollToTop from "react-scroll-up";
-import { FiChevronUp } from "react-icons/fi";
-import HeaderFour from "../component/header/HeaderFour";
-import Footer from "../component/footer/Footer";
-
-import SliderOne from "../component/slider/SliderOne";
-import ServiceTwo from "../elements/service/ServiceTwo";
-import CounterOne from "../elements/counters/CounterOne";
-import Testimonial from "../elements/Testimonial";
-import About from "../component/HomeLayout/homeOne/About";
-import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
-import PortfolioDetails from "../elements/PortfolioDetails";
-import BlogContent from "../elements/blog/BlogContent";
-import BrandTwo from "../elements/BrandTwo";
-import Helmet from "../component/common/Helmet";
+import React, { Component } from "react"
+import ScrollToTop from "react-scroll-up"
+import { FiChevronUp } from "react-icons/fi"
+import ServiceTwo from "../elements/service/ServiceTwo"
+import CounterOne from "../elements/counters/CounterOne"
+import Portfolio from "../component/HomeLayout/homeOne/Portfolio"
+import BlogContent from "../elements/blog/BlogContent"
 
 class MainDemo extends Component {
   render() {
-    const PostList = BlogContent.slice(0, 3);
+    const PostList = BlogContent.slice(0, 3)
     return (
       <>
         {/* <Helmet pageTitle="Code.Sydney" /> */}
@@ -74,7 +65,7 @@ class MainDemo extends Component {
 
         {/* <Footer /> */}
       </>
-    );
+    )
   }
 }
-export default MainDemo;
+export default MainDemo
