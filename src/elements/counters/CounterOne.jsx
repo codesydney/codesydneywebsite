@@ -14,7 +14,7 @@ class CounterOne extends Component {
   render() {
     let Data = [
       {
-        countNum: 2800,
+        countNum: 3000,
         countTitle: "Meetup Members",
       },
       {
@@ -22,7 +22,7 @@ class CounterOne extends Component {
         countTitle: "Social Media Followers",
       },
       {
-        countNum: 500,
+        countNum: 600,
         countTitle: "Slack Members",
       },
     ]
