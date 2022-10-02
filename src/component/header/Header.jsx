@@ -83,6 +83,7 @@ class Header extends Component {
                     <span>Contributors</span>
                   </Link>
                 </li>
+                {/*
                 <li id="legacy-website-link">
                   <a
                     className="rn-btn"
@@ -93,6 +94,7 @@ class Header extends Component {
                     <span>Legacy Website</span>
                   </a>
                 </li>
+                */}
               </ul>
             </nav>
             {/* Start Hamburger Menu  */}
