@@ -101,13 +101,22 @@ const Volunteers = () => {
       avatar: "Mentor_Bao.png",
     },
     {
+      name: "David Taing",
+      title: "Mentor",
+      description:
+        "Due to the recent COVID lockdown kicking off an unhealthy obsession with all things software, David made the decision to change careers from Property Management in Real Estate. Jokingly, he'll say the reason is that you can't Google everything in Real Estate.         Not afraid to wear different hats and take on new challenges, you can find him working in the frontend, backend and occasionally in UI Design: primarily bringing a skillset focusing on full stack TypeScript with Next.js, Mongo, Express, React and Node. Looking to add tRPC, Tailwind CSS, Prisma and SQL. David aims to become a versatile and pragmatic engineer. He is currently working on repport.com.au, a Routine Inspections App for Self-Managed Landlords after identifying a pain point from his previous career. And he recently has stepped up as the temporary Frontend Lead for Migram.com.au, an Airtasker-like marketplace for migrants of refugee background in the Illawarra area to post or find work. When he isn't programming 24/7, you can find him playing competitive shooters, drinking craft beers, and thinking about mechanical keyboards.",
+      linkdinLink:
+        "https://au.linkedin.com/in/teeang",
+      avatar: "Mentor_David.png",
+    },    
+    {
       name: "Gabriel Djan",
       title: "Mentor",
       description:
         "Gabriel started her design career in a fire safety company as Information Designer, in charge of emergency evacuation diagram design and production for clients like Only About Children, AMF Bowling Group, MECCA to name a few. She then left the Information Designer role for UX UI designer role to work for a company specialising in applications software design, programming, system configuration, engineering, installation, commissioning of Building Automation, Management Systems & Access Control Systems. She designed user interfaces, user experience, and data analytics for real live data IoT and SaaS applications for clients like Citigroup, Bennelong, Crown Group, WeWork, Sans Clinic, and Dematic. Her unique combination of experiences complementing the UX UI Designer role includes a Computer Science (Bachelor Degree - Distinction) degree, digital design, and digital photography. She is a Tridium Niagara 4 Technical Certification Program (TCP) trained. In her free time, she likes exploring investment vehicles/products.",
       linkdinLink: "https://www.linkedin.com/in/gabrieltwd/",
       avatar: "Mentor_Gabriel.png",
-    },
+    },    
     {
       name: "Jacin Yan",
       title: "Mentor",
@@ -116,23 +125,6 @@ const Volunteers = () => {
       linkdinLink:
         "https://www.linkedin.com/in/jacin-ji-yan/?originalSubdomain=au",
       avatar: "Mentor_Jacin.png",
-    },
-    {
-      name: "Bin Liu",
-      title: "Mentor",
-      description:
-        "Bin has ten years working experience as a Software Developer and Business Intelligence consultant. His development career started with Java. Recently he is using some script languages like Python, Perl and JavaScript and actively participating as the lead developer of Census+ project. Bin has good sense in coding and is good at learning new technologies. He is interested in Python because it can be applied to many technological areas, such as web application development, data science and so on. He would like to make progress with others who are also interested in Python-related technologies.",
-      linkdinLink: "https://www.linkedin.com/in/bin-liu-308b841a/",
-      avatar: "Mentor_Bin.png",
-    },
-    {
-      name: "June Kongyang",
-      title: "Mentor",
-      description:
-        "June Kongyang is currently a design and development engineer. She has broad experience in design, development and testing of network security systems. June started coding using C and C++ for robotic control automation such as sensors and micro-controllers. June graduated with a masters degree in Electrical Engineering. She joined Code.Sydney due to her interest in both Python and JavaScript programming languages. She found both languages pretty handy on increasing work productivity. She is keen to share her knowledge to anyone who wants to learn coding.",
-      linkdinLink:
-        "https://www.linkedin.com/in/june-kongyang/?originalSubdomain=au",
-      avatar: "Mentor_June.png",
     },
     {
       name: "Henry He",
