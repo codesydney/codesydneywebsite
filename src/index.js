@@ -16,6 +16,7 @@ import error404 from "./elements/error404"
 import Volunteers from "./elements/Volunteers"
 import Gallery from "./elements/Gallery"
 import Merch from "./elements/Merch"
+import Newsletter from "./elements/Newsletter"
 import Contributors from "./elements/Contributors/Contributors"
 // Blocks Layout
 
@@ -65,6 +66,10 @@ const Root = () => {
               path={`${process.env.PUBLIC_URL}/merch`}
               render={() => <Merch merch={data.merch} />}
             />
+            <Route
+              path={`${process.env.PUBLIC_URL}/newsletter`}
+              component={Newsletter}
+            />            
             <Route
               path={`${process.env.PUBLIC_URL}/contributors`}
               component={Contributors}
