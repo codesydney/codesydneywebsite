@@ -10,6 +10,7 @@ const Newsletter = () => {
         <SubPageTitle title="The Hexagon" />
 
           <br/>
+          <a style={{ color: 'white' }} href="./assets/pdf/The_Hexagon_September_2022.pdf" target="_blank">&emsp;The Hexagon September 2022</a><br/>
           <a style={{ color: 'white' }} href="./assets/pdf/The_Hexagon_August_2022.pdf" target="_blank">&emsp;The Hexagon August 2022</a><br/>
           <a style={{ color: 'white' }} href="./assets/pdf/The_Hexagon_July_2022.pdf" target="_blank">&emsp;The Hexagon July 2022</a><br/>
           <a style={{ color: 'white' }} href="./assets/pdf/The_Hexagon_June_2022.pdf" target="_blank">&emsp;The Hexagon June 2022</a><br/>                                        
