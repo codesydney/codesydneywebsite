@@ -83,12 +83,12 @@ class Header extends Component {
                     <span>Newsletter</span>
                   </Link>
                 </li>                
+                {/*
                 <li>
                   <Link to="/contributors">
                     <span>Contributors</span>
                   </Link>
                 </li>
-                {/*
                 <li id="legacy-website-link">
                   <a
                     className="rn-btn"
