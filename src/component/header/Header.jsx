@@ -64,6 +64,11 @@ class Header extends Component {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/marketplace">
+                    <span>Marketplace</span>
+                  </Link>
+                </li>
+                <li>
                   <Link to="/volunteers">
                     <span>Volunteers</span>
                   </Link>
