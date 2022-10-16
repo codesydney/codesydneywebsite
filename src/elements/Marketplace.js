@@ -7,12 +7,12 @@ const Volunteers = () => {
   // dummy data
   const data = [
     {
-      name: "TasksTech",
-      technology: "React | Flask | MySQL",
-      developer: "Leong Tang | Kevin Foong | Stephen Corral",
-      category: "Productivity",
+      name: "App Name: TasksTech",
+      technology: "Technology: React | Flask | MySQL",
+      developer: "Developers: Leong Tang | Kevin Foong | Stephen Corral",
+      category: "Category: Productivity",
       description:
-        "TasksTech is a niche alternative app developed to help tradies manage their customer work diaries.",
+        "TasksTech is a niche alternative app developed to help tradies manage their customer job diaries.",
       linkdinLink: "https://www.taskstech.com/",
       avatar: "app_taskstech.png",
     }
