@@ -8,8 +8,9 @@ const Volunteers = () => {
   const data = [
     {
       name: "TasksTech",
-      developer: "Leong Tang | Kevin Foong | Stephen Corral",
       technology: "React | Flask | MySQL",
+      developer: "Leong Tang | Kevin Foong | Stephen Corral",
+      category: "Productivity",
       description:
         "TasksTech is a niche alternative app developed to help tradies manage their customer work diaries.",
       linkdinLink: "https://www.taskstech.com/",
@@ -44,7 +45,7 @@ const Volunteers = () => {
   return (
     <>
       <div className="volunteers-page">
-        <SubPageTitle title="Bespoke Apps" />
+        <SubPageTitle title="Homegrown Apps" />
 
         <div className="filter input-group my-group">
           <input
@@ -61,8 +62,9 @@ const Volunteers = () => {
             onChange={(e) => setFilterType(e.target.value)}
           >
             <option defaultValue="name">Name</option>
-            <option value="developer">Developer</option>
             <option value="technology">Technology</option>
+            <option value="developer">Developer</option>
+            <option value="category">Category</option>
             <option value="description">Description</option>
           </select>
         </div>
@@ -79,8 +81,9 @@ const Volunteers = () => {
                   />
                   <div className="volunteer-title-name-lg">
                     <span>{volunteer.name}</span>
-                    <span>{volunteer.developer}</span>
                     <span>{volunteer.technology}</span>
+                    <span>{volunteer.developer}</span>
+                    <span>{volunteer.category}</span>
                   </div>
                   <div className="volunteer-description-lg section-title">
                     {volunteer.description}
@@ -110,8 +113,9 @@ const Volunteers = () => {
                   />
                   <div className="volunteer-title-name-sm">
                     <span>{volunteer.name}</span>
-                    <span>{volunteer.developer}</span>
                     <span>{volunteer.technology}</span>
+                    <span>{volunteer.developer}</span>
+                    <span>{volunteer.category}</span>                    
                   </div>
                   <a href={volunteer.linkdinLink}>
                     <FaMobileAlt />
