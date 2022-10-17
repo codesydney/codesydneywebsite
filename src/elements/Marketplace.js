@@ -7,9 +7,9 @@ const Volunteers = () => {
   // dummy data
   const data = [
     {
-      name: "App Name: TasksTech",
-      technology: "Technology: React | Flask | MySQL",
-      developer: "Developers: Leong Tang | Kevin Foong | Stephen Corral",
+      name: "TasksTech",
+      technology: "React | Flask | MySQL",
+      developer: "Leong Tang, Kevin Foong, Stephen Corral",
       category: "Category: Productivity",
       description:
         "TasksTech is a niche alternative app developed to help tradies manage their customer job diaries.",
@@ -45,14 +45,14 @@ const Volunteers = () => {
   return (
     <>
       <div className="volunteers-page">
-        <SubPageTitle title="Homegrown Apps" />
+        <SubPageTitle title="Marketplace" />
 
         <div className="filter input-group my-group">
           <input
             type="text"
             className="filter-input"
             name="snpid"
-            placeholder="Find apps..."
+            placeholder="Search for solutions..."
             onChange={(e) => handleFilter(e.target.value)}
             ref={filterRef}
           />
