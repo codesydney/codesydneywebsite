@@ -7,7 +7,7 @@ const Volunteers = () => {
   // dummy data
   const data = [
     {
-      name: "Engramar Bollas",
+      name: "Engramar Bollas JP",
       title: "Director",
       description:      
         "Engramar's raison d'etre is to serve. A believer of servant leadership. He is passionate in providing service excellence to customers and ensuring people, culture, processes and technology support the same initiative. Engramar has worked in the IT industry for over 25 years. Having worked in Asia, the Middle East and Australia, Engramar has deep expertise in all aspects of software development lifecycle including business requirements analysis, systems design and development, product testing, release management, end-user training, pre-sales and post-implementation support. Engramar is working for GBG as a Senior Professional Services Consultant. Outside of work, Engramar is the current Director of Code.Sydney, a volunteering organisation that supports beginner developers transition to gain paid employment while helping non-profit and charity organisations with their app needs. He is also an incumbent Justice of the Peace in the State of New South Wales. Engramar has obtained a degree in Mathematics major in Computer Science from the Pontifical and Royal University of Santo Tomas in Manila.",
