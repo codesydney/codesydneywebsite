@@ -70,7 +70,7 @@ class Header extends Component {
                 </li>
                 <li>
                   <Link to="/volunteers">
-                    <span>Volunteers</span>
+                    <span>Ask a mentor</span>
                   </Link>
                 </li>
                 <li>
