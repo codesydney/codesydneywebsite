@@ -34,7 +34,7 @@ class Portfolio extends Component {
                     partners and the general public.
                   </p>
                   <p>
-                    Project Team: Engramar Bollas, Brooke Semmler, Jacin Yan
+                    Project Team: Engramar Bollas JP, Brooke Semmler, Jacin Yan
                   </p>
                   <br />
                 </div>
@@ -70,7 +70,7 @@ class Portfolio extends Component {
                     PAACT.
                   </p>
                   <p>
-                    Project Team: Jacin Yan, Engramar Bollas, Luci Temple,
+                    Project Team: Jacin Yan, Engramar Bollas JP, Luci Temple,
                     Godsgift Akari, Jay Kim
                   </p>
                   <br />
@@ -113,7 +113,7 @@ class Portfolio extends Component {
                   </p>
                   <p>
                     Project Team: Praveen Sequeira, Sam Sinadinovic, Lillian
-                    Luzinsky, Hadi Khalili, Paolo Garde, Hussam Hattar
+                    Luzinsky, David Taing, Engramar Bollas JP, Hadi Khalili, Paolo Garde, Hussam Hattar, 
                   </p>
                   <br />
                 </div>
@@ -155,7 +155,7 @@ class Portfolio extends Component {
                   </p>
                   <p>
                     Project Team: Stephen Corral, Hadi Khalili, Ella Ferreira,
-                    Kevin Pan
+                    Kevin Pan, Engramar Bollas JP
                   </p>
                   <br />
                 </div>
@@ -192,7 +192,7 @@ class Portfolio extends Component {
                     interest in it, come together in a safe and supportive
                     place.
                   </p>
-                  <p>Project Team: Engramar Bollas</p>
+                  <p>Project Team: Engramar Bollas JP</p>
                   <br />
                 </div>
                 <div className="col-lg-12">
@@ -268,7 +268,7 @@ class Portfolio extends Component {
                     others.
                   </p>
                   <p>
-                    Project Team: Bao Hoang, Ksenija Lunic, Pablo Gayoso, Max Du
+                    Project Team: Bao Hoang, Ksenija Lunic, Pablo Gayoso, Max Du, Engramar Bollas JP
                   </p>
                   <br />
                 </div>
@@ -340,8 +340,8 @@ class Portfolio extends Component {
                     a niche group of electricians.
                   </p>
                   <p>
-                    Project Team: Kevin Foong, Fumihito Takanami, Stephen
-                    Corral, Godsgift Akari, Max Du, Chintan Patel, Gabriel Djan,
+                    Project Team: Kevin Foong, Stephen Corral, 
+                    Fumihito Takanami, Godsgift Akari, Max Du, Chintan Patel, Gabriel Djan,
                     Promie Yutasane, Prashanga Dhakal
                   </p>
                   <br />
@@ -382,7 +382,7 @@ class Portfolio extends Component {
                     system/s. Code.Sydney developed the very first website of
                     Deadly Connections.
                   </p>
-                  <p>Project Team: Engramar Bollas</p>
+                  <p>Project Team: Engramar Bollas JP</p>
                   <br />
                 </div>
                 <div className="col-lg-12">
