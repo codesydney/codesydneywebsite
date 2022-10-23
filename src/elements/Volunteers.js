@@ -9,9 +9,10 @@ const Volunteers = () => {
     {
       name: "Engramar Bollas",
       title: "Director",
-      description:
+      description:      
         "Engramar's raison d'etre is to serve. A believer of servant leadership. He is passionate in providing service excellence to customers and ensuring people, culture, processes and technology support the same initiative. Engramar has worked in the IT industry for over 25 years. Having worked in Asia, the Middle East and Australia, Engramar has deep expertise in all aspects of software development lifecycle including business requirements analysis, systems design and development, product testing, release management, end-user training, pre-sales and post-implementation support. Engramar is working for GBG as a Senior Professional Services Consultant. Outside of work, Engramar is the current Director of Code.Sydney, a volunteering organisation that supports beginner developers transition to gain paid employment while helping non-profit and charity organisations with their app needs. He is also an incumbent Justice of the Peace in the State of New South Wales. Engramar has obtained a degree in Mathematics major in Computer Science from the Pontifical and Royal University of Santo Tomas in Manila.",
       linkdinLink: "https://www.linkedin.com/in/engramarbollas/",
+      booksession: "https://koalendar.com/e/ask-engramar",
       avatar: "Mentor_Engramar.png",
     },
     {
@@ -230,6 +231,13 @@ const Volunteers = () => {
                   >
                     <FaLinkedin />
                   </a>
+                  <a
+                    href={volunteer.booksession}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Book a session                    
+                  </a>                                    
                 </div>
               )
             })}
@@ -252,6 +260,11 @@ const Volunteers = () => {
                   <a href={volunteer.linkdinLink}>
                     <FaLinkedin />
                   </a>
+                  <a
+                    href={volunteer.booksession}
+                  >
+                    Book a session                    
+                  </a>                                    
                 </div>
                 <div className="volunteer-description-sm section-title">
                   <p>{volunteer.description}</p>
