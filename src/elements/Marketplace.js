@@ -18,7 +18,7 @@ const Volunteers = () => {
     },
     {
       name: "Flask CMS",
-      technology: "Python | Flask | MySQL",
+      technology: "Flask | MySQL | VueJS | Bulma CSS",
       developer: "Kevin Foong",
       category: "Category: Template",
       description:
