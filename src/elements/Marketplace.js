@@ -20,9 +20,9 @@ const Volunteers = () => {
       name: "Flask CMS",
       technology: "Python | Flask | MySQL",
       developer: "Kevin Foong",
-      category: "Category: Productivity",
+      category: "Category: Template",
       description:
-        "Flask CMS is a content management system similar to WordPress, which allows you to manage web page content including blogs. It is simple to use yet rich with add-on features such as emailing facility. It can be customised by a web developer to fit any web site.",
+        "Flask CMS is a content management system similar to WordPress, which allows you to manage web page content including blogs. It is simple to use yet rich with add-on features such as emailing facility. It can be customised by any web developer to fit any web site.",
       linkdinLink: "https://www.kevin7.net/projects",
       avatar: "app_flaskcms.png",
     },
