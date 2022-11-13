@@ -49,7 +49,7 @@ class Portfolio extends Component {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Link to project
+                      Link to project sponsor
                     </a>
                   </p>
                 </div>
@@ -82,11 +82,11 @@ class Portfolio extends Component {
                   />
                   <p style={{ color: "#F0F0F0" }}>
                     <a
-                      href="https://app.paact.org.au/"
+                      href="https://www.paact.org.au/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Link to project
+                      Link to project sponsor
                     </a>
                   </p>
                 </div>
@@ -124,11 +124,11 @@ class Portfolio extends Component {
                   />
                   <p style={{ color: "#F0F0F0" }}>
                     <a
-                      href="https://www.migram.com.au/"
+                      href="https://www.ims.org.au/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Link to project
+                      Link to project sponsor
                     </a>
                   </p>
                 </div>
@@ -170,7 +170,7 @@ class Portfolio extends Component {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Link to project
+                      Link to project sponsor
                     </a>
                   </p>
                 </div>
@@ -206,7 +206,38 @@ class Portfolio extends Component {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Link to project
+                      Link to project sponsor
+                    </a>
+                  </p>
+                </div>
+                <br />
+                <br />
+                <br />
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section-title">
+                  <h4>Talking Time With Lukas and Alicia Podcast Website</h4>
+                  <p>
+                    Lloyd Consulting is the brainchild of Dean M Lloyd. Dean is a person with lived experience in the criminal justice system who acts as a conduit between the world of business and the criminal justice system. In essence, a change agent who teaches companies and organisations how to unlock the value of employing people with a criminal record. Providing the language and vernacular to sustain change.
+                  </p>
+                  <p>Project Team: Livia Resende, Kathryn Kelly, Naheen Habib, Paul Kang, David Teang and Engramar Bollas JP</p>
+                  <br />
+                </div>
+                <div className="col-lg-12">
+                  <img
+                    src="/assets/images/portfolio/lloydco.png"
+                    alt="Portfolio Images"
+                  />
+                  <p style={{ color: "#F0F0F0" }}>
+                    <a
+                      href="https://lloydconsulting.co/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Link to project sponsor
                     </a>
                   </p>
                 </div>
@@ -243,7 +274,7 @@ class Portfolio extends Component {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Link to project
+                      Link to project sponsor
                     </a>
                   </p>
                 </div>
@@ -279,11 +310,11 @@ class Portfolio extends Component {
                   />
                   <p style={{ color: "#F0F0F0" }}>
                     <a
-                      href="https://woc-au.herokuapp.com/"
+                      href="https://womenofcolour.org.au/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Link to project
+                      Link to project sponsor
                     </a>
                   </p>
                 </div>
@@ -320,7 +351,7 @@ class Portfolio extends Component {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Link to project
+                      Link to project sponsor
                     </a>
                   </p>
                 </div>
@@ -340,7 +371,7 @@ class Portfolio extends Component {
                     a niche group of electricians.
                   </p>
                   <p>
-                    Project Team: Kevin Foong, Stephen Corral, 
+                    Project Team: Kevin Foong, Stephen Corral, Engramar Bollas JP, 
                     Fumihito Takanami, Godsgift Akari, Max Du, Chintan Patel, Gabriel Djan,
                     Promie Yutasane, Prashanga Dhakal
                   </p>
@@ -348,7 +379,7 @@ class Portfolio extends Component {
                 </div>
                 <div className="col-lg-12">
                   <img
-                    src="/assets/images/portfolio/taskstech.png"
+                    src="/assets/images/portfolio/ttech.png"
                     alt="Portfolio Images"
                   />
                   <p style={{ color: "#F0F0F0" }}>
@@ -357,7 +388,7 @@ class Portfolio extends Component {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Link to project
+                      Link to project sponsor
                     </a>
                   </p>
                 </div>
@@ -390,7 +421,17 @@ class Portfolio extends Component {
                     src="/assets/images/portfolio/dc.png"
                     alt="Portfolio Images"
                   />
+                  <p style={{ color: "#F0F0F0" }}>
+                    <a
+                      href="https://deadlyconnections.org.au/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Link to project sponsor
+                    </a>
+                  </p>
                 </div>
+
               </div>
             </div>
           </div>
