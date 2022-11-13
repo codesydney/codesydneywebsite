@@ -219,7 +219,7 @@ class Portfolio extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title">
-                  <h4>Talking Time With Lukas and Alicia Podcast Website</h4>
+                  <h4>Lloyd Consulting Co</h4>
                   <p>
                     Lloyd Consulting is the brainchild of Dean M Lloyd. Dean is a person with lived experience in the criminal justice system who acts as a conduit between the world of business and the criminal justice system. In essence, a change agent who teaches companies and organisations how to unlock the value of employing people with a criminal record. Providing the language and vernacular to sustain change.
                   </p>
