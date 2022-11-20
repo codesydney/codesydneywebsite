@@ -8,16 +8,17 @@ import {
   FaYoutube,
   FaGithub,
   FaSlack,
+  FaDiscord,
 } from "react-icons/fa"
 
 const SocialShare = [
   {
-    Social: <FaMeetup />,
-    link: "https://www.meetup.com/Sydney-Volunteer-Programmers/",
+    Social: <FaDiscord />,
+    link: "https://discord.gg/yHNKkvMN5e",
   },
   {
-    Social: <FaSlack />,
-    link: "https://join.slack.com/t/codesydney/shared_invite/enQtMzA4ODcyOTUyMDY0LTFlZDAyZjgwZmIzY2VmMzA0MjllOWI3YmE1NGZiNzQ5NGNmNjlhMGE5MTE1ZDA2NTU2OGRkZWQyYTQ3NDZmZGM",
+    Social: <FaMeetup />,
+    link: "https://www.meetup.com/Sydney-Volunteer-Programmers/",
   },
   {
     Social: <FaLinkedinIn />,
