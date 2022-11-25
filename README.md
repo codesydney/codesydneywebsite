@@ -16,7 +16,7 @@ This is built on [React.js](https://reactjs.org/) and is deployed on Vercel
 4. You can see how these issues are progressing on our [Kanban board](https://github.com/codesydney/codesydneywebsite/projects/1).
 5. Visit our [Code.Sydney Playbook](https://code-sydney-playbook.vercel.app/docs/pull-request) here for a full guide
 
-### Setting up your machine for local development
+## Setting up your machine for local development
 
 ### Forking and Creating Your Branch
 
@@ -30,11 +30,14 @@ This is built on [React.js](https://reactjs.org/) and is deployed on Vercel
 
 1. If you are not using Node.js v14 install NVM by following (https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
 2. Make sure you are in codesydneywebsite project directory on your cmd terminal then type in folowing command:-
-3. `nvm install 14` > `nvm use 14` > `npm i`
+3. Install the Node v14 using NVM with `nvm install 14`.
+4. Change to Node v14 using NVM with `nvm use 14`.
+5. Install the project dependencies with `npm i`.
 
 ### Running the Project
 
-1. Enter following command `npm start`
-2. Access the site using your browser of choice via http://localhost:3000/
+1. Change to Node v14 using NVM with `nvm use 14`.
+2. Run the Project with `npm start`.
+3. Access the site using your browser of choice via http://localhost:3000/
 
 Happy coding!
