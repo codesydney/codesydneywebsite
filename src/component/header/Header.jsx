@@ -3,10 +3,6 @@ import { Link } from "react-router-dom"
 import { FiX, FiMenu } from "react-icons/fi"
 
 const Header = (props) => {
-  window.addEventListener("load", () => {
-    console.log("All assets are loaded")
-  })
-
   const menuTrigger = () => {
     document.querySelector(".header-wrapper").classList.toggle("menu-open")
   }
