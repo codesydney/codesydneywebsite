@@ -11,11 +11,12 @@ const Header = (props) => {
     document.querySelector(".header-wrapper").classList.toggle("menu-open")
   }
 
-  const CLoseMenuTrigger = () => {
+  const closeMenuTrigger = () => {
     document.querySelector(".header-wrapper").classList.remove("menu-open")
   }
 
   var elements = document.querySelectorAll(".has-droupdown > a")
+
   for (var i in elements) {
     if (Object.prototype.hasOwnProperty.call(elements, i)) {
       elements[i].onclick = () => {
@@ -24,8 +25,11 @@ const Header = (props) => {
       }
     }
   }
+
   const { logo, color = "default-color" } = props
+
   let logoUrl
+
   if (logo === "light") {
     logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />
   } else if (logo === "dark") {
@@ -106,7 +110,7 @@ const Header = (props) => {
           </div>
           {/* End Hamburger Menu  */}
           <div className="close-menu d-block d-lg-none">
-            <span onClick={CLoseMenuTrigger} className="closeTrigger">
+            <span onClick={closeMenuTrigger} className="closeTrigger">
               <FiX />
             </span>
           </div>
