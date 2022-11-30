@@ -5,30 +5,19 @@ const ServiceList = [
   {
     icon: <FaTrophy />,
     title: "1st Place Winner, Hack4FI (Financial Inclusion)",
-    description: "",
   },
   {
     icon: <FaMedal />,
     title: "3rd Place Winner, Hack4Homelessness",
-    description: "",
   },
 ]
 
 export default function ServiceTwo() {
-  let title = "Awards",
-    description = ""
-
   return (
     <div className="row">
       <div className="col-lg-4 col-12">
         <div className="section-title mt--30 mt_md--5 mt_mobile--5 mb_mobile--10">
-          <h2 className="title">{title}</h2>
-          <p>{description}</p>
-          <div className="service-btn">
-            <a className="btn-transparent rn-btn-dark" href="/service">
-              <span className="text"></span>
-            </a>
-          </div>
+          <h2 className="title">Awards</h2>
         </div>
       </div>
 
@@ -41,7 +30,6 @@ export default function ServiceTwo() {
                   <div className="icon">{val.icon}</div>
                   <div className="content">
                     <h3 className="title">{val.title}</h3>
-                    <p>{val.description}</p>
                   </div>
                 </div>
               </a>
