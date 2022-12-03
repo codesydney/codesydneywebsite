@@ -27,7 +27,7 @@ const Portfolio = () => {
                 <div className="section-title">
                   <h4>{project.title}</h4>
                   <p>{project.description}</p>
-                  <p>Project Team: {project.team}</p>
+                  <p>Project Team: {project.team.join(", ")}</p>
                   <br />
                 </div>
                 <div className="col-lg-12">
