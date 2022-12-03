@@ -52,43 +52,6 @@ const Portfolio = () => {
             </div>
           )
         })}
-
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="section-title">
-              <h4>Prisoners Aid (ACT) Website Revamp</h4>
-              <p>
-                Prisoners Aid has been operating as a community organisation in
-                Canberra since 1963. Over the years they have assisted thousands
-                of clients - including prisoners, released prisoners, families
-                of prisoners, and those involved in the court system. The
-                project is to modernise and make Prisoners Aid ACT's website
-                more engaging for potential clients, partners and the general
-                public.
-              </p>
-              <p>Project Team: Engramar Bollas JP, Brooke Semmler, Jacin Yan</p>
-              <br />
-            </div>
-            <div className="col-lg-12">
-              <img
-                src="/assets/images/portfolio/paact.png"
-                alt="Portfolio Images"
-              />
-              <p style={{ color: "#F0F0F0" }}>
-                <a
-                  href="https://www.paact.org.au/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Link to project sponsor
-                </a>
-              </p>
-            </div>
-            <br />
-            <br />
-            <br />
-          </div>
-        </div>
       </div>
     </div>
   )
