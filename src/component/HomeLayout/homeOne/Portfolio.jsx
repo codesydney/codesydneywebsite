@@ -1,5 +1,5 @@
 import React from "react"
-import projectData from "./ProjectData.jsx"
+import projectData from "./ProjectData"
 
 const Portfolio = () => {
   let title = "Projects",
