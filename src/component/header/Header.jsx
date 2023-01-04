@@ -61,7 +61,7 @@ const Header = (props) => {
               </li>
               <li>
                 <Link to="/volunteers">
-                  <span>Ask a mentor</span>
+                  <span>Volunteers</span>
                 </Link>
               </li>
               <li>
@@ -74,12 +74,12 @@ const Header = (props) => {
                   <span>Merch</span>
                 </Link>
               </li>
+              {/*
               <li>
                 <Link to="/newsletter">
                   <span>Newsletter</span>
                 </Link>
               </li>
-              {/*
                 <li>
                   <Link to="/contributors">
                     <span>Contributors</span>

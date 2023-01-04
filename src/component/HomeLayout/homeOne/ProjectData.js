@@ -107,25 +107,6 @@ const projectData = [
     sponsorWebsite: "https://www.lukascarey.com.au/",
   },
   {
-    title: "TasksTech App",
-    description:
-      "An app which helps electricians manage their customers, inventories and work diaries. TasksTech is a bespoke app for a niche group of electricians.",
-    team: [
-      "Kevin Foong",
-      "Stephen Corral",
-      "Engramar Bollas JP",
-      "Fumihito Takanami",
-      "Godsgift Akari",
-      "Max Du",
-      "Chintan Patel",
-      "Gabriel Djan",
-      "Promie Yutasane",
-      "Prashanga Dhakal",
-    ],
-    image: "ttech",
-    sponsorWebsite: "https://www.taskstech.com/",
-  },
-  {
     title:
       "Deadly Connections Community and Justice Services Limited Legacy Website",
     description:
