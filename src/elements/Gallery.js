@@ -66,15 +66,17 @@ const Gallery = () => {
     },
   ]
   return (
-    <div className="gallery-page">
-      <SubPageTitle title="Gallery" />
-      <ImageGallery
-        items={gallery}
-        thumbnailPosition="right"
-        autoPlay="true"
-        slideInterval={5000}
-      />
-    </div>
+    <>
+      <div className="gallery-page">
+        <SubPageTitle title="Gallery" />
+        <ImageGallery
+          items={gallery}
+          thumbnailPosition="right"
+          autoPlay="true"
+          slideInterval={5000}
+        />
+      </div>
+    </>
   )
 }
 

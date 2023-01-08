@@ -1,6 +1,7 @@
 import React from "react"
 import ScrollToTop from "react-scroll-up"
 import { FiChevronUp } from "react-icons/fi"
+import SliderOne from "../component/slider/SliderOne"
 import ServiceTwo from "../elements/service/ServiceTwo"
 import CounterOne from "../elements/counters/CounterOne"
 import Portfolio from "../component/HomeLayout/homeOne/Portfolio"
@@ -11,18 +12,18 @@ const MainDemo = () => {
 
   return (
     <>
-      {/* <Helmet pageTitle="Code.Sydney" /> */}
-      {/* <HeaderFour
-          headerPosition="header--transparent"
-          color="color-white"
-          logo="logo-light"
-        /> */}
+       {/* <Helmet pageTitle="Code.Sydney" />
+         <HeaderFour
+            headerPosition="header--transparent"
+            color="color-white"
+            logo="logo-light"
+          />  */}
 
-      {/* Start Slider Area   */}
-      {/* <div className="slider-wrapper">
-          <SliderOne />
-        </div> */}
-      {/* End Slider Area   */}
+        
+      <div className="slider-wrapper">
+            <SliderOne />
+      </div> 
+        {/* End Slider Area  
 
       {/* Start CounterUp Area */}
       <div className="rn-counterup-area pt--25 pb--110 bg_color--1">
