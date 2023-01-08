@@ -25,7 +25,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom"
 import * as serviceWorker from "./serviceWorker"
 import Header from "./component/header/Header"
 import Footer from "./component/footer/Footer"
-import SliderOne from "./component/slider/SliderOne"
+
 import { Helmet } from "react-helmet"
 import axios from "axios"
 
