@@ -1,7 +1,6 @@
 import React from "react"
 import SubPageTitle from "./common/SubPageTitle"
 import ImageGallery from "react-image-gallery"
-import SliderOne from "../component/slider/SliderOne"
 
 const Gallery = () => {
   const gallery = [
