@@ -45,9 +45,6 @@ const Root = () => {
           colorblack="color--black"
           logoname="logo.png"
         />
-        {/* <div className="slider-wrapper ">
-          <SliderOne />
-        </div> */}
         <PageScrollTop>
           <Switch>
             <Route
