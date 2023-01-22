@@ -9,7 +9,7 @@ const Volunteers = () => {
     {
       name: "Engramar Bollas JP",
       title: "Director",
-      description:      
+      description:
         "Engramar's raison d'etre is to serve. A believer of servant leadership. He is passionate in providing service excellence to customers and ensuring people, culture, processes and technology support the same initiative. Engramar has worked in the IT industry for over 25 years. Having worked in Asia, the Middle East and Australia, Engramar has deep expertise in all aspects of software development lifecycle including business requirements analysis, systems design and development, product testing, release management, end-user training, pre-sales and post-implementation support. Engramar is working for GBG as a Senior Professional Services Consultant. Outside of work, Engramar is the current Director of Code.Sydney, a volunteering organisation that supports beginner developers transition to gain paid employment while helping non-profit and charity organisations with their app needs. He is also an incumbent Justice of the Peace in the State of New South Wales. Engramar has obtained a degree in Mathematics major in Computer Science from the Pontifical and Royal University of Santo Tomas in Manila.",
       linkdinLink: "https://www.linkedin.com/in/engramarbollas/",
       booksession: "https://koalendar.com/e/ask-engramar",
@@ -52,7 +52,7 @@ const Volunteers = () => {
       name: "Qj Stout-Spykers",
       title: "Mentor",
       description:
-        "Qj is a computer science graduate and achieved high distinctions in microprocessor systems, systems and database design, discrete mathematics and programming principles. His primary software development experience is in embedded systems, deep-learning and back-end engineering. Currently, he is constraining his focus to mastering full-stack web development, after which, he has his eye on studying project management. As a Code.Sydney volunteer, Qj has acted as a technical team lead and principal back-end engineer on the CodeSydney website rework and internal 'Strataly’ project respectively. Qj can usually be found deep in some obscure documentation or sharing his knowledge on the Code.Sydney Slack. In his past life, Qj was a professional musician and guitar tutor.",
+        "Qj is a computer science graduate and achieved high distinctions in microprocessor systems, systems and database design, discrete mathematics and programming principles. His primary software development experience is in embedded systems, deep-learning and back-end engineering. Currently, he is constraining his focus to mastering full-stack web development, after which, he has his eye on studying project management. As a Code.Sydney volunteer, Qj has acted as a technical team lead and principal back-end engineer on the CodeSydney website rework and internal 'Strataly’ project respectively. Qj can usually be found deep in some obscure documentation or sharing his knowledge on the Code.Sydney Discord server. In his past life, Qj was a professional musician and guitar tutor.",
       linkdinLink:
         "https://www.linkedin.com/in/qj-stout-spykers-704b221a1/?originalSubdomain=au",
       avatar: "Mentor_Qj.png",
@@ -106,10 +106,9 @@ const Volunteers = () => {
       title: "Mentor",
       description:
         "Due to the recent COVID lockdown kicking off an unhealthy obsession with all things software, David made the decision to change careers from Property Management in Real Estate. Jokingly, he'll say the reason is that you can't Google everything in Real Estate.         Not afraid to wear different hats and take on new challenges, you can find him working in the frontend, backend and occasionally in UI Design: primarily bringing a skillset focusing on full stack TypeScript with Next.js, Mongo, Express, React and Node. Looking to add tRPC, Tailwind CSS, Prisma and SQL. David aims to become a versatile and pragmatic engineer. He is currently working on repport.com.au, a Routine Inspections App for Self-Managed Landlords after identifying a pain point from his previous career. And he recently has stepped up as the temporary Frontend Lead for Migram.com.au, an Airtasker-like marketplace for migrants of refugee background in the Illawarra area to post or find work. When he isn't programming 24/7, you can find him playing competitive shooters, drinking craft beers, and thinking about mechanical keyboards.",
-      linkdinLink:
-        "https://au.linkedin.com/in/teeang",
+      linkdinLink: "https://au.linkedin.com/in/teeang",
       avatar: "Mentor_David.png",
-    },    
+    },
     {
       name: "Gabriel Djan",
       title: "Mentor",
@@ -117,7 +116,7 @@ const Volunteers = () => {
         "Gabriel started her design career in a fire safety company as Information Designer, in charge of emergency evacuation diagram design and production for clients like Only About Children, AMF Bowling Group, MECCA to name a few. She then left the Information Designer role for UX UI designer role to work for a company specialising in applications software design, programming, system configuration, engineering, installation, commissioning of Building Automation, Management Systems & Access Control Systems. She designed user interfaces, user experience, and data analytics for real live data IoT and SaaS applications for clients like Citigroup, Bennelong, Crown Group, WeWork, Sans Clinic, and Dematic. Her unique combination of experiences complementing the UX UI Designer role includes a Computer Science (Bachelor Degree - Distinction) degree, digital design, and digital photography. She is a Tridium Niagara 4 Technical Certification Program (TCP) trained. In her free time, she likes exploring investment vehicles/products.",
       linkdinLink: "https://www.linkedin.com/in/gabrieltwd/",
       avatar: "Mentor_Gabriel.png",
-    },    
+    },
     {
       name: "Jacin Yan",
       title: "Mentor",
@@ -129,13 +128,12 @@ const Volunteers = () => {
     },
     {
       name: "Sadruddin (Sunny) Junejo",
-      title: "Adviser",
+      title: "Mentor",
       description:
-        "Sunny is currently a software engineer at Pragmateam, a consultancy based in Sydney. He has over seven years of professional experience in a variety of industries, including finance, oil & gas, pharmaceuticals and media. In the past, Sunny has functioned as a QA tester, mobile engineer, frontend engineer, backend engineer, cloud architect and even a Scrum Master, making him very much a jack-of-all-trades. After moving to Sydney from the UK in January 2022, Sunny realised the value of career advice from more experienced developers. As a result, he sought out Code.Sydney as a means to to give back to the community, especially to help budding software engineers land their first role. To that end, Sunny is always available for questions and advice, both technical and non-technical, on the Code.Sydney Slack and in the regular Sunday meetups.",
-      linkdinLink:
-        "https://www.linkedin.com/in/sadruddinjunejo/",
+        "Sunny is currently a software engineer at Pragmateam, a consultancy based in Sydney. He has over seven years of professional experience in a variety of industries, including finance, oil & gas, pharmaceuticals and media. In the past, Sunny has functioned as a QA tester, mobile engineer, frontend engineer, backend engineer, cloud architect and even a Scrum Master, making him very much a jack-of-all-trades. After moving to Sydney from the UK in January 2022, Sunny realised the value of career advice from more experienced developers. As a result, he sought out Code.Sydney as a means to to give back to the community, especially to help budding software engineers land their first role. To that end, Sunny is always available for questions and advice, both technical and non-technical, on the Code.Sydney Discord and in the regular Sunday meetups.",
+      linkdinLink: "https://www.linkedin.com/in/sadruddinjunejo/",
       avatar: "Adviser_Sunny.png",
-    },    
+    },
     {
       name: "Henry He",
       title: "Web Developer",
@@ -192,7 +190,7 @@ const Volunteers = () => {
   return (
     <>
       <div className="volunteers-page">
-        <SubPageTitle title="Ask a mentor" />
+        <SubPageTitle title="Volunteers" />
 
         <div className="filter input-group my-group">
           <input
@@ -240,13 +238,6 @@ const Volunteers = () => {
                   >
                     <FaLinkedin />
                   </a>
-                  <a
-                    href={volunteer.booksession}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Book a session                    
-                  </a>                                    
                 </div>
               )
             })}
@@ -269,11 +260,7 @@ const Volunteers = () => {
                   <a href={volunteer.linkdinLink}>
                     <FaLinkedin />
                   </a>
-                  <a
-                    href={volunteer.booksession}
-                  >
-                    Book a session                    
-                  </a>                                    
+                  <a href={volunteer.booksession}>Book a session</a>
                 </div>
                 <div className="volunteer-description-sm section-title">
                   <p>{volunteer.description}</p>

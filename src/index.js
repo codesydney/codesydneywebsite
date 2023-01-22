@@ -71,7 +71,7 @@ const Root = () => {
             <Route
               path={`${process.env.PUBLIC_URL}/newsletter`}
               component={Newsletter}
-            />            
+            />
             <Route
               path={`${process.env.PUBLIC_URL}/contributors`}
               component={Contributors}

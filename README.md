@@ -10,11 +10,10 @@ This is built on [React.js](https://reactjs.org/) and is deployed on Vercel
 
 ### How do I contribute?
 
-1. Join the [#project_codesydneywebsite Slack channel](https://codesydney.slack.com/archives/C030XRCQ5A5) and start contributing
-2. Join the [#project_codesydneywebsite Discord channel](https://discordapp.com/channels/1041795715757789204/1043385733085413396)
-3. We have open issues that can be worked on in the [Issues tab](https://github.com/codesydney/codesydneywebsite/issues).
-4. You can see how these issues are progressing on our [Kanban board](https://github.com/codesydney/codesydneywebsite/projects/1).
-5. Visit our [Code.Sydney Playbook](https://code-sydney-playbook.vercel.app/docs/pull-request) here for a full guide
+1. Join the [#project_codesydneywebsite Discord channel](https://discordapp.com/channels/1041795715757789204/1043385733085413396)
+2. We have open issues that can be worked on in the [Issues tab](https://github.com/codesydney/codesydneywebsite/issues).
+3. You can see how these issues are progressing on our [Kanban board](https://github.com/codesydney/codesydneywebsite/projects/1).
+4. Visit our [Code.Sydney Playbook](https://code-sydney-playbook.vercel.app/docs/pull-request) here for a full guide
 
 ## Setting up your machine for local development
 

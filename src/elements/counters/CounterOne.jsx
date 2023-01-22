@@ -22,8 +22,20 @@ class CounterOne extends Component {
         countTitle: "Social Media Followers",
       },
       {
-        countNum: 600,
-        countTitle: "Slack Members",
+        countNum: 200,
+        countTitle: "Meetups",
+      },
+      {
+        countNum: 70,
+        countTitle: "Discord Members",
+      },
+      {
+        countNum: 20,
+        countTitle: "Projects",
+      },
+      {
+        countNum: 15,
+        countTitle: "Courses",
       },
     ]
 

@@ -11,6 +11,11 @@ const Gallery = () => {
         "With Matthew Kean, Minister for Innovation and Better Regulation during the presentation of our 1st place award at Vibewire's Hack4FI (Financial Inclusion).",
     },
     {
+      original: "/assets/images/gallery/xmas2022.jpg",
+      thumbnail: "/assets/images/gallery/xmas2022.jpg",
+      description: "End of year mentors lunch 2022",
+    },
+    {
       original: "/assets/images/gallery/xmas2021.jpg",
       thumbnail: "/assets/images/gallery/xmas2021.jpg",
       description: "End of year mentors lunch 2021",
@@ -48,7 +53,7 @@ const Gallery = () => {
       original: "/assets/images/gallery/xmas2018.jpg",
       thumbnail: "/assets/images/gallery/xmas2018.jpg",
       description: "End of year mentors lunch 2018",
-    },    
+    },
     {
       original: "/assets/images/gallery/actura.jpg",
       thumbnail: "/assets/images/gallery/actura.jpg",
