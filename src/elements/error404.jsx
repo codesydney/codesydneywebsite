@@ -2,8 +2,7 @@ import React, { Component } from "react"
 import ScrollToTop from "react-scroll-up"
 import { FiChevronUp } from "react-icons/fi"
 
-
-function error404(){
+function error404() {
   return (
     <>
       {/* Start Page Error  */}
