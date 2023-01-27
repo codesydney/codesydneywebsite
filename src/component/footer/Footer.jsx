@@ -61,16 +61,13 @@ const Footer = () => {
                 {/* Start Single Widget  */}
                 <div className="col-lg-6 col-sm-6 col-12">
                   <div className="footer-link">
-                    <h4>Quick Links</h4>
                     <ul className="ft-link">
                       <li>
                         <a
                           href="https://codesydney.pythonanywhere.com/"
                           target="_blank"
                           rel="noreferrer"
-                        >
-                          Legacy Website
-                        </a>
+                        ></a>
                       </li>
                     </ul>
                   </div>
