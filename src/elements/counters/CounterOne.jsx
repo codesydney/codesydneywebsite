@@ -26,7 +26,7 @@ class CounterOne extends Component {
         countTitle: "Meetups",
       },
       {
-        countNum: 70,
+        countNum: 100,
         countTitle: "Discord Members",
       },
       {
