@@ -135,6 +135,14 @@ const Volunteers = () => {
       avatar: "Adviser_Sunny.png",
     },
     {
+      name: "Kurt Yang",
+      title: "Mentor",
+      description:
+        "Kurt has over 8 years of diverse product management experience in Australia. From start-ups, scale-ups to enterprises, from fintech, payment, e-commerce, edtech, proptech to product consulting, Kurt has worked across these types of organisations and industries. Kurt hopes to help our engineers to be more customer centric and product-minded by sharing his insights and experience on how product managers work and think, and more importantly how engineers can work well with product managers.",
+      linkdinLink: "https://www.linkedin.com/in/kurt-yang123/",
+      avatar: "Mentor_Kurt.png",
+    },
+    {
       name: "Henry He",
       title: "Web Developer",
       description:

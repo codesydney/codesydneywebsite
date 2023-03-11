@@ -45,9 +45,10 @@ const Merch = ({ merch }) => {
         <div className="merch-distribution">
           <h4>All proceeds will go to the following:</h4>
           <ul>
-            <li>92.5% Community Fund</li>
+            <li>90% Designer</li>
             <li>5% Local Charity Fund</li>
-            <li>2.5% Operating Expenses</li>
+            <li>2.5% Code.Sydney Community Fund</li>
+            <li>2.5% Code.Sydney Operating Expenses</li>
           </ul>
         </div>
         <div className="merch-section">
