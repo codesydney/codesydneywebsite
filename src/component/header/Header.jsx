@@ -74,6 +74,11 @@ const Header = (props) => {
                   <span>Merch</span>
                 </Link>
               </li>
+              <li>
+                <Link to="/testimonials">
+                  <span>Testimonials</span>
+                </Link>
+              </li>
               {/*
               <li>
                 <Link to="/newsletter">

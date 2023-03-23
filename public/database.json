@@ -93,5 +93,43 @@
             "img": "codesydney-cap.jpg",
             "link": "https://www.spreadshirt.com.au/shop/design/codesydney+baseball+cap-D5efdbfcc2051764d0ed6ec13?sellable=jwon4NnxjgunyLrAE24r-129-34"
         }
+    ],
+    "testimonials":[
+        {
+          "name": "Aklima",
+          "title": "COO, AMERIMAR ENTERPRISES, INC",
+          "testimonial": "Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections onorum et Malorum original.",
+          "avatar": "app_taskstech.png"
+        },
+        {
+          "name": "Fatima Asrafy",
+          "title": "COO, AMERIMAR ENTERPRISES",
+          "testimonial": "Fatima Asrafy standard chunk of Lorem Ipsum used since the  1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "avatar": "app_taskstech.png"
+        },
+        {
+          "name": "Jannat Tumpa",
+          "title": "COO, AMERIMAR ENTERPRISES",
+          "testimonial": "Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "avatar": "app_taskstech.png"
+        }, 
+        {
+          "name": "Amar Orthi",
+          "title": "COO, AMERIMAR ENTERPRISES",
+          "testimonial": "Amar Orthi The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "avatar": "app_taskstech.png"
+        }, 
+        {
+          "name": "Johns Due",
+          "title": "COO, AMERIMAR ENTERPRISES, INC",
+          "testimonial": "Johns Due The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "avatar": "app_taskstech.png"
+        },
+        {
+          "name": "Fatima Ma",
+          "title": "COO, AMERIMAR ENTERPRISES, INC",
+          "testimonial": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "avatar": "app_taskstech.png"
+        }
     ]
 }
