@@ -13,6 +13,7 @@ const Volunteers = ()  => {
 
   useEffect(() => {
     // get api data here later
+    axios.get("./database.json").then((res) => setVolunteers(res.data.volunteers))
     axios.get("./database.json").then((res) => setSortedVolunteers(res.data.volunteers))
 
     // filter input focus after page initial render
@@ -20,7 +21,7 @@ const Volunteers = ()  => {
   }, [])
 
   const handleFilter = (text) => {
-    let newSortedValunteers = sortedVolunteers.filter((volunteer) => {
+    let newSortedValunteers = volunteers.filter((volunteer) => {
       return volunteer[`${filterType}`]
         .toLowerCase()
         .includes(text.toLowerCase())
