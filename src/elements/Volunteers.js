@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useRef } from "react"
 import { FaLinkedin } from "react-icons/fa"
 import SubPageTitle from "./common/SubPageTitle"
-import axios from "axios"
+import database from "../../public/database.json";
 
 const Volunteers = ()  => {
   const [volunteers, setVolunteers] = useState([])
@@ -13,8 +13,8 @@ const Volunteers = ()  => {
 
   useEffect(() => {
     // get api data here later
-    axios.get("./database.json").then((res) => setVolunteers(res.data.volunteers))
-    axios.get("./database.json").then((res) => setSortedVolunteers(res.data.volunteers))
+    setVolunteers(database.volunteers)
+    setSortedVolunteers(database.volunteers)
 
     // filter input focus after page initial render
     filterRef.current.focus()
