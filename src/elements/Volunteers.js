@@ -5,23 +5,13 @@ import SubPageTitle from "./common/SubPageTitle"
 import database from "../../public/database.json";
 
 const Volunteers = ()  => {
-  const [volunteers, setVolunteers] = useState([])
-  const [sortedVolunteers, setSortedVolunteers] = useState([])
+  const [sortedVolunteers, setSortedVolunteers] = useState(database.volunteers)
   const [filterType, setFilterType] = useState("name")
 
   const filterRef = useRef(null)
 
-  useEffect(() => {
-    // get api data here later
-    setVolunteers(database.volunteers)
-    setSortedVolunteers(database.volunteers)
-
-    // filter input focus after page initial render
-    filterRef.current.focus()
-  }, [])
-
   const handleFilter = (text) => {
-    let newSortedValunteers = volunteers.filter((volunteer) => {
+    let newSortedValunteers = sortedVolunteers.filter((volunteer) => {
       return volunteer[`${filterType}`]
         .toLowerCase()
         .includes(text.toLowerCase())
