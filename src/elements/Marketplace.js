@@ -7,13 +7,13 @@ const Volunteers = () => {
   // dummy data
   const data = [
     {
-      name: "TasksTech",
+      name: "Worklog",
       technology: "React | Flask | MySQL",
       developer: "Leong Tang, Kevin Foong, Stephen Corral",
       category: "Category: Productivity",
       description:
-        "TasksTech is a niche alternative app developed to help tradies manage their customer job diaries.",
-      linkdinLink: "https://www.taskstech.com/",
+        "Worklog is a niche alternative app developed to help in managing job diaries.",
+      linkdinLink: "https://www.worklog.com.au/",
       avatar: "app_taskstech.png",
     },
     {
@@ -28,14 +28,15 @@ const Volunteers = () => {
     },
     {
       name: "60s Idea Training",
-      technology: "Next.js (TypeScript) | Firebase | ANT design | Tailwind | Express.js (TypeScript) | MongoDB | RESTAPI | GraphQL API | Jest",
+      technology:
+        "Next.js (TypeScript) | Firebase | ANT design | Tailwind | Express.js (TypeScript) | MongoDB | RESTAPI | GraphQL API | Jest",
       developer: "Hiroki Seino",
       category: "Category: Productivity",
       description:
         "60seconds Idea Training App helps your brainstorming exercise in a limited time. It is a method that enhances the ability to make quick decisions and increases the quality and speed of thinking. Decide on a topic first, which can be your concerns, doubts, what you learned, challenges and so on. Then, try to come up with 4 ~ 5 small ideas as soon as an idea comes to your mind within 60 seconds. These ideas can be reviewed afterwards and brushed up by creating your own note on your dashboard.",
       linkdinLink: "https://60s-idea-training.vercel.app/",
       avatar: "app_60slogo.png",
-    },    
+    },
   ]
 
   const [volunteers, setVolunteers] = useState([])
@@ -135,7 +136,7 @@ const Volunteers = () => {
                     <span>{volunteer.name}</span>
                     <span>{volunteer.technology}</span>
                     <span>{volunteer.developer}</span>
-                    <span>{volunteer.category}</span>                    
+                    <span>{volunteer.category}</span>
                   </div>
                   <a href={volunteer.linkdinLink}>
                     <FaMobileAlt />
