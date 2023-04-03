@@ -1,19 +1,19 @@
-import React, { useState, Fragment } from "react"
+import React, { useState } from "react"
 import CountUp from "react-countup"
 import VisibilitySensor from "react-visibility-sensor"
 import database from "../../../public/database.json";
 
 const CounterOne = () => {
-  const [state, setState] = useState({didViewCountUp: false})
+  const [visited, setVisited] = useState({didViewCountUp: false})
 
   const onVisibilityChange = (isVisible) => {
     if (isVisible) {
-      setState({ didViewCountUp: true })
+      setVisited({ didViewCountUp: true })
     }
   }
 
   return (
-    <Fragment>
+    <>
       <div className="row">
         {database.counterData.map((value, index) => (
           <div
@@ -27,7 +27,7 @@ const CounterOne = () => {
                 delayedCall
               >
                 <CountUp
-                  end={state.didViewCountUp ? value.countNum : 0}
+                  end={visited.didViewCountUp ? value.countNum : 0}
                 />
               </VisibilitySensor>
             </h5>
@@ -35,7 +35,7 @@ const CounterOne = () => {
           </div>
         ))}
       </div>
-    </Fragment>
+    </>
   )
 }
 export default CounterOne
