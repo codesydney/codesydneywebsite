@@ -1,9 +1,8 @@
-import React, { Component } from "react"
+import React from "react"
 import ContactForm from "./ContactForm"
 
-class ContactTwo extends Component {
-  render() {
-    return (
+function ContactTwo() {
+  return (
       <div className="contact-form--1">
         <div className="container">
           <div className="row row--35 align-items-start">
@@ -25,7 +24,6 @@ class ContactTwo extends Component {
           </div>
         </div>
       </div>
-    )
-  }
+  )
 }
 export default ContactTwo
