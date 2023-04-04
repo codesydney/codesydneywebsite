@@ -258,5 +258,31 @@
         "https://www.linkedin.com/in/ella-ferreira-3959aa82/?originalSubdomain=au",
       "avatar": "WD_Ella.png"
     }
-  ]
+  ],
+    "counterData":[
+      {
+        "countNum": 3000,
+        "countTitle": "Meetup Members"
+      },
+      {
+        "countNum": 1000,
+        "countTitle": "Social Media Followers"
+      },
+      {
+        "countNum": 200,
+        "countTitle": "Meetups"
+      },
+      {
+        "countNum": 100,
+        "countTitle": "Discord Members"
+      },
+      {
+        "countNum": 20,
+        "countTitle": "Projects"
+      },
+      {
+        "countNum": 15,
+        "countTitle": "Courses"
+      }
+    ]
 }
