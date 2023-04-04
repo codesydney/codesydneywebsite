@@ -259,7 +259,7 @@
       "avatar": "WD_Ella.png"
     }
     ],
-    "gallery": [
+  "gallery": [
     {
       "original": "/assets/images/gallery/pythonteam.jpg",
       "thumbnail": "/assets/images/gallery/pythonteam.jpg",
@@ -319,6 +319,32 @@
       "original": "/assets/images/gallery/PostCovid2020.jpg",
       "thumbnail": "/assets/images/gallery/PostCovid2020.jpg",
       "description": "Post-COVID Lockdown lunch 2020"
+    }
+  ],
+  "counterData":[
+    {
+      "countNum": 3000,
+      "countTitle": "Meetup Members"
+    },
+    {
+      "countNum": 1000,
+      "countTitle": "Social Media Followers"
+    },
+    {
+      "countNum": 200,
+      "countTitle": "Meetups"
+    },
+    {
+      "countNum": 100,
+      "countTitle": "Discord Members"
+    },
+    {
+      "countNum": 20,
+      "countTitle": "Projects"
+    },
+    {
+      "countNum": 15,
+      "countTitle": "Courses"
     }
   ]
 }
