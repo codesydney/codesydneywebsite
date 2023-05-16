@@ -21,14 +21,6 @@ const Testimonials = ({ testimonials }) => {
                   <div className="volunteer-description-lg section-title">
                     {testimonial.testimonial}
                   </div>
-                  <a
-                    href={testimonial.linkdinLink}
-                    className="social-share social-style--2"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaMobileAlt />
-                  </a>
                 </div>
               )
             })}
