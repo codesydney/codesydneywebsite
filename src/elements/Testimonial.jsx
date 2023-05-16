@@ -14,12 +14,7 @@ const Testimonials = ({ testimonials }) => {
             {testimonials && testimonials.map((testimonial, i) => {
               return (
                 <div className="volunteer-card-lg" key={i}>
-                  <img
-                    src={`/assets/images/apps/${testimonial.avatar}`}
-                    alt={testimonial.name}
-                    className="rounded-circle avatar avatar-lg"
-                  />
-                  <div className="volunteer-title-name-lg">
+                  <div className="volunteer-title-name-lg testimonial-title-name-lg">
                     <span>{testimonial.name}</span>
                     <span>{testimonial.title}</span>
                   </div>
