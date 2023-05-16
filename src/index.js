@@ -19,6 +19,7 @@ import Gallery from "./elements/Gallery"
 import Merch from "./elements/Merch"
 import Newsletter from "./elements/Newsletter"
 import Contributors from "./elements/Contributors/Contributors"
+import Testimonials from "./elements/Testimonial"
 // Blocks Layout
 
 import { BrowserRouter, Switch, Route } from "react-router-dom"
@@ -67,6 +68,10 @@ const Root = () => {
             <Route
               path={`${process.env.PUBLIC_URL}/merch`}
               render={() => <Merch merch={data.merch} />}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/testimonials`}
+              render={() => <Testimonials testimonials={data.testimonials} />}
             />
             <Route
               path={`${process.env.PUBLIC_URL}/newsletter`}

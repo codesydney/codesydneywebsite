@@ -94,6 +94,43 @@
             "link": "https://www.spreadshirt.com.au/shop/design/codesydney+baseball+cap-D5efdbfcc2051764d0ed6ec13?sellable=jwon4NnxjgunyLrAE24r-129-34"
         }
     ],
+    "testimonials":[
+        {
+          "name": "Carly Stanley",
+          "title": "CEO & Founder, Deadly Connections Community and Justice Services Inc (DCCAJS)",
+          "testimonial": "This has been the second time that Deadly Connections have engaged Code.Sydney on an IT project. The first was when I requested them to develop a landing page as an interim while waiting for the full website. Even though Code.Sydney are a volunteer group of developers, their dedication to the satisfactory completion of their projects is undertaken with the utmost professionalism. Code.Sydney kept me updated every step of the way ensuring that every detail is followed and well-executed. Another key differentiator is their level of support after going live, they are always ready to answer our call when help is needed and a regular monthly report of website activities is being generated which can help us determine future improvements."
+        },
+        {
+          "name": "Sue Diserens ",
+          "title": "Hon. Secretary and Convenor 2022, City of Parramatta Eisteddfod Society Inc.",
+          "testimonial": "The ethos and ethics of Code Sydney impressed the members of the Society. Code.Sydney was engaged by the Eisteddfod Society to design, produce and launch a brand new website that provided links to an established performance booking system.The new Website evolved quickly under the guidance of Team Leader, Legendary Stephen. Frequent and precise communication from Stephen and Engramar demonstrated the commitment from the team. Importantly Team Code Sydney was focused on delivering the messages and image that the Eisteddfod Society aimed to convey. During the weekly online meetings we witnessed the Fab Five collaborating to tweak features of the website.New outstanding website successfully launched and lauded by all! First online entries in the Eisteddfod received on 7 th February, 2022. Goal achieved! Thank you Code Sydney. The City of Parramatta Eisteddfod Society Inc wishes to bestow an Award of Excellence on Team Code.Sydney."
+        },
+        {
+          "name": "Ling-Pei Lin",
+          "title": "Volunteer worker for two Sydney-based NFPs",
+          "testimonial": "Thank you, Code.Sydney for recommending Kevin Foong to work on the PropertyExtractor project. It has been a pleasure working with himthroughout the journey. He is very responsive and always helpful from prototyping until final delivery. I learnt that he is one of the best mentors in Code.Sydney. Above all, I am most grateful for Kevin’s initiative and guidance to successfully develop a working prototype that my stakeholders are happy to use hence allowing my project to proceed to the next stage. May Code.Sydney and Kevin keep up the good work!"
+        }, 
+        {
+          "name": "Tim",
+          "title": "CS-5 Cohort (Python Immersive Course)",
+          "testimonial": "Highly Recommended. Take it from me, I have a dozen uncompleted Udemy Python & Flask courses sitting on my laptop. This course takes you from Python basics to a published web app in 5 weeks in a supportive and collaborative small group with two amazing mentors. The two mentors are always on hand to help and offer insights from their own vast industry experience - priceless!"
+        }, 
+        {
+          "name": "Geoff",
+          "title": "CS-5 Cohort (Python Immersive Course)",
+          "testimonial": "I went in this course looking for a solid introduction to Flask. This course delivered that and much, much, more. The mentors were very generous in sharing their experience in the end to end development of a Web app, and I left with a portfolio project hosted in the cloud, and the opportunity to apply these skills to well managed projects. So a big thankyou to Code.Sydney for providing this extremely valuable course!"
+        },
+        {
+          "name": "Scott",
+          "title": "CS-5 Cohort (Python Immersive Course)",
+          "testimonial": "This course was a great introduction to Python and Flask - getting you to a point where you can code a basic web app. It also paves the way for further learning. The face to face meet ups really help and the support provided by the teachers is terrific - they are more willing to help the students when needed."
+        },
+        {
+          "name": "Samundra",
+          "title": "CS-6 Cohort (Python Immersive Course)",
+          "testimonial": "It was a great learning experience. Specially mentors were friendly and responsive. The method of learning was based on practical approach so fun to go through. I would definitely recommend others for this course."
+        }
+    ],
     "volunteers":[
     {
       "name": "Engramar Bollas JP",
