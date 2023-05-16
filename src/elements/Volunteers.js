@@ -2,26 +2,16 @@
 import React, { useEffect, useState, useRef } from "react"
 import { FaLinkedin } from "react-icons/fa"
 import SubPageTitle from "./common/SubPageTitle"
-import axios from "axios"
+import database from "../../public/database.json";
 
 const Volunteers = ()  => {
-  const [volunteers, setVolunteers] = useState([])
-  const [sortedVolunteers, setSortedVolunteers] = useState([])
+  const [sortedVolunteers, setSortedVolunteers] = useState(database.volunteers)
   const [filterType, setFilterType] = useState("name")
 
   const filterRef = useRef(null)
 
-  useEffect(() => {
-    // get api data here later
-    axios.get("./database.json").then((res) => setVolunteers(res.data.volunteers))
-    axios.get("./database.json").then((res) => setSortedVolunteers(res.data.volunteers))
-
-    // filter input focus after page initial render
-    filterRef.current.focus()
-  }, [])
-
   const handleFilter = (text) => {
-    let newSortedValunteers = volunteers.filter((volunteer) => {
+    let newSortedValunteers = sortedVolunteers.filter((volunteer) => {
       return volunteer[`${filterType}`]
         .toLowerCase()
         .includes(text.toLowerCase())

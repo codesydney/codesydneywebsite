@@ -1,69 +1,41 @@
-import React, { Component, Fragment } from "react"
+import React, { useState } from "react"
 import CountUp from "react-countup"
 import VisibilitySensor from "react-visibility-sensor"
+import database from "../../../public/database.json";
 
-class CounterOne extends Component {
-  state = {
-    didViewCountUp: false,
-  }
-  onVisibilityChange = (isVisible) => {
+const CounterOne = () => {
+  const [visited, setVisited] = useState({didViewCountUp: false})
+
+  const onVisibilityChange = (isVisible) => {
     if (isVisible) {
-      this.setState({ didViewCountUp: true })
+      setVisited({ didViewCountUp: true })
     }
   }
-  render() {
-    let Data = [
-      {
-        countNum: 3000,
-        countTitle: "Meetup Members",
-      },
-      {
-        countNum: 1000,
-        countTitle: "Social Media Followers",
-      },
-      {
-        countNum: 200,
-        countTitle: "Meetups",
-      },
-      {
-        countNum: 100,
-        countTitle: "Discord Members",
-      },
-      {
-        countNum: 20,
-        countTitle: "Projects",
-      },
-      {
-        countNum: 15,
-        countTitle: "Courses",
-      },
-    ]
 
-    return (
-      <Fragment>
-        <div className="row">
-          {Data.map((value, index) => (
-            <div
-              className="counterup_style--1 col-lg-4 col-md-4 col-sm-6 col-12"
-              key={index}
-            >
-              <h5 className="counter">
-                <VisibilitySensor
-                  onChange={this.onVisibilityChange}
-                  offset={{ top: 10 }}
-                  delayedCall
-                >
-                  <CountUp
-                    end={this.state.didViewCountUp ? value.countNum : 0}
-                  />
-                </VisibilitySensor>
-              </h5>
-              <p className="description">{value.countTitle}</p>
-            </div>
-          ))}
-        </div>
-      </Fragment>
-    )
-  }
+  return (
+    <>
+      <div className="row">
+        {database.counterData.map((value, index) => (
+          <div
+            className="counterup_style--1 col-lg-4 col-md-4 col-sm-6 col-12"
+            key={index}
+          >
+            <h5 className="counter">
+              <VisibilitySensor
+                onChange={(e) => onVisibilityChange(e)}
+                offset={{ top: 10 }}
+                delayedCall
+              >
+                <CountUp
+                  end={visited.didViewCountUp ? value.countNum : 0}
+                />
+              </VisibilitySensor>
+            </h5>
+            <p className="description">{value.countTitle}</p>
+          </div>
+        ))}
+      </div>
+    </>
+  )
 }
 export default CounterOne
