@@ -2,9 +2,9 @@
 import React, { useEffect, useState, useRef } from "react"
 import { FaLinkedin } from "react-icons/fa"
 import SubPageTitle from "./common/SubPageTitle"
-import database from "../../public/database.json";
+import database from "../../public/database.json"
 
-const Volunteers = ()  => {
+const Volunteers = () => {
   const [sortedVolunteers, setSortedVolunteers] = useState(database.volunteers)
   const [filterType, setFilterType] = useState("name")
 
@@ -92,7 +92,6 @@ const Volunteers = ()  => {
                   <a href={volunteer.linkdinLink}>
                     <FaLinkedin />
                   </a>
-                  <a href={volunteer.booksession}>Book a session</a>
                 </div>
                 <div className="volunteer-description-sm section-title">
                   <p>{volunteer.description}</p>
