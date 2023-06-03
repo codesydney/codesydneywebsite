@@ -14,6 +14,7 @@ import DarkMainDemo from "./dark/MainDemo"
 import Contact from "./elements/Contact"
 import error404 from "./elements/error404"
 import Volunteers from "./elements/Volunteers"
+import Jrdev from "./elements/Jrdev"
 import Marketplace from "./elements/Marketplace"
 import Gallery from "./elements/Gallery"
 import Merch from "./elements/Merch"
@@ -57,6 +58,7 @@ const Root = () => {
               path={`${process.env.PUBLIC_URL}/volunteers`}
               component={Volunteers}
             />
+            <Route path={`${process.env.PUBLIC_URL}/jrdev`} component={Jrdev} />
             <Route
               path={`${process.env.PUBLIC_URL}/marketplace`}
               component={Marketplace}
