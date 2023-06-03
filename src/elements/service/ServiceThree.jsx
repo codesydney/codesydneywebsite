@@ -59,16 +59,13 @@ export default function ServiceTwo() {
             identification information as part of their registration process.
             It's important to review Code.Sydney's{" "}
             <a
-              href="public/assets/pdf/Code.Sydney_Website_Privacy_Policy.pdf"
+              href="assets/pdf/Code.Sydney_Website_Privacy_Policy.pdf"
               target="_blank"
             >
               privacy policy
             </a>{" "}
             and{" "}
-            <a
-              href="public/assets/pdf/Code.Sydney_Client_Terms.pdf"
-              target="_blank"
-            >
+            <a href="assets/pdf/Code.Sydney_Client_Terms.pdf" target="_blank">
               terms of service
             </a>{" "}
             to understand how they handle and protect your personal data.
