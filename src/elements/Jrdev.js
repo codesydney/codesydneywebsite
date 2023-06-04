@@ -1,7 +1,7 @@
 import React from "react"
 import ScrollToTop from "react-scroll-up"
 import { FiChevronUp } from "react-icons/fi"
-import SliderOne from "../component/slider/SliderOne"
+import SliderOne2 from "../component/slider/SliderOne2"
 import ServiceThree from "../elements/service/ServiceThree"
 import CounterTwo from "../elements/counters/CounterTwo"
 import BlogContent from "../elements/blog/BlogContent"
@@ -19,7 +19,7 @@ const JrDev = () => {
           />  */}
 
       <div className="slider-wrapper">
-        <SliderOne />
+        <SliderOne2 />
       </div>
       {/* End Slider Area  
 

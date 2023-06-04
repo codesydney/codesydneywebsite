@@ -13,7 +13,11 @@ export default function ServiceTwo() {
       <div className="col-lg-8 col-12 mt_md--50">
         <div className="row service-one-wrapper">
           <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-            <a href="https://forms.gle/5E1RUhBqhcuYQDrs6" target="_blank">
+            <a
+              href="https://forms.gle/5E1RUhBqhcuYQDrs6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="service service__style--2">
                 <div className="icon">
                   <FaFile />
@@ -26,7 +30,11 @@ export default function ServiceTwo() {
           </div>
 
           <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-            <a href="https://forms.gle/T3SvhCUbJkAoXuhR9" target="_blank">
+            <a
+              href="https://forms.gle/T3SvhCUbJkAoXuhR9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="service service__style--2">
                 <div className="icon">
                   <FaFileContract />

@@ -15,19 +15,19 @@ class CounterOne extends Component {
   render() {
     let Data = [
       {
-        countNum: 100,
+        countNum: 0,
         countTitle: "Jr Dev Resumes",
       },
       {
-        countNum: 100,
+        countNum: 0,
         countTitle: "Open Jr Dev Roles",
       },
       {
-        countNum: 100,
+        countNum: 0,
         countTitle: "Match Runs",
       },
       {
-        countNum: 10,
+        countNum: 0,
         countTitle: "Recommendations",
       },
     ]
