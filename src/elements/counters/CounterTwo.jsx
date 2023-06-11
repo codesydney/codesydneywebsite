@@ -15,7 +15,7 @@ class CounterOne extends Component {
   render() {
     let Data = [
       {
-        countNum: 0,
+        countNum: 3,
         countTitle: "Jr Dev Resumes",
       },
       {

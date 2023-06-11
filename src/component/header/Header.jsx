@@ -55,13 +55,13 @@ const Header = (props) => {
                 </Link>
               </li>
               <li>
-                <Link to="/jrdev">
-                  <span>JrDEV</span>
+                <Link to="/jobready">
+                  <span>Job Ready</span>
                 </Link>
               </li>
               <li>
-                <Link to="/marketplace">
-                  <span>Marketplace</span>
+                <Link to="/jrdev">
+                  <span>JrDEV</span>
                 </Link>
               </li>
               <li>

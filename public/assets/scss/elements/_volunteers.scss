@@ -1,141 +1,141 @@
 .volunteers-page {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 
-    .filter {
-        border: 1px solid $theme-color-3;
-        width: 40%;
-        margin-left: 6em;
-        margin-top: 3em;
-        input {
-            background-color: aliceblue;
-            width: 65%;
-        }
-        select {
-            background-color: aliceblue;
-            width: 35%;
-        }
-        @media #{$sm-layout} {
-            width: 100%;
-            margin-left: 0;
-        }
+  .filter {
+    border: 1px solid $theme-color-3;
+    width: 40%;
+    margin-left: 6em;
+    margin-top: 3em;
+    input {
+      background-color: aliceblue;
+      width: 65%;
     }
-
-    .volunteerpage-layout-lg {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 2em;
-        margin: 6em;
-        @media #{$lg-layout} {
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-        @media #{$md-layout} {
-            grid-template-columns: 1fr 1fr;
-        }
-        .volunteer-card-lg {
-            color: aliceblue;
-            background-color: $theme-color-3;
-            padding: 2em;
-            margin-top: 3em;
-            border-radius: 0.1em;
-            &:hover {
-                background-color: $heading-color;
-                & a {
-                    opacity: 1;
-                }
-            }
-            .avatar-lg {
-                position: relative;
-                top: -6em;
-                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-                width: 50%;
-            }
-            .volunteer-title-name-lg {
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                margin-top: -4em;
-                span:first-child {
-                    font-size: 22px;
-                    letter-spacing: 0.2em;
-                    font-weight: 700;
-                    margin-bottom: 0.5em;
-                }
-                span:nth-child(2) {
-                    font-size: medium;
-                    letter-spacing: 0.15em;
-                    font-weight: 700;
-                    color: rgb(152, 179, 201);
-                }
-            }
-            .testimonial-title-name-lg{
-                margin-top: -0.5em;
-            }
-            .volunteer-description-lg {
-                font-size: 1.15em;
-                margin-top: 2em;
-                // line-height: 2.5em;
-            }
-            a {
-                display: block;
-                opacity: 0;
-                width: 5em;
-                margin: 2em auto;
-                font-size: medium;
-                text-align: center;
-                color: aliceblue;
-                cursor: pointer;
-                &:hover {
-                    opacity: 0.8;
-                }
-            }
-        }
+    select {
+      background-color: aliceblue;
+      width: 35%;
     }
+    @media #{$sm-layout} {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
 
-    .volunteer-card-sm {
+  .volunteerpage-layout-lg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+    margin: 6em;
+    @media #{$lg-layout} {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media #{$md-layout} {
+      grid-template-columns: 1fr 1fr;
+    }
+    .volunteer-card-lg {
+      color: aliceblue;
+      background-color: $theme-color-3;
+      padding: 2em;
+      margin-top: 3em;
+      border-radius: 0.1em;
+      &:hover {
+        background-color: $heading-color;
+        & a {
+          opacity: 1;
+        }
+      }
+      .avatar-lg {
+        position: relative;
+        top: -6em;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 50%;
+      }
+      .volunteer-title-name-lg {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -4em;
+        span:first-child {
+          font-size: 22px;
+          letter-spacing: 0.2em;
+          font-weight: 700;
+          margin-bottom: 0.5em;
+        }
+        span:nth-child(2) {
+          font-size: medium;
+          letter-spacing: 0.15em;
+          font-weight: 700;
+          color: rgb(152, 179, 201);
+        }
+      }
+      .testimonial-title-name-lg {
+        margin-top: -0.5em;
+      }
+      .volunteer-description-lg {
+        font-size: 1.15em;
+        margin-top: 2em;
+        // line-height: 2.5em;
+      }
+      a {
+        display: block;
+        opacity: 0;
+        width: 5em;
+        margin: 2em auto;
+        font-size: medium;
+        text-align: center;
         color: aliceblue;
-        background-color: $theme-color-3;
-        padding: 1em;
-        margin-top: 0.5px;
-        .volunteer-info-sm {
-            font-family: "Montserrat", sans-serif;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 2em;
-            .avatar {
-                width: 7em;
-            }
-            .volunteer-title-name-sm {
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                span:first-child {
-                    font-size: 1.3em;
-                    letter-spacing: 0.1em;
-                    font-weight: 700;
-                    margin-bottom: 0.5em;
-                }
-                span:nth-child(2) {
-                    font-size: 1.1em;
-                }
-            }
-            a {
-                font-size: 1em;
-                color: aliceblue;
-                cursor: pointer;
-            }
-        }
-        .volunteer-description-sm {
-            display: none;
-        }
+        cursor: pointer;
         &:hover {
-            background-color: $heading-color;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            padding: 2em;
-            div:last-child {
-                display: block;
-            }
+          opacity: 0.8;
         }
+      }
     }
+  }
+
+  .volunteer-card-sm {
+    color: aliceblue;
+    background-color: $theme-color-3;
+    padding: 1em;
+    margin-top: 0.5px;
+    .volunteer-info-sm {
+      font-family: "Montserrat", sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2em;
+      .avatar {
+        width: 7em;
+      }
+      .volunteer-title-name-sm {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        span:first-child {
+          font-size: 1.3em;
+          letter-spacing: 0.1em;
+          font-weight: 700;
+          margin-bottom: 0.5em;
+        }
+        span:nth-child(2) {
+          font-size: 1.1em;
+        }
+      }
+      a {
+        font-size: 1em;
+        color: aliceblue;
+        cursor: pointer;
+      }
+    }
+    .volunteer-description-sm {
+      display: none;
+    }
+    &:hover {
+      background-color: $heading-color;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      padding: 2em;
+      div:last-child {
+        display: block;
+      }
+    }
+  }
 }

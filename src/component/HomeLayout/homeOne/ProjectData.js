@@ -22,9 +22,9 @@ const projectData = [
     sponsorWebsite: "https://www.paact.org.au/",
   },
   {
-    title: "Illawarra Multicultural Services Migrant Marketplace App (Migram)",
+    title: "Illawarra Multicultural Services Migrant Jobready App (Migram)",
     description:
-      "Illawara Multicultural Service (IMS) have been supporting culturally and linguistically diverse communities in the Illawarra since 1980, providing assistance to migrants, humanitarian visa entrants, and refugees. Code.Sydney is building a niche marketplace app to help low-skilled migrants get some livelihood through community engagement.",
+      "Illawara Multicultural Service (IMS) have been supporting culturally and linguistically diverse communities in the Illawarra since 1980, providing assistance to migrants, humanitarian visa entrants, and refugees. Code.Sydney is building a niche jobready app to help low-skilled migrants get some livelihood through community engagement.",
     team: [
       "Praveen Sequeira",
       "Sam Sinadinovic",
