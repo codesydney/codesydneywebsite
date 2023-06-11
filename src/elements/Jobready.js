@@ -51,7 +51,7 @@ const Volunteers = () => {
             type="text"
             className="filter-input"
             name="snpid"
-            placeholder="Search for solutions..."
+            placeholder="Search for job ready candidate..."
             onChange={(e) => handleFilter(e.target.value)}
             ref={filterRef}
           />
