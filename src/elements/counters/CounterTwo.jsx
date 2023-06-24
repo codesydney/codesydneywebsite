@@ -28,7 +28,7 @@ class CounterOne extends Component {
       },
       {
         countNum: 0,
-        countTitle: "Recommendations",
+        countTitle: "Job Ready Recommendations",
       },
     ]
 
