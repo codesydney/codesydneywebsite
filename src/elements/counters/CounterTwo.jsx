@@ -19,15 +19,15 @@ class CounterOne extends Component {
         countTitle: "Jr Dev Resumes",
       },
       {
-        countNum: 2,
+        countNum: 5,
         countTitle: "Open Jr Dev Roles",
       },
       {
-        countNum: 5,
+        countNum: 10,
         countTitle: "Match Runs",
       },
       {
-        countNum: 0,
+        countNum: 1,
         countTitle: "Job Ready Recommendations",
       },
     ]
