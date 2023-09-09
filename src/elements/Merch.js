@@ -47,8 +47,7 @@ const Merch = ({ merch }) => {
           <ul>
             <li>90% Designer</li>
             <li>5% Local Charity Fund</li>
-            <li>2.5% Code.Sydney Community Fund</li>
-            <li>2.5% Code.Sydney Operating Expenses</li>
+            <li>5% Code.Sydney Operating Expenses</li>
           </ul>
         </div>
         <div className="merch-section">

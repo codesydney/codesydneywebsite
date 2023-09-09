@@ -15,7 +15,7 @@ import Contact from "./elements/Contact"
 import error404 from "./elements/error404"
 import Volunteers from "./elements/Volunteers"
 import Jobready from "./elements/Jobready"
-import Jrdev from "./elements/Jrdev"
+import CitizenDev from "./elements/CitizenDev"
 import Gallery from "./elements/Gallery"
 import Merch from "./elements/Merch"
 import Newsletter from "./elements/Newsletter"
@@ -62,7 +62,9 @@ const Root = () => {
               path={`${process.env.PUBLIC_URL}/volunteers`}
               component={Volunteers}
             />
-            <Route path={`${process.env.PUBLIC_URL}/jrdev`} component={Jrdev} />
+            <Route path={`${process.env.PUBLIC_URL}/citizendev`} 
+              component={CitizenDev} 
+            />
             <Route
               path={`${process.env.PUBLIC_URL}/gallery`}
               component={Gallery}

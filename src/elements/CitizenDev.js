@@ -4,16 +4,15 @@ import { FaLinkedin, FaMobileAlt } from "react-icons/fa"
 import SubPageTitle from "./common/SubPageTitle"
 
 const Volunteers = () => {
-  // dummy data
   const data = [
     {
-      name: "David Taing",
+      name: "Future Modules",
       technology: "",
       developer: "",
       category: "",
-      description: "TS | React | Node | Express | SQL | MongoDB",
-      linkdinLink: "https://au.linkedin.com/in/teeang",
-      avatar: "jrdev-jobready.png",
+      description: "",
+      linkdinLink: "",
+      avatar: "app_flaskcms.png",
     },
   ]
 
@@ -44,14 +43,14 @@ const Volunteers = () => {
   return (
     <>
       <div className="volunteers-page">
-        <SubPageTitle title="Job Ready" />
+        <SubPageTitle title="CitizenDev" />
 
         <div className="filter input-group my-group">
           <input
             type="text"
             className="filter-input"
             name="snpid"
-            placeholder="Search for job ready candidate..."
+            placeholder="Search for CitizenDev modules..."
             onChange={(e) => handleFilter(e.target.value)}
             ref={filterRef}
           />
@@ -87,14 +86,6 @@ const Volunteers = () => {
                   <div className="volunteer-description-lg section-title">
                     {volunteer.description}
                   </div>
-                  <a
-                    href={volunteer.linkdinLink}
-                    className="social-share social-style--2"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaLinkedin />
-                  </a>
                 </div>
               )
             })}
