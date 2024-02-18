@@ -106,29 +106,14 @@
       "testimonial": "The ethos and ethics of Code Sydney impressed the members of the Society. Code.Sydney was engaged by the Eisteddfod Society to design, produce and launch a brand new website that provided links to an established performance booking system.The new Website evolved quickly under the guidance of Team Leader, Legendary Stephen. Frequent and precise communication from Stephen and Engramar demonstrated the commitment from the team. Importantly Team Code Sydney was focused on delivering the messages and image that the Eisteddfod Society aimed to convey. During the weekly online meetings we witnessed the Fab Five collaborating to tweak features of the website.New outstanding website successfully launched and lauded by all! First online entries in the Eisteddfod received on 7 th February, 2022. Goal achieved! Thank you Code Sydney. The City of Parramatta Eisteddfod Society Inc wishes to bestow an Award of Excellence on Team Code.Sydney."
     },
     {
+      "name": "Dean Lloyd",
+      "title": "Founder, Lloyd Consulting Co",
+      "testimonial": "Being part of Code.Sydney has been a wonderful experience. The ease of access to the support needed for someone with limited tech knowledge has been exceptional. I have long been aware of the amazing work Code.sydney does in supporting several non-profit organizations I have been involved with. Then one day, Engramar suggested that Code.Sydney build me a website. While I am still learning how to best leverage my website, the team at Code.sydney is always there to help and guide my decisions. Thank you for being part of this innovative evolution."
+    },
+    {
       "name": "Ling-Pei Lin",
       "title": "Volunteer worker for two Sydney-based NFPs",
       "testimonial": "Thank you, Code.Sydney for recommending Kevin Foong to work on the PropertyExtractor project. It has been a pleasure working with himthroughout the journey. He is very responsive and always helpful from prototyping until final delivery. I learnt that he is one of the best mentors in Code.Sydney. Above all, I am most grateful for Kevin’s initiative and guidance to successfully develop a working prototype that my stakeholders are happy to use hence allowing my project to proceed to the next stage. May Code.Sydney and Kevin keep up the good work!"
-    },
-    {
-      "name": "Tim",
-      "title": "CS-5 Cohort (Python Immersive Course)",
-      "testimonial": "Highly Recommended. Take it from me, I have a dozen uncompleted Udemy Python & Flask courses sitting on my laptop. This course takes you from Python basics to a published web app in 5 weeks in a supportive and collaborative small group with two amazing mentors. The two mentors are always on hand to help and offer insights from their own vast industry experience - priceless!"
-    },
-    {
-      "name": "Geoff",
-      "title": "CS-5 Cohort (Python Immersive Course)",
-      "testimonial": "I went in this course looking for a solid introduction to Flask. This course delivered that and much, much, more. The mentors were very generous in sharing their experience in the end to end development of a Web app, and I left with a portfolio project hosted in the cloud, and the opportunity to apply these skills to well managed projects. So a big thankyou to Code.Sydney for providing this extremely valuable course!"
-    },
-    {
-      "name": "Scott",
-      "title": "CS-5 Cohort (Python Immersive Course)",
-      "testimonial": "This course was a great introduction to Python and Flask - getting you to a point where you can code a basic web app. It also paves the way for further learning. The face to face meet ups really help and the support provided by the teachers is terrific - they are more willing to help the students when needed."
-    },
-    {
-      "name": "Samundra",
-      "title": "CS-6 Cohort (Python Immersive Course)",
-      "testimonial": "It was a great learning experience. Specially mentors were friendly and responsive. The method of learning was based on practical approach so fun to go through. I would definitely recommend others for this course."
     }
   ],
   "volunteers": [
@@ -327,11 +312,11 @@
       "countTitle": "Meetup Members"
     },
     {
-      "countNum": 1309,
+      "countNum": 1300,
       "countTitle": "Social Media Followers"
     },
     {
-      "countNum": 294,
+      "countNum": 290,
       "countTitle": "Discord Members"
     },
     {

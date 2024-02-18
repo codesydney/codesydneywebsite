@@ -60,8 +60,8 @@ const Header = (props) => {
                 </Link>
               </li>
               <li>
-                <Link to="/gallery">
-                  <span>Gallery</span>
+                <Link to="/testimonials">
+                  <span>Testimonials</span>
                 </Link>
               </li>
               <li>
@@ -70,8 +70,8 @@ const Header = (props) => {
                 </Link>
               </li>
               <li>
-                <Link to="/testimonials">
-                  <span>Testimonials</span>
+                <Link to="/gallery">
+                  <span>Gallery</span>
                 </Link>
               </li>
               {/*
