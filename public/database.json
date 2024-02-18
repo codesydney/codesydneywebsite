@@ -231,6 +231,13 @@
       "avatar": "Mentor_Daniel.png"
     },
     {
+      "name": "Kevin (Zizhang Ou)",
+      "title": "Mentor",
+      "description": "Kevin (Zizhang Ou) is on a mission to take humanity to new heights and drive societal progress. His role as a mentor at Code.Sydney perfectly aligns with his vision. With a background in human-computer interaction from UNSW, Kevin has gained extensive experience, including work at renowned companies like WeChat. Subsequently, he founded his own company, successfully securing approximately $2 million in funding. As his company stabilized, Kevin embarked on a quest to explore further opportunities to make a profound impact on the world. Kevin boasts a diverse skill set, encompassing product management, UI/UX design, and full-stack development. Today, he's deeply enthusiastic about a wide range of tech domains, including AI, XR, IT education, robotics, and even interstellar migration – all aimed at bringing about transformative changes on a global scale.",
+      "linkdinLink": "https://www.linkedin.com/in/zizhang-ou-898605188/",
+      "avatar": "Mentor_Kevin2.png"
+    },
+    {
       "name": "Henry He",
       "title": "Web Developer",
       "description": "Henry is front-end developer with background in electrical and electronics engineering. To become more creative and to explore the ability to turn people's wonderful ideas into reality, Henry decided to move into software engineering which he believes is an industry with a lifetime of exciting challenges. After few years working in the IT industry, Henry is proud to say that he is able to adapt to rapidly changing environment and tech stacks, and more importantly, he is always passionate about picking up new skills and exploring deeper on what he has learnt. Henry's current main tech stacks includes Vue, CSS (SCSS) - Vanilla CSS lover but comfortable with element UI, tailwind, and bootstrap, JavaScript/TypeScript, Cypress/Jest, and other skills like Ruby on Rails, Express, Node, React, Figma, etc.",
@@ -257,6 +264,11 @@
       "original": "/assets/images/gallery/pythonteam.jpg",
       "thumbnail": "/assets/images/gallery/pythonteam.jpg",
       "description": "With Matthew Kean, Minister for Innovation and Better Regulation during the presentation of our 1st place award at Vibewire's Hack4FI (Financial Inclusion)."
+    },
+    {
+      "original": "/assets/images/gallery/xmas2023.jpg",
+      "thumbnail": "/assets/images/gallery/xmas2023.jpg",
+      "description": "End of year mentors lunch 2023"
     },
     {
       "original": "/assets/images/gallery/xmas2022.jpg",
