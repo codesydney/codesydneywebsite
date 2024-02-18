@@ -323,20 +323,20 @@
   ],
   "counterData": [
     {
-      "countNum": 3250,
+      "countNum": 3290,
       "countTitle": "Meetup Members"
     },
     {
-      "countNum": 1300,
+      "countNum": 1309,
       "countTitle": "Social Media Followers"
+    },
+    {
+      "countNum": 294,
+      "countTitle": "Discord Members"
     },
     {
       "countNum": 220,
       "countTitle": "Meetups"
-    },
-    {
-      "countNum": 250,
-      "countTitle": "Discord Members"
     },
     {
       "countNum": 25,
