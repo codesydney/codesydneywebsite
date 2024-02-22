@@ -56,7 +56,7 @@ const Header = (props) => {
               </li>
               <li>
                 <Link to="/volunteers">
-                  <span>Volunteers</span>
+                  <span>CitizenDevs</span>
                 </Link>
               </li>
               <li>
