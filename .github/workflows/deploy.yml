@@ -1,0 +1,17 @@
+name: Deploy to cloud server
+on: [push]
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to cloud server
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.CLOUD_HOST }}
+        username: staging
+        key: ${{ secrets.CLOUD_KEY }}
+        port: 22
+        script: cd staging && ./deploy
+        
