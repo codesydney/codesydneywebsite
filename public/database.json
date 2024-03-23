@@ -313,28 +313,28 @@
   ],
   "counterData": [
     {
-      "countNum": 3290,
+      "countNum": 3325,
       "countTitle": "Meetup Members"
     },
     {
-      "countNum": 1300,
+      "countNum": 1350,
       "countTitle": "Social Media Followers"
     },
     {
-      "countNum": 290,
+      "countNum": 300,
       "countTitle": "Discord Members"
     },
     {
-      "countNum": 220,
+      "countNum": 230,
       "countTitle": "Meetups"
     },
     {
-      "countNum": 25,
-      "countTitle": "Projects"
+      "countNum": 190,
+      "countTitle": "5-Star Reviews on Meetup.com"
     },
     {
-      "countNum": 15,
-      "countTitle": "Courses"
+      "countNum": 30,
+      "countTitle": "Projects"
     }
   ]
 }
