@@ -15,6 +15,7 @@ import Contact from "./elements/Contact"
 import error404 from "./elements/error404"
 import Volunteers from "./elements/Volunteers"
 import Reviews from "./elements/Reviews"
+import Friends from "./elements/Friends"
 import Gallery from "./elements/Gallery"
 import Merch from "./elements/Merch"
 import Newsletter from "./elements/Newsletter"
@@ -60,6 +61,10 @@ const Root = () => {
             <Route
               path={`${process.env.PUBLIC_URL}/reviews`}
               component={Reviews}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/friends`}
+              component={Friends}
             />
             <Route
               path={`${process.env.PUBLIC_URL}/gallery`}
