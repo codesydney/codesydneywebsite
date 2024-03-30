@@ -24,13 +24,91 @@ const Friends = () => {
   return (
     <div className="volunteers-page" style={{ marginBottom: "20px" }}>
       <h2>Friends</h2>
+
       <div className="volunteer-info-sm">
         <br />
         <a href="#" style={{ display: "flex", justifyContent: "left" }}>
           <img
-            src="/assets/images/friends/project_neo.png"
+            src="/assets/images/friends/ims-logo.png"
             style={{ maxWidth: "50%", height: "auto" }}
+            alt="Project IMS"
+          />
+        </a>
+      </div>
+
+      <div className="volunteer-info-sm">
+        <br />
+        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+          <img
+            src="/assets/images/friends/neo-logo.png"
+            style={{ maxWidth: "25%", height: "auto" }}
             alt="Project Neo"
+          />
+        </a>
+      </div>
+
+      <div className="volunteer-info-sm">
+        <br />
+        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+          <img
+            src="/assets/images/friends/eisteddfod-logo.png"
+            style={{ maxWidth: "25%", height: "auto" }}
+            alt="Eisteddfod"
+          />
+        </a>
+      </div>
+
+      <div className="volunteer-info-sm">
+        <br />
+        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+          <img
+            src="/assets/images/friends/lloyd-logo.png"
+            style={{ maxWidth: "25%", height: "auto" }}
+            alt="Lloyd"
+          />
+        </a>
+      </div>
+
+      <div className="volunteer-info-sm">
+        <br />
+        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+          <img
+            src="/assets/images/friends/lukas-logo.png"
+            style={{ maxWidth: "50%", height: "auto" }}
+            alt="Lukas"
+          />
+        </a>
+      </div>
+
+      <div className="volunteer-info-sm">
+        <br />
+        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+          <img
+            src="/assets/images/friends/dccajs-logo.png"
+            style={{ maxWidth: "25%", height: "auto" }}
+            alt="Deadly Connnections"
+          />
+        </a>
+      </div>
+
+      <div className="volunteer-info-sm">
+        <br />
+        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+          <img
+            src="/assets/images/friends/paact-logo.png"
+            style={{ maxWidth: "50%", height: "auto" }}
+            alt="PAACT"
+          />
+        </a>
+      </div>
+
+      <div className="volunteer-info-sm">
+        <br />
+        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+          <img
+            src="/assets/images/friends/woca-logo.png"
+            style={{ maxWidth: "50%", height: "auto" }}
+            alt="WOCA"
           />
         </a>
       </div>
