@@ -109,7 +109,7 @@ const Footer = () => {
                   </div>
                   <div className="copyright-text">
                     <p>
-                      Copyright © 2022 Code.Sydney Pty Ltd ABN 37 625 436 151
+                      Copyright © 2024 Code.Sydney Pty Ltd ABN 37 625 436 151
                     </p>
                   </div>
                 </div>

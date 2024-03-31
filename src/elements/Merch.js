@@ -42,14 +42,7 @@ const Merch = ({ merch }) => {
     <div className="merch-page">
       <SubPageTitle title="Merch" />
       <div>
-        <div className="merch-distribution">
-          <h4>All proceeds will go to the following:</h4>
-          <ul>
-            <li>90% Designer</li>
-            <li>5% Local Charity Fund</li>
-            <li>5% Code.Sydney Operating Expenses</li>
-          </ul>
-        </div>
+        <div className="merch-distribution"></div>
         <div className="merch-section">
           {merch &&
             merch.map((item, i) => {
@@ -87,11 +80,7 @@ const Merch = ({ merch }) => {
               alt={modalInfo.title}
             />
             <a href={modalInfo.link} target="_blank" rel="noopener noreferrer">
-              <div>Shop with:</div>
-              <img
-                src={"/assets/images/merch/sprd-logo_horizontal.svg"}
-                alt={modalInfo.title}
-              />
+              <div>Shop now</div>
             </a>
           </div>
           <div className="merch-modal-card-right">
