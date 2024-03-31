@@ -27,7 +27,10 @@ const Friends = () => {
 
       <div className="volunteer-info-sm">
         <br />
-        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+        <a
+          href="https://www.ims.org.au/"
+          style={{ display: "flex", justifyContent: "left" }}
+        >
           <img
             src="/assets/images/friends/ims-logo.png"
             style={{ maxWidth: "50%", height: "auto" }}
@@ -49,7 +52,10 @@ const Friends = () => {
 
       <div className="volunteer-info-sm">
         <br />
-        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+        <a
+          href="https://eisteddfodparramatta.org.au/"
+          style={{ display: "flex", justifyContent: "left" }}
+        >
           <img
             src="/assets/images/friends/eisteddfod-logo.png"
             style={{ maxWidth: "25%", height: "auto" }}
@@ -60,7 +66,10 @@ const Friends = () => {
 
       <div className="volunteer-info-sm">
         <br />
-        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+        <a
+          href="https://www.lloydconsulting.co/"
+          style={{ display: "flex", justifyContent: "left" }}
+        >
           <img
             src="/assets/images/friends/lloyd-logo.png"
             style={{ maxWidth: "25%", height: "auto" }}
@@ -71,7 +80,10 @@ const Friends = () => {
 
       <div className="volunteer-info-sm">
         <br />
-        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+        <a
+          href="https://www.lukascarey.com.au/"
+          style={{ display: "flex", justifyContent: "left" }}
+        >
           <img
             src="/assets/images/friends/lukas-logo.png"
             style={{ maxWidth: "50%", height: "auto" }}
@@ -82,7 +94,10 @@ const Friends = () => {
 
       <div className="volunteer-info-sm">
         <br />
-        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+        <a
+          href="https://deadlyconnections.org.au/"
+          style={{ display: "flex", justifyContent: "left" }}
+        >
           <img
             src="/assets/images/friends/dccajs-logo.png"
             style={{ maxWidth: "25%", height: "auto" }}
@@ -93,7 +108,10 @@ const Friends = () => {
 
       <div className="volunteer-info-sm">
         <br />
-        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+        <a
+          href="https://www.paact.org.au/"
+          style={{ display: "flex", justifyContent: "left" }}
+        >
           <img
             src="/assets/images/friends/paact-logo.png"
             style={{ maxWidth: "50%", height: "auto" }}
@@ -104,7 +122,10 @@ const Friends = () => {
 
       <div className="volunteer-info-sm">
         <br />
-        <a href="#" style={{ display: "flex", justifyContent: "left" }}>
+        <a
+          href="https://womenofcolour.org.au/"
+          style={{ display: "flex", justifyContent: "left" }}
+        >
           <img
             src="/assets/images/friends/woca-logo.png"
             style={{ maxWidth: "50%", height: "auto" }}
