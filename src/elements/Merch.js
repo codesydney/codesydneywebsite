@@ -43,6 +43,18 @@ const Merch = ({ merch }) => {
       <SubPageTitle title="Merch" />
       <div>
         <div className="merch-distribution"></div>
+        <div className="merch-distribution">
+          <h4>Supporting Django Software Foundation</h4>
+          <h6>
+            Code.Sydney proudly backs Django development. You can demonstrate
+            your support by purchasing a Django T-Shirt from the official shop
+            of the Django Software Foundation.
+          </h6>
+          <h6>
+            100% of the proceeds from the sale of Django T-Shirt below goes to
+            Django Software Foundation.
+          </h6>
+        </div>
         <div className="merch-section">
           {merch &&
             merch.map((item, i) => {

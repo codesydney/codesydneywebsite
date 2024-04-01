@@ -1,6 +1,12 @@
 {
   "merch": [
     {
+      "title": "Django T-Shirt",
+      "description": "Support Django development by buying their T-Shirt or by donating to the Django Software Foundation.",
+      "img": "django-t-shirt.jpg",
+      "link": "https://django.threadless.com/designs/django/mens/t-shirt"
+    },
+    {
       "title": "Classic Code.Sydney T-Shirt",
       "description": "This is our best seller for a reason. Relaxed, tailored and ultra-comfortable, you'll love the way you look in this durable, reliable classic.",
       "specific": [
@@ -15,12 +21,6 @@
       ],
       "img": "codesydney-t-shirt.jpg",
       "link": "https://www.spreadshirt.com.au/shop/design/codesydney+mens+t-shirt-D5efdbfcc2051764d0ed6ec13?sellable=jwon4NnxjgunyLrAE24r-210-7"
-    },
-    {
-      "title": "Django T-Shirt",
-      "description": "Support Django development by buying their T-Shirt or by donating to the Django Software Foundation.",
-      "img": "django-t-shirt.jpg",
-      "link": "https://django.threadless.com/designs/django/mens/t-shirt"
     }
   ],
   "testimonials": [
