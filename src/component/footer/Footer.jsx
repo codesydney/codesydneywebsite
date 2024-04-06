@@ -111,6 +111,21 @@ const Footer = () => {
                     <p>
                       Copyright © 2024 Code.Sydney Pty Ltd ABN 37 625 436 151
                     </p>
+                    <p>
+                      <a
+                        href="assets/images/pdf/Code.Sydney_Website_Privacy_Policy_2024.pdf"
+                        target="_blank"
+                      >
+                        Privacy Policy 2024
+                      </a>
+                      &nbsp; | &nbsp;
+                      <a
+                        href="assets/images/pdf/Code.Sydney_Client_Terms_2024.pdf"
+                        target="_blank"
+                      >
+                        Terms 2024
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>
