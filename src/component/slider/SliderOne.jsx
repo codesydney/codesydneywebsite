@@ -22,9 +22,7 @@ const Slider = () => {
           </div>
           <div className="row">
             <div className="col-lg-12">
-              <h3 className="title theme-gradient">
-                &nbsp; Citizen Developers
-              </h3>
+              <h3 className="title theme-gradient">Citizen Developers</h3>
             </div>
           </div>
           {/* Start Service Area */}
