@@ -41,6 +41,34 @@ const Friends = () => {
 
       <div className="volunteer-info-sm">
         <br />
+        <a
+          href="https://dataengineering.ph/"
+          style={{ display: "flex", justifyContent: "left" }}
+        >
+          <img
+            src="/assets/images/friends/dep.png"
+            style={{ maxWidth: "25%", height: "auto" }}
+            alt="Data Engineering Pilipinas"
+          />
+        </a>
+      </div>
+
+      <div className="volunteer-info-sm">
+        <br />
+        <a
+          href="https://www.linkedin.com/company/powerbipilipinas"
+          style={{ display: "flex", justifyContent: "left" }}
+        >
+          <img
+            src="/assets/images/friends/pbi.png"
+            style={{ maxWidth: "25%", height: "auto" }}
+            alt="Power BI Pilipina"
+          />
+        </a>
+      </div>
+
+      <div className="volunteer-info-sm">
+        <br />
         <a href="#" style={{ display: "flex", justifyContent: "left" }}>
           <img
             src="/assets/images/friends/neo-logo.png"
