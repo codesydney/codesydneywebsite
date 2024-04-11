@@ -46,7 +46,7 @@ const Footer = () => {
               <div className="inner">
                 <span>CODE.SYDNEY</span>
                 <h2>
-                  Pay As <br /> You Feel
+                  Dux <br /> Servit
                 </h2>
 
                 <a className="rn-button-style--2" href="/contact-us">
