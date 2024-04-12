@@ -62,7 +62,7 @@ const Friends = () => {
           <img
             src="/assets/images/friends/pbi.png"
             style={{ maxWidth: "25%", height: "auto" }}
-            alt="Power BI Pilipina"
+            alt="Power BI Pilipinas"
           />
         </a>
       </div>

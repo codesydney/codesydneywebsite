@@ -1,6 +1,10 @@
 import React, { useState } from "react"
 import SubPageTitle from "./common/SubPageTitle"
-import { FaRegTimesCircle, FaRegCreditCard } from "react-icons/fa"
+import {
+  FaRegTimesCircle,
+  FaRegCreditCard,
+  FaArrowAltCircleRight,
+} from "react-icons/fa"
 
 const PurchaseBtn = ({ link }) => {
   return (
@@ -10,12 +14,12 @@ const PurchaseBtn = ({ link }) => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <FaRegCreditCard />
+      <FaArrowAltCircleRight />
     </a>
   )
 }
 
-const Merch = ({ merch }) => {
+const Data = ({ data }) => {
   const [modalInfo, setModalInfo] = useState({})
 
   const showModal = (e, value) => {
@@ -40,24 +44,47 @@ const Merch = ({ merch }) => {
 
   return (
     <div className="merch-page">
-      <SubPageTitle title="Merch" />
+      <SubPageTitle title="Australian Open Data" />
       <div>
         <div className="merch-distribution"></div>
         <div className="merch-distribution">
-          <h4>Supporting Django Software Foundation</h4>
           <h6>
-            Code.Sydney proudly backs Django development. You can demonstrate
-            your support by purchasing a Django T-Shirt from the official shop
-            of the Django Software Foundation.
-          </h6>
-          <h6>
-            100% of the proceeds from the sale of Django T-Shirt below goes to
-            Django Software Foundation.
+            Exploring Australian Open Datasets In cooperation with Data
+            Engineering Pilipinas and Power BI Pilipinas
           </h6>
         </div>
+
+        <div className="volunteer-info-sm">
+          <br />
+          <div style={{ display: "flex" }}>
+            {" "}
+            {/* Container for logos */}
+            <a
+              href="https://dataengineering.ph/"
+              style={{ marginRight: "-10px" }} // Negative margin here
+            >
+              <img
+                src="/assets/images/friends/dep.png"
+                style={{ maxWidth: "30%", height: "auto" }}
+                alt="Data Engineering Pilipinas"
+              />
+            </a>
+            <a href="https://www.linkedin.com/company/powerbipilipinas">
+              <img
+                src="/assets/images/friends/pbi.png"
+                style={{ maxWidth: "30%", height: "auto" }}
+                alt="Power BI Pilipinas"
+              />
+            </a>
+          </div>
+        </div>
+
+        <br />
+        <br />
+
         <div className="merch-section">
-          {merch &&
-            merch.map((item, i) => {
+          {data &&
+            data.map((item, i) => {
               return (
                 <div
                   key={i}
@@ -65,7 +92,7 @@ const Merch = ({ merch }) => {
                   onClick={(e) => showModal(e, item)}
                 >
                   <img
-                    src={`/assets/images/merch/${item.img}`}
+                    src={`/assets/images/data/${item.img}`}
                     alt={item.title}
                   />
                   <div className="container merch-card-right">
@@ -88,11 +115,11 @@ const Merch = ({ merch }) => {
         <div className="merch-modal-card">
           <div className="merch-modal-card-left">
             <img
-              src={`/assets/images/merch/${modalInfo.img}`}
+              src={`/assets/images/data/${modalInfo.img}`}
               alt={modalInfo.title}
             />
             <a href={modalInfo.link} target="_blank" rel="noopener noreferrer">
-              <div>Shop now</div>
+              <div>Details</div>
             </a>
           </div>
           <div className="merch-modal-card-right">
@@ -116,4 +143,4 @@ const Merch = ({ merch }) => {
   )
 }
 
-export default Merch
+export default Data

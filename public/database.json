@@ -1,4 +1,12 @@
 {
+  "data": [
+    {
+      "title": "CSIRO Sentinel-1 SAR image dataset of oil- and non-oil features for machine learning ( Deep Learning )",
+      "description": "Danielle Meer has built a proof-of-concept AI model that utilises various satellite images of bodies of water from Southeast Asia and Australia as captured by the Sentinel-1 Synthetic Aperture Radar (SAR). The AI model then classifies these images to detect possible oil spill locations with an accuracy of 91%.",
+      "img": "danielle.png",
+      "link": "https://www.kaggle.com/code/daniellebagaforomeer/oil-detection-in-sentinel-1-satellite-images"
+    }
+  ],
   "merch": [
     {
       "title": "Django T-Shirt",

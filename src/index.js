@@ -18,6 +18,7 @@ import Reviews from "./elements/Reviews"
 import Friends from "./elements/Friends"
 import Gallery from "./elements/Gallery"
 import Merch from "./elements/Merch"
+import Data from "./elements/Data"
 import Newsletter from "./elements/Newsletter"
 import Contributors from "./elements/Contributors/Contributors"
 import Testimonials from "./elements/Testimonial"
@@ -73,6 +74,10 @@ const Root = () => {
             <Route
               path={`${process.env.PUBLIC_URL}/merch`}
               render={() => <Merch merch={data.merch} />}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/data`}
+              render={() => <Data data={data.data} />}
             />
             <Route
               path={`${process.env.PUBLIC_URL}/testimonials`}
