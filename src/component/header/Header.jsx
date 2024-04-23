@@ -56,7 +56,7 @@ const Header = (props) => {
               </li>
               <li>
                 <Link to="/data">
-                  <span>Data</span>
+                  <span>Portfolios</span>
                 </Link>
               </li>
               <li>

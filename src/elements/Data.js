@@ -44,39 +44,47 @@ const Data = ({ data }) => {
 
   return (
     <div className="merch-page">
-      <SubPageTitle title="Australian Open Data" />
+      <SubPageTitle title="Individual Portfolios" />
       <div>
         <div className="merch-distribution"></div>
         <div className="merch-distribution">
           <h6>
-            Exploring Australian Open Datasets In cooperation with Data
-            Engineering Pilipinas and Power BI Pilipinas
           </h6>
         </div>
 
         <div className="volunteer-info-sm">
           <br />
-          <div style={{ display: "flex" }}>
-            {" "}
             {/* Container for logos */}
             <a
               href="https://dataengineering.ph/"
-              style={{ marginRight: "-10px" }} // Negative margin here
+              style={{ marginRight: "1px" }} // Adjusted margin here
             >
               <img
                 src="/assets/images/friends/dep.png"
-                style={{ maxWidth: "30%", height: "auto" }}
+                style={{ maxWidth: "10%", height: "auto" }}
                 alt="Data Engineering Pilipinas"
               />
             </a>
-            <a href="https://www.linkedin.com/company/powerbipilipinas">
+            
+            <a
+              href="https://www.linkedin.com/company/powerbipilipinas"
+              style={{ marginRight: "10px" }} // Adjusted margin here
+            >
               <img
                 src="/assets/images/friends/pbi.png"
-                style={{ maxWidth: "30%", height: "auto" }}
+                style={{ maxWidth: "10%", height: "auto" }}
                 alt="Power BI Pilipinas"
               />
             </a>
-          </div>
+            <a
+              href="https://powerusers.microsoft.com/t5/Power-Apps-Pilipinas/gh-p/PowerAppsPilipinas"
+            >
+              <img
+                src="/assets/images/friends/pap.png"
+                style={{ maxWidth: "10%", height: "auto" }}
+                alt="Power Apps Pilipinas"
+              />
+            </a>
         </div>
 
         <br />
