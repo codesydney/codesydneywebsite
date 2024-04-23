@@ -95,7 +95,7 @@ const Friends = () => {
               <img
                 src="/assets/images/friends/eisteddfod-logo.png"
                 style={{ maxWidth: "20%", height: "auto", marginRight: "20px" }}
-                alt="City of Parramatta Eisteddfod"
+                alt="City of Parramatta Eisteddfod Society"
               />
             </a>     
 
