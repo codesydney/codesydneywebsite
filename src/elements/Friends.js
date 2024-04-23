@@ -70,7 +70,7 @@ const Friends = () => {
               href="https://powerusers.microsoft.com/t5/Power-Apps-Pilipinas/gh-p/PowerAppsPilipinas"
             >
               <img
-                src="/assets/images/friends/pap.png"
+                src="/assets/images/friends/pap.jpg"
                 style={{ maxWidth: "20%", height: "auto", marginRight: "20px" }}
                 alt="Power Apps Pilipinas"
               />
