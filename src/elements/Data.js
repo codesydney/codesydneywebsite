@@ -112,7 +112,8 @@ const Data = ({ data }) => {
                   </div>
                 </div>
               )
-            })}
+            })
+            }            
         </div>
       </div>
       <div
