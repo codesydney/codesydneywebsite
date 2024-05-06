@@ -1,5 +1,5 @@
 {
-  "data": [
+  "portfolios": [
     {
       "title": "CSIRO Sentinel-1 SAR image dataset of oil- and non-oil features for machine learning ( Deep Learning )",
       "description": "Danielle Meer has built a proof-of-concept AI model that utilises various satellite images of bodies of water from Southeast Asia and Australia as captured by the Sentinel-1 Synthetic Aperture Radar (SAR). The AI model then classifies these images to detect possible oil spill locations with an accuracy of 91%.",
@@ -11,7 +11,7 @@
       "description": "Shoutout to Girard Tabañag and 'The Crow' for showcasing their recent accomplishments while progressing through the Python for Everybody course. They've successfully developed handy tools for web scraping, extracting documents from MongoDB, and seamlessly exporting them to spreadsheets. Keep up the great work and stay curious.",
       "img": "girard.png",
       "link": "https://github.com/codesydney/cd-block-py-2024-04-001"
-    }    
+    }
   ],
   "merch": [
     {

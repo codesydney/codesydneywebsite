@@ -19,7 +19,7 @@ const PurchaseBtn = ({ link }) => {
   )
 }
 
-const Data = ({ data }) => {
+const Portfolios = ({ portfolios }) => {
   const [modalInfo, setModalInfo] = useState({})
 
   const showModal = (e, value) => {
@@ -48,51 +48,48 @@ const Data = ({ data }) => {
       <div>
         <div className="merch-distribution"></div>
         <div className="merch-distribution">
-          <h6>
-          </h6>
+          <h6></h6>
         </div>
 
         <div className="volunteer-info-sm">
           <br />
-            {/* Container for logos */}
-            <a
-              href="https://dataengineering.ph/"
-              style={{ marginRight: "1px" }} // Adjusted margin here
-            >
-              <img
-                src="/assets/images/friends/dep.png"
-                style={{ maxWidth: "10%", height: "auto" }}
-                alt="Data Engineering Pilipinas"
-              />
-            </a>
-            
-            <a
-              href="https://www.linkedin.com/company/powerbipilipinas"
-              style={{ marginRight: "10px" }} // Adjusted margin here
-            >
-              <img
-                src="/assets/images/friends/pbi.png"
-                style={{ maxWidth: "10%", height: "auto" }}
-                alt="Power BI Pilipinas"
-              />
-            </a>
-            <a
-              href="https://powerusers.microsoft.com/t5/Power-Apps-Pilipinas/gh-p/PowerAppsPilipinas"
-            >
-              <img
-                src="/assets/images/friends/pap.jpg"
-                style={{ maxWidth: "10%", height: "auto" }}
-                alt="Power Apps Pilipinas"
-              />
-            </a>
+          {/* Container for logos */}
+          <a
+            href="https://dataengineering.ph/"
+            style={{ marginRight: "1px" }} // Adjusted margin here
+          >
+            <img
+              src="/assets/images/friends/dep.png"
+              style={{ maxWidth: "10%", height: "auto" }}
+              alt="Data Engineering Pilipinas"
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/company/powerbipilipinas"
+            style={{ marginRight: "10px" }} // Adjusted margin here
+          >
+            <img
+              src="/assets/images/friends/pbi.png"
+              style={{ maxWidth: "10%", height: "auto" }}
+              alt="Power BI Pilipinas"
+            />
+          </a>
+          <a href="https://powerusers.microsoft.com/t5/Power-Apps-Pilipinas/gh-p/PowerAppsPilipinas">
+            <img
+              src="/assets/images/friends/pap.jpg"
+              style={{ maxWidth: "10%", height: "auto" }}
+              alt="Power Apps Pilipinas"
+            />
+          </a>
         </div>
 
         <br />
         <br />
 
         <div className="merch-section">
-          {data &&
-            data.map((item, i) => {
+          {portfolios &&
+            portfolios.map((item, i) => {
               return (
                 <div
                   key={i}
@@ -112,8 +109,7 @@ const Data = ({ data }) => {
                   </div>
                 </div>
               )
-            })
-            }            
+            })}
         </div>
       </div>
       <div
@@ -152,4 +148,4 @@ const Data = ({ data }) => {
   )
 }
 
-export default Data
+export default Portfolios

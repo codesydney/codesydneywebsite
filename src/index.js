@@ -18,7 +18,7 @@ import Reviews from "./elements/Reviews"
 import Friends from "./elements/Friends"
 import Gallery from "./elements/Gallery"
 import Merch from "./elements/Merch"
-import Data from "./elements/Data"
+import Portfolios from "./elements/Portfolios"
 import Newsletter from "./elements/Newsletter"
 import Contributors from "./elements/Contributors/Contributors"
 import Testimonials from "./elements/Testimonial"
@@ -76,8 +76,8 @@ const Root = () => {
               render={() => <Merch merch={data.merch} />}
             />
             <Route
-              path={`${process.env.PUBLIC_URL}/data`}
-              render={() => <Data data={data.data} />}
+              path={`${process.env.PUBLIC_URL}/portfolios`}
+              render={() => <Portfolios portfolios={data.portfolios} />}
             />
             <Route
               path={`${process.env.PUBLIC_URL}/testimonials`}
