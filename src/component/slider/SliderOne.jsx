@@ -22,8 +22,8 @@ const Slider = () => {
           </div>
           <div className="row">
             <div className="col-lg-12">
-              <h3 className="title theme-gradient">Citizen Developers</h3>
-            </div>
+              <h3 className="title theme-gradient">Est. 2016 | Dux Servit</h3>
+            </div>            
           </div>
           {/* Start Service Area */}
           {/* 

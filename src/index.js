@@ -18,6 +18,8 @@ import Reviews from "./elements/Reviews"
 import Friends from "./elements/Friends"
 import Gallery from "./elements/Gallery"
 import Merch from "./elements/Merch"
+import Techies4Good from "./elements/Techies4Good"
+import Apps4Good from "./elements/Apps4Good"
 import Portfolios from "./elements/Portfolios"
 import Newsletter from "./elements/Newsletter"
 import Contributors from "./elements/Contributors/Contributors"
@@ -75,6 +77,14 @@ const Root = () => {
               path={`${process.env.PUBLIC_URL}/merch`}
               render={() => <Merch merch={data.merch} />}
             />
+            <Route
+              path={`${process.env.PUBLIC_URL}/techies4good`}
+              render={() => <Techies4Good techies4good={data.techies4good} />}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/apps4good`}
+              render={() => <Apps4Good apps4good={data.apps4good} />}
+            />          
             <Route
               path={`${process.env.PUBLIC_URL}/portfolios`}
               render={() => <Portfolios portfolios={data.portfolios} />}

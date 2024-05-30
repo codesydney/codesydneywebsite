@@ -22,7 +22,7 @@ const Volunteers = () => {
   return (
     <>
       <div className="volunteers-page">
-        <SubPageTitle title="Citizen Developers" />
+        <SubPageTitle title="Techies4Good" />
 
         <div className="filter input-group my-group">
           <input

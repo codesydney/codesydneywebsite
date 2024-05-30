@@ -1,4 +1,20 @@
 {
+  "techies4good": [
+    {
+      "title": "Promie Yutasane",
+      "description": "Promie is a Full-stack Software Engineer specialising in the JavaScript ecosystem, with expertise in TypeScript, NodeJS, Express, NestJS, NextJS, PostgreSQL, and AWS services, backed by DevOps experience. He holds a Master of IT from UNSW, focusing on Database Systems and E-Commerce Systems. Currently, at Nine Entertainment on the 9Now Identity team, he plays a key role in enhancing the Single Sign-On service. Promie is dedicated to the software engineering community, mentoring new developers, standardising GitHub processes, and implementing GitHub Actions to improve the CI/CD pipeline.",
+      "img": "t4g-promie.png",
+      "link": "https://www.linkedin.com/in/promie-yutasane/"
+    }
+  ],
+  "apps4good": [
+    {
+      "title": "Classified Ads App Template",
+      "description": "Classified Ads App Template can be customised to showcase products and services for non-profits and charities. You can check out a sample live implementation using the link below.",
+      "img": "a4g-classifieds.png",
+      "link": "https://www.ustaa.au/"
+    }
+  ],
   "portfolios": [
     {
       "title": "CSIRO Sentinel-1 SAR image dataset of oil- and non-oil features for machine learning ( Deep Learning )",
@@ -12,7 +28,7 @@
       "img": "girard.png",
       "link": "https://github.com/codesydney/cd-block-py-2024-04-001"
     }
-  ],
+  ],    
   "merch": [
     {
       "title": "Django T-Shirt",

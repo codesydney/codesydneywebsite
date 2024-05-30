@@ -23,9 +23,7 @@ const Friends = () => {
 
   return (
     <div className="volunteers-page" style={{ marginBottom: "20px" }}>
-      <h2>Friends</h2>
-
-
+      <SubPageTitle title="Friends" />      
       <div className="volunteer-info-sm">
             <br />
             {/* Container for logos */}
