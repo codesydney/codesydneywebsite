@@ -65,6 +65,17 @@ const Apps4Good = ({ apps4good }) => {
             </a>
         </div>
 
+        <div className="merch-distribution">
+          <h6>
+          Apps4Good is Code.Sydney's initiative to showcase apps made the community and ready to be customised for any non-profit and charity organisation.
+          </h6> 
+          <h6>
+            If you find any app below which can help your organisation, please feel free to let us know. You can contact<a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}
+>Illawarra Multicultural Services to start the conversation</a> -><a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}>Contact IMS</a> 
+            
+          </h6>      
+        </div>   
+
         <br />
         <br />
 
