@@ -67,7 +67,7 @@ const Techies4Good = ({ techies4good }) => {
 
         <div className="merch-distribution">
           <h6>
-          Techies4Good are Code.Sydney's elite team. They are seasoned software and data engineers with commercial experience and were invited and nominated by community leaders.
+          Techies4Good is Code.Sydney's elite team. Its members are seasoned software and data engineers with commercial experience, invited and nominated by community leaders.
           </h6>
         </div>            
 
