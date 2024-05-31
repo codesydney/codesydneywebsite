@@ -82,6 +82,21 @@ const Portfolios = ({ portfolios }) => {
               alt="Power Apps Pilipinas"
             />
           </a>
+          <a href="https://www.facebook.com/genaicom/">
+            <img
+              src="/assets/images/friends/genaiph.png"
+              style={{ maxWidth: "15%", height: "auto" }}
+              alt="Gen AI Philippines"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="/assets/images/friends/neo-logo.png"
+              style={{ maxWidth: "10%", height: "auto" }}
+              alt="Power Apps Pilipinas"
+            />
+          </a>
+
         </div>
 
         <br />

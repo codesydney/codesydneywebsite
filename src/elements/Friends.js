@@ -73,7 +73,20 @@ const Friends = () => {
                 alt="Power Apps Pilipinas"
               />
             </a>
-            
+
+            <a
+              href="https://www.facebook.com/genaicom/"
+            >
+              <img
+                src="/assets/images/friends/genaiph.png"
+                style={{ maxWidth: "20%", height: "auto", marginRight: "20px" }}
+                alt="Gen AI Philippines"
+              />
+            </a>    
+
+            <br />
+            <br />
+
             <a
               href="#"
             >
@@ -82,10 +95,7 @@ const Friends = () => {
                 style={{ maxWidth: "20%", height: "auto", marginRight: "20px" }}
                 alt="Project Neo"
               />
-            </a>     
-
-            <br />
-            <br />
+            </a>    
 
             <a
               href="https://eisteddfodparramatta.org.au/"
