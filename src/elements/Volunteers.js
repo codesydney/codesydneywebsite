@@ -22,28 +22,7 @@ const Volunteers = () => {
   return (
     <>
       <div className="volunteers-page">
-        <SubPageTitle title="Techies4Good" />
-
-        <div className="filter input-group my-group">
-          <input
-            type="text"
-            className="filter-input"
-            name="snpid"
-            placeholder="Find out volunteers..."
-            onChange={(e) => handleFilter(e.target.value)}
-            ref={filterRef}
-          />
-          <select
-            className="filter-select"
-            aria-label="Default select example"
-            onChange={(e) => setFilterType(e.target.value)}
-          >
-            <option defaultValue="name">Name</option>
-            <option value="title">Title</option>
-            <option value="description">Description</option>
-            {/* <option value="skills">Skills</option> */}
-          </select>
-        </div>
+        <SubPageTitle title="Leadership Team" />
 
         <div className="d-none d-md-block d-lg-block d-xl-block">
           <div className="volunteerpage-layout-lg">

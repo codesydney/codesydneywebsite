@@ -90,6 +90,22 @@
     },
     {
       "name": "Tony Johnson",
+      "title": "Chief of Staff",
+      "description": "Despite having a Degree in Prehistory and Archaeology, Tony has survived 30 years in various IT careers; from hardware sales and service, support desk, linux systems administration, management, consultancy, and software development. He began coding commercially 8 years ago in Java for Structural Geology project, and moved on to full-stack web development. He has completed the Free Code Camp front-end and back-end curriculum for JavaScript, React/Redux, Node/Express, MongoDB and GraphQL. Tony is an active participant in Free Code Camp Sydney meetups. Currently, he is contracted as Project Manager for McLowd Financial Services Jobready, a cloud-based software company.",
+      "linkdinLink": "https://www.linkedin.com/in/tony-johnson-53995413/",
+      "avatar": "Mentor_Tony.png"
+    }
+  ],  
+  "citizendev": [
+    {
+      "name": "Engramar Bollas JP",
+      "title": "Director",
+      "description": "Engramar's raison d'etre is to serve. He is driven by service, guided by servant leadership principles. With nearly thirty years of IT experience spanning Asia, the Middle East, and Australia, he possesses extensive expertise in software development and support. Currently, he serves as a Senior Professional Services Consultant at GBG, while also directing Code.Sydney, a volunteer group aiding novice developers and non-profits. Beyond IT, Engramar is a Justice of the Peace in New South Wales. He holds a Mathematics degree major in Computer Science from the Pontifical and Royal University of Santo Tomas in Manila.",
+      "linkdinLink": "https://www.linkedin.com/in/engramarbollas/",
+      "avatar": "Mentor_Engramar.png"
+    },
+    {
+      "name": "Tony Johnson",
       "title": "Mentor",
       "description": "Despite having a Degree in Prehistory and Archaeology, Tony has survived 30 years in various IT careers; from hardware sales and service, support desk, linux systems administration, management, consultancy, and software development. He began coding commercially 8 years ago in Java for Structural Geology project, and moved on to full-stack web development. He has completed the Free Code Camp front-end and back-end curriculum for JavaScript, React/Redux, Node/Express, MongoDB and GraphQL. Tony is an active participant in Free Code Camp Sydney meetups. Currently, he is contracted as Project Manager for McLowd Financial Services Jobready, a cloud-based software company.",
       "linkdinLink": "https://www.linkedin.com/in/tony-johnson-53995413/",

@@ -82,7 +82,11 @@ class Header extends Component {
                     <span>Portfolios</span>
                   </Link>
                 </li>    
-                      
+                <li>
+                  <Link to="/volunteers">
+                    <span>Leadership Team</span>
+                  </Link>
+                </li>                          
                 <li className="has-droupdown">
                   <Link to="/friends"><span>More</span></Link>
                   <ul className="submenu">
