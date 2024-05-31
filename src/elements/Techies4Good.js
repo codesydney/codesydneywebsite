@@ -67,11 +67,11 @@ const Techies4Good = ({ techies4good }) => {
 
         <div className="merch-distribution">
           <h6>
-          Techies4Good is Code.Sydney's elite team. Its members are seasoned software and data engineers with commercial experience, invited and nominated by community leaders.
+          Techies4Good is Code.Sydney's elite team. Its members are seasoned software and data engineers with proven commercial experience, invited and nominated by community leaders.
           </h6> 
           <h6>
-            If you are a non-profit or charity organisation which requires some tech assistance, please contact<a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}
->Illawarra Multicultural Services to start the conversation</a> -><a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}>Contact IMS</a> 
+            If you are a non-profit or charity organisation that requires some tech assistance, please contact<a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}
+>Illawarra Multicultural Services</a> to start the conversation -><a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}>Contact IMS</a> 
             
           </h6>      
         </div>            

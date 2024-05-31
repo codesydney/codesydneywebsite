@@ -71,7 +71,7 @@ const Apps4Good = ({ apps4good }) => {
           </h6> 
           <h6>
             If you find any app below which can help your organisation, please feel free to let us know. You can contact<a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}
->Illawarra Multicultural Services to start the conversation</a> -><a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}>Contact IMS</a> 
+>Illawarra Multicultural Services</a> to start the conversation -><a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}>Contact IMS</a> 
             
           </h6>      
         </div>   
