@@ -59,21 +59,26 @@ const Techies4Good = ({ techies4good }) => {
             >
               <img
                 src="/assets/images/friends/ims-logo.png"
-                style={{ maxWidth: "50%", height: "auto", marginLeft: "20px" }}
+                style={{ maxWidth: "80%", height: "auto", marginLeft: "20px" }}
                 alt="Illawarra Multicultural Services"
               />
             </a>
         </div>
 
         <div className="merch-distribution">
-          <h6>
-          Techies4Good is Code.Sydney's elite team. Its members are seasoned software and data engineers with proven commercial experience, invited and nominated by community leaders.
-          </h6> 
-          <h6>
+          <h7>
+          Techies4Good (T4G) is Code.Sydney's elite team. Its members are seasoned software and data engineers with proven commercial experience, published portfolios, invited and nominated by community leaders.
+          </h7> 
+          <br/>  
+          <h7>
             If you are a non-profit or charity organisation that requires some tech assistance, please contact<a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}
->Illawarra Multicultural Services</a> to start the conversation -><a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}>Contact IMS</a> 
-            
-          </h6>      
+>Illawarra Multicultural Services</a> to start the conversation -><a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}>Contact IMS</a>             
+          </h7>
+          <br/>   
+          <h7>
+            Please note that 90% of the revenue goes to those who did the work, 5% goes to IMS, and the remaining 5% goes to Code.Sydney.
+          </h7>
+
         </div>            
 
         <div className="merch-section">
