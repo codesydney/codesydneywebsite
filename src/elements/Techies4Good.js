@@ -71,8 +71,7 @@ const Techies4Good = ({ techies4good }) => {
           </h7> 
           <br/>  
           <h7>
-            If you are a non-profit or charity organisation that requires some tech assistance, please contact<a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}
->Illawarra Multicultural Services</a> to start the conversation -><a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green", marginLeft: "10px" }}>Contact IMS</a>             
+            If you are a non-profit or charity organisation that requires some tech assistance, please contact <a href="https://www.ims.org.au/author/azoabe/" target="_blank" style={{ color: "green"}}>Amro Zoabe</a> from IMS at 0439 627 260 or send a <a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green"}}>message</a> on IMS website.
           </h7>
           <br/>   
           <h7>
