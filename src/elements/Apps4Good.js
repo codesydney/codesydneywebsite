@@ -73,7 +73,7 @@ const Apps4Good = ({ apps4good }) => {
             If you find any app below which can help your organisation, please feel free to let us know. You can contact <a href="https://www.ims.org.au/author/azoabe/" target="_blank" style={{ color: "green"}}>Amro Zoabe</a> from IMS at 0439 627 260 or send a <a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green"}}>message</a> on IMS website.
           </h7><br/>   
           <h7>
-            Please note that 75% of the revenue goes to the app owner, 25% goes to IMS, and the remaining 5% goes to Code.Sydney.
+            Please note that 70% of the revenue goes to the app owner, 25% goes to IMS, and the remaining 5% goes to Code.Sydney.
           </h7>             
         </div>   
 
