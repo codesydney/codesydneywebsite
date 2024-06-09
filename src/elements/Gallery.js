@@ -22,7 +22,7 @@ const Gallery = () => {
         justifyContent: 'center',
         alignItems: 'center',
         height: 'calc(100vh - 100px)', // Adjust this value if you have other content on the page
-        marginTop: '5px' // Optional, adjust as needed
+        marginTop: '20px' // Optional, adjust as needed
       }}>
         <h2>Strava</h2>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
