@@ -25,6 +25,9 @@ const Gallery = () => {
         marginTop: '20px' // Optional, adjust as needed
       }}>
         <h2>Strava</h2>
+        <h4>
+            <a href="https://www.strava.com/clubs/1099484" target="_blank">Link to leaderboard</a>
+        </h4>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <iframe
             frameBorder='0'

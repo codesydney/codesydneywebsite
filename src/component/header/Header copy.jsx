@@ -80,7 +80,7 @@ const Header = (props) => {
               </li>
               <li>
                 <Link to="/gallery">
-                  <span>Gallery</span>
+                  <span>Activities</span>
                 </Link>
               </li>                            
               {/*
