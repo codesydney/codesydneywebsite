@@ -69,37 +69,39 @@ class Header extends Component {
                 </li>
                 <li>
                   <Link to="/techies4good">
-                     <span>Techies4Good</span>
+                    <span>Techies4Good</span>
                   </Link>
-                </li>                    
+                </li>
                 <li>
                   <Link to="/apps4good">
-                     <span>Apps4Good</span>
+                    <span>Apps4Good</span>
                   </Link>
-                </li>                            
+                </li>
                 <li>
                   <Link to="/portfolios">
                     <span>Portfolios</span>
                   </Link>
-                </li>    
+                </li>
                 <li>
-                  <Link to="/volunteers">
+                  <Link to="/leadership">
                     <span>Leadership Team</span>
                   </Link>
-                </li>                          
+                </li>
                 <li className="has-droupdown">
-                  <Link to="/friends"><span>More</span></Link>
+                  <Link to="/friends">
+                    <span>More</span>
+                  </Link>
                   <ul className="submenu">
                     <li>
                       <Link to="/friends">
                         <span>Friends</span>
                       </Link>
-                    </li>                          
+                    </li>
                     <li>
                       <Link to="/gallery">
                         <span>Activities</span>
                       </Link>
-                    </li>                    
+                    </li>
                     <li>
                       <Link to="/reviews">
                         <span>Reviews</span>
@@ -109,9 +111,9 @@ class Header extends Component {
                       <Link to="/merch">
                         <span>Merch</span>
                       </Link>
-                    </li>                    
+                    </li>
                   </ul>
-                </li>                            
+                </li>
               </ul>
             </nav>
           </div>

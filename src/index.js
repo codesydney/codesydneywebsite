@@ -58,7 +58,7 @@ const Root = () => {
               component={DarkMainDemo}
             />
             <Route
-              path={`${process.env.PUBLIC_URL}/volunteers`}
+              path={`${process.env.PUBLIC_URL}/leadership`}
               component={Volunteers}
             />
             <Route
@@ -84,7 +84,7 @@ const Root = () => {
             <Route
               path={`${process.env.PUBLIC_URL}/apps4good`}
               render={() => <Apps4Good apps4good={data.apps4good} />}
-            />          
+            />
             <Route
               path={`${process.env.PUBLIC_URL}/portfolios`}
               render={() => <Portfolios portfolios={data.portfolios} />}
