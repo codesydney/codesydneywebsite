@@ -5,6 +5,12 @@
       "description": "Promie is a Full-stack Software Engineer specialising in the JavaScript ecosystem, with expertise in TypeScript, NodeJS, Express, NestJS, NextJS, PostgreSQL, and AWS services, backed by DevOps experience. He holds a Master of IT from UNSW, focusing on Database Systems and E-Commerce Systems. Currently, at Nine Entertainment on the 9Now Identity team, he plays a key role in enhancing the Single Sign-On service. Promie is dedicated to the software engineering community, mentoring new developers, standardising GitHub processes, and implementing GitHub Actions to improve the CI/CD pipeline.",
       "img": "t4g-promie.png",
       "link": "https://www.linkedin.com/in/promie-yutasane/"
+    },
+    {
+      "title": "Phil Gerard Soto",
+      "description": "Phil, an experienced data engineer, leads end-to-end data projects, from ingesting data from various systems to modeling, transforming, and visualising data. Beyond his technical expertise, he actively contributes as a mentor to the Data Engineering Pilipinas Community and serves as a project lead at Open Source Software PH.",
+      "img": "t4g-phil.png",
+      "link": "https://www.linkedin.com/in/philgerardsoto/"
     }
   ],
   "apps4good": [
@@ -28,7 +34,7 @@
       "img": "girard.png",
       "link": "https://github.com/codesydney/cd-block-py-2024-04-001"
     }
-  ],    
+  ],
   "merch": [
     {
       "title": "Django T-Shirt",
@@ -94,8 +100,15 @@
       "description": "Despite having a Degree in Prehistory and Archaeology, Tony has survived 30 years in various IT careers; from hardware sales and service, support desk, linux systems administration, management, consultancy, and software development. He began coding commercially 8 years ago in Java for Structural Geology project, and moved on to full-stack web development. He has completed the Free Code Camp front-end and back-end curriculum for JavaScript, React/Redux, Node/Express, MongoDB and GraphQL. Tony is an active participant in Free Code Camp Sydney meetups. Currently, he is contracted as Project Manager for McLowd Financial Services Jobready, a cloud-based software company.",
       "linkdinLink": "https://www.linkedin.com/in/tony-johnson-53995413/",
       "avatar": "Mentor_Tony.png"
+    },
+    {
+      "name": "Laurenc Bollas",
+      "title": "Secretary",
+      "description": "Laurenc is a passionate business studies enthusiast and a distinguished academic achiever. In December 2023, he attained the HSC Distinguished Achiever recognition, earning a Band 6 in Business Studies from the NSW Department of Education. Alongside his love for business, Laurenc is deeply interested in the world of generative AI, which led him to pursue studies in computer science on top of his business studies in UNSW. Known for his consistent academic excellence in his younger years, he experienced getting into opportunity and selective classes by the NSW Department of Education. Laurenc is always eager to learn and explore new fields, blending his business acumen with cutting-edge technology.",
+      "linkdinLink": "https://www.linkedin.com/in/laurencbollas/",
+      "avatar": "Mentor_Laurenc.png"
     }
-  ],  
+  ],
   "citizendev": [
     {
       "name": "Engramar Bollas JP",
