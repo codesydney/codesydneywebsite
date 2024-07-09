@@ -98,6 +98,11 @@ class Header extends Component {
                       </Link>
                     </li>
                     <li>
+                      <Link to="/community">
+                        <span>Community</span>
+                      </Link>
+                    </li>
+                    <li>
                       <Link to="/gallery">
                         <span>Activities</span>
                       </Link>

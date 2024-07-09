@@ -14,6 +14,7 @@ import DarkMainDemo from "./dark/MainDemo"
 import Contact from "./elements/Contact"
 import error404 from "./elements/error404"
 import Volunteers from "./elements/Volunteers"
+import Community from "./elements/Community"
 import Reviews from "./elements/Reviews"
 import Friends from "./elements/Friends"
 import Gallery from "./elements/Gallery"
@@ -60,6 +61,10 @@ const Root = () => {
             <Route
               path={`${process.env.PUBLIC_URL}/leadership`}
               component={Volunteers}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/community`}
+              component={Community}
             />
             <Route
               path={`${process.env.PUBLIC_URL}/reviews`}
