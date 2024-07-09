@@ -82,7 +82,12 @@ const Header = (props) => {
                 <Link to="/gallery">
                   <span>Activities</span>
                 </Link>
-              </li>                            
+              </li>
+              <li>
+                <Link to="/consultation">
+                  <span>Free Consultation</span>
+                </Link>
+              </li>
               {/*
               <li>
                 <Link to="/newsletter">

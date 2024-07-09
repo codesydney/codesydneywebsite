@@ -117,6 +117,11 @@ class Header extends Component {
                         <span>Merch</span>
                       </Link>
                     </li>
+                    <li>
+                      <Link to="/consultation">
+                        <span>Free Consultation</span>
+                      </Link>
+                    </li>
                   </ul>
                 </li>
               </ul>
