@@ -47,35 +47,46 @@ const Apps4Good = ({ apps4good }) => {
       <SubPageTitle title="Apps4Good" />
       <div>
         <div className="merch-distribution"></div>
-        <div className="merch-distribution">
-        </div>
-        
+        <div className="merch-distribution"></div>
+
         <div className="volunteer-info-sm">
           <br />
           {/* Container for logos */}
           <a
-              href="https://www.ims.org.au/"
-              style={{ marginLeft: "10px" }} // Adjusted margin here
-            >
-              <img
-                src="/assets/images/friends/ims-logo.png"
-                style={{ maxWidth: "80%", height: "auto", marginLeft: "20px" }}
-                alt="Illawarra Multicultural Services"
-              />
-            </a>
+            href="https://www.ims.org.au/"
+            style={{ marginLeft: "10px" }} // Adjusted margin here
+          >
+            <img
+              src="/assets/images/friends/ims-logo.png"
+              style={{ maxWidth: "80%", height: "auto", marginLeft: "20px" }}
+              alt="Illawarra Multicultural Services"
+            />
+          </a>
         </div>
 
         <div className="merch-distribution">
           <h7>
-          Apps4Good is Code.Sydney's initiative to showcase apps made the community and ready to be customised for any non-profit and charity organisation.
-          </h7><br/> 
+            Apps4Good (A4G) is a joint initiative with the &nbsp;
+            <a
+              href="https://www.ims.org.au/contact-us/"
+              target="_blank"
+              style={{ color: "green" }}
+            >
+              Illawarra Multicultural Services (IMS)
+            </a>
+            .
+          </h7>
+          <br />
           <h7>
-            If you find any app below which can help your organisation, please feel free to let us know. You can contact <a href="https://www.ims.org.au/author/azoabe/" target="_blank" style={{ color: "green"}}>Amro Zoabe</a> from IMS at 0439 627 260 or send a <a href="https://www.ims.org.au/contact-us/" target="_blank" style={{ color: "green"}}>message</a> on IMS website.
-          </h7><br/>   
+            A4G will showcase apps made by our developer community and ready to
+            be customised for any non-profit and charity organisation.
+          </h7>
+          <br />
           <h7>
-            Please note that 70% of the revenue goes to the app owner, 25% goes to IMS, and the remaining 5% goes to Code.Sydney.
-          </h7>             
-        </div>   
+            Please note that 70% of the revenue goes to the app owner, 25% goes
+            to IMS, and the remaining 5% goes to Code.Sydney.
+          </h7>
+        </div>
 
         <br />
         <br />

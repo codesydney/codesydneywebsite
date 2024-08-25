@@ -17,7 +17,7 @@ const Consultation = () => {
   return (
     <>
       <div className="consultation-page">
-        <SubPageTitle title="Free Consultation" />
+        <SubPageTitle title="Book a meeting" />
         <iframe
           src="https://koalendar.com/e/meet-with-code-sydney?embed=true"
           width="100%"

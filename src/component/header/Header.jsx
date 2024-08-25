@@ -119,7 +119,7 @@ class Header extends Component {
                     </li>
                     <li>
                       <Link to="/consultation">
-                        <span>Free Consultation</span>
+                        <span>Book a meeting</span>
                       </Link>
                     </li>
                   </ul>

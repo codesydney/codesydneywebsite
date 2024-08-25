@@ -85,7 +85,7 @@ const Header = (props) => {
               </li>
               <li>
                 <Link to="/consultation">
-                  <span>Free Consultation</span>
+                  <span>Book a meeting</span>
                 </Link>
               </li>
               {/*
